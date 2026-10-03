@@ -1,0 +1,1900 @@
+/*%FSM<COMPILE "C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Tools\FSMEditor\scriptedFSM.cfg, missionFlow">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Intro_Done",4,218,-375.000000,-375.000000,-275.000000,-325.000000,0.000000,"Intro Done"};
+item1[] = {"Move_Up",4,218,-375.000000,-175.000000,-275.000000,-125.000000,0.000000,"Move Up"};
+item2[] = {"Move_ZU",2,250,-375.000000,125.000000,-275.000000,175.000000,0.000000,"Move ZU"};
+item3[] = {"Go_",2,250,-375.000000,-275.000000,-275.000000,-225.000000,0.000000,"Go!"};
+item4[] = {"START",0,250,-375.000000,-875.000000,-275.000000,-825.000000,0.000000,"START"};
+item5[] = {"Cheat4",4,218,-1200.000000,-75.000000,-1100.000000,-25.000000,0.000000,"Cheat4"};
+item6[] = {"",7,210,-229.000000,-254.000000,-221.000000,-246.000000,0.000000,""};
+item7[] = {"",7,210,-229.000000,146.000000,-221.000000,154.000000,0.000000,""};
+item8[] = {"Court_Martial",4,218,50.000000,-175.000000,150.000000,-125.000000,0.000000,"Court Martial"};
+item9[] = {"Fail1",1,250,50.000000,-75.000000,150.000000,-25.000000,0.000000,"Fail1"};
+item10[] = {"",7,210,96.000000,-254.000000,104.000000,-246.000000,0.000000,""};
+item11[] = {"_",2,250,-1200.000000,25.000000,-1100.000000,75.000000,0.000000,""};
+item12[] = {"Renegade",4,218,200.000000,-175.000000,300.000000,-125.000000,0.000000,"Renegade"};
+item13[] = {"Fail2",1,250,200.000000,-75.000000,300.000000,-25.000000,0.000000,"Fail2"};
+item14[] = {"",7,210,246.000000,-254.000000,254.000000,-246.000000,0.000000,""};
+item15[] = {"Left_AO",4,218,350.000000,-175.000000,450.000000,-125.000000,0.000000,"Left AO"};
+item16[] = {"",7,210,396.000000,-254.000000,404.000000,-246.000000,0.000000,""};
+item17[] = {"Fail3",1,250,350.000000,-75.000000,450.000000,-25.000000,0.000000,"Fail3"};
+item18[] = {"Showcase_Towing",-1,250,-850.000000,-1000.000000,225.000000,-950.000000,0.000000,"Showcase Towing"};
+item19[] = {"Cheat1",4,218,-750.000000,-75.000000,-650.000000,-25.000000,0.000000,"Cheat1"};
+item20[] = {"__1",2,250,-750.000000,25.000000,-650.000000,75.000000,0.000000,""};
+item21[] = {"Cheat2",4,218,-900.000000,-75.000000,-800.000000,-25.000000,0.000000,"Cheat2"};
+item22[] = {"__2",2,250,-900.000000,25.000000,-800.000000,75.000000,0.000000,""};
+item23[] = {"Cheat5",4,218,-1350.000000,-75.000000,-1250.000000,-25.000000,0.000000,"Cheat5"};
+item24[] = {"__3",2,250,-1350.000000,25.000000,-1250.000000,75.000000,0.000000,""};
+item25[] = {"",7,210,-854.000000,-254.000000,-846.000000,-246.000000,0.000000,""};
+item26[] = {"",7,210,-1153.999878,-254.000000,-1146.000000,-246.000000,0.000000,""};
+item27[] = {"",7,210,-1304.000000,-254.000000,-1296.000000,-246.000000,0.000000,""};
+item28[] = {"",7,210,-429.000000,46.000000,-421.000000,54.000000,0.000000,""};
+item29[] = {"",7,210,-429.000000,-154.000000,-421.000000,-146.000000,0.000000,""};
+item30[] = {"__4",2,250,-1500.000000,25.000000,-1400.000000,75.000000,0.000000,""};
+item31[] = {"Cheat6",4,218,-1500.000000,-75.000000,-1400.000000,-25.000000,0.000000,"Cheat6"};
+item32[] = {"",7,210,-1454.000000,-254.000000,-1446.000000,-246.000000,0.000000,""};
+item33[] = {"",7,210,-1004.000000,-254.000000,-996.000000,-246.000000,0.000000,""};
+item34[] = {"Intro",4,218,-375.000000,-775.000000,-275.000000,-725.000000,0.000000,"Intro"};
+item35[] = {"Cheat3",4,218,-1050.000000,-75.000000,-950.000000,-25.000000,0.000000,"Cheat3"};
+item36[] = {"__5",2,250,-1050.000000,25.000000,-950.000000,75.000000,0.000000,""};
+item37[] = {"Setup",2,250,-375.000000,-675.000000,-275.000000,-625.000000,0.000000,"Setup"};
+item38[] = {"Ready",4,218,-375.000000,-575.000000,-275.000000,-525.000000,0.000000,"Ready"};
+item39[] = {"Intro",2,250,-375.000000,-475.000000,-275.000000,-425.000000,0.000000,"Intro"};
+item40[] = {"__st_UAV_destroy",4,218,-625.000000,1825.000000,-525.000000,1875.000000,0.000000,"1st UAV" \n "destroyed"};
+item41[] = {"Assign_2nd_UAV_as",2,250,-625.000000,1950.000000,-525.000000,2000.000000,0.000000,"Assign 2nd UAV" \n "as target"};
+item42[] = {"END",1,250,-375.000000,2300.000000,-275.000000,2350.000000,0.000000,"END"};
+item43[] = {"",7,210,-579.000000,-454.000000,-571.000000,-446.000000,0.000000,""};
+item44[] = {"",7,210,-579.000000,-654.000000,-571.000000,-646.000000,0.000000,""};
+item45[] = {"",7,210,-579.000000,-854.000000,-571.000000,-846.000000,0.000000,""};
+item46[] = {"Near_ZU",2,250,-375.000000,-75.000000,-275.000000,-25.000000,0.000000,"Near ZU"};
+item47[] = {"ZU_Prepared",4,218,-375.000000,25.000000,-275.000000,75.000000,0.000000,"ZU Prepared"};
+item48[] = {"FAIL",1,250,75.000000,2250.000000,175.000000,2300.000000,0.000000,"FAIL"};
+item49[] = {"",7,210,-154.000000,1771.000000,-146.000000,1779.000000,0.000000,""};
+item50[] = {"",7,210,-229.000000,-53.999996,-220.999985,-46.000004,0.000000,""};
+item51[] = {"ZU_Moved",4,218,-375.000000,225.000000,-275.000000,275.000000,0.000000,"ZU Moved"};
+item52[] = {"Attach_ZU",2,250,-375.000000,325.000000,-275.000000,375.000000,0.000000,"Attach ZU"};
+item53[] = {"ZU_Attached",4,218,-375.000000,425.000000,-275.000000,475.000000,0.000000,"ZU Attached"};
+item54[] = {"Board_truck",2,250,-375.000000,525.000000,-275.000000,575.000000,0.000000,"Board truck"};
+item55[] = {"In_truck",4,218,-375.000000,625.000000,-275.000000,675.000000,0.000000,"In truck"};
+item56[] = {"Move_to_training",2,250,-375.000000,725.000000,-275.000000,775.000000,0.000000,"Move to training" \n "area"};
+item57[] = {"Target_reached",4,218,-375.000000,825.000000,-275.000000,875.000000,0.000000,"Target" \n "reached"};
+item58[] = {"ZU_detached",4,218,-225.000000,725.000000,-125.000000,775.000000,0.000000,"ZU detached"};
+item59[] = {"Attach_ZU_again",2,250,-75.000000,725.000000,25.000000,775.000000,0.000000,"Attach ZU" \n "again"};
+item60[] = {"ZU_reatached",4,218,-75.000000,825.000000,25.000000,875.000000,0.000000,"ZU reatached"};
+item61[] = {"Continue__moving",2,250,-225.000000,825.000000,-125.000000,875.000000,0.000000,"Continue " \n "moving"};
+item62[] = {"Moving_to_training",-1,250,200.000000,225.000000,575.000000,275.000000,0.000000,"Moving to training area"};
+item63[] = {"Detach_ZU",2,250,-375.000000,925.000000,-275.000000,975.000000,0.000000,"Detach ZU"};
+item64[] = {"ZU_Detached",4,218,-375.000000,1025.000000,-275.000000,1075.000000,0.000000,"ZU Detached"};
+item65[] = {"Move_ZU_1",2,250,-375.000000,1125.000000,-275.000000,1175.000000,0.000000,"Move ZU"};
+item66[] = {"ZU_on_position",4,218,-375.000000,1225.000000,-275.000000,1275.000000,0.000000,"ZU on" \n "position"};
+item67[] = {"Prepare_ZU",2,250,-375.000000,1325.000000,-275.000000,1375.000000,0.000000,"Prepare ZU"};
+item68[] = {"Preparing_ZU_23",-1,250,200.000000,1325.000000,575.000000,1375.000000,0.000000,"Preparing ZU-23 to fire"};
+item69[] = {"ZU_ready",4,4314,-375.000000,1425.000000,-275.000000,1475.000000,0.000000,"ZU ready"};
+item70[] = {"Prepare_targets",2,250,-375.000000,1525.000000,-275.000000,1575.000000,0.000000,"Prepare targets"};
+item71[] = {"Targets__incomin",4,218,-375.000000,1675.000000,-275.000000,1725.000000,0.000000,"Targets " \n "incoming"};
+item72[] = {"Fire_at_targets",2,250,-375.000000,1825.000000,-275.000000,1875.000000,0.000000,"Fire at targets"};
+item73[] = {"Targets__destroy",4,218,-375.000000,1950.000000,-275.000000,2000.000000,0.000000,"Targets " \n "destroyed"};
+item74[] = {"Player_not_firin",4,218,-200.000000,1825.000000,-100.000000,1875.000000,0.000000,"Player not" \n "firing"};
+item75[] = {"Targets_destroye",2,250,-375.000000,2075.000000,-275.000000,2125.000000,0.000000,"Targets" \n "destroyed"};
+item76[] = {"Remind_about_tar",2,250,-200.000000,1950.000000,-100.000000,2000.000000,0.000000,"Remind about" \n "targets"};
+item77[] = {"Player_still_not",4,218,-50.000000,1950.000000,50.000000,2000.000000,0.000000,"Player still not" \n "firing"};
+item78[] = {"Victory",8,218,-375.000000,2175.000000,-275.000000,2225.000000,0.000000,"Victory"};
+item79[] = {"Player_in_truck",4,218,-525.000000,225.000000,-425.000000,275.000000,0.000000,"Player in truck"};
+item80[] = {"FAIL_1",1,250,-50.000000,2075.000000,50.000000,2125.000000,0.000000,"FAIL"};
+item81[] = {"Player_moving__t",2,250,-700.000000,225.000000,-600.000000,275.000000,0.000000,"Player moving " \n "truck"};
+item82[] = {"Move_truck",4,218,-700.000000,325.000000,-600.000000,375.000000,0.000000,"Move" \n "truck"};
+item83[] = {"Target_practice",-1,250,200.000000,1825.000000,575.000000,1875.000000,0.000000,"Target practice"};
+item84[] = {"Player_out__of_a",4,218,75.000000,2150.000000,175.000000,2200.000000,0.000000,"Player out " \n "of ammo"};
+item85[] = {"",7,210,-1004.000000,1446.000000,-996.000000,1454.000000,0.000000,""};
+item86[] = {"",7,210,-854.000000,646.000000,-846.000000,654.000000,0.000000,""};
+item87[] = {"",7,210,-1154.000000,1446.000000,-1146.000000,1454.000000,0.000000,""};
+item88[] = {"",7,210,96.000000,946.000000,104.000000,954.000061,0.000000,""};
+item89[] = {"",7,210,96.000000,683.500000,104.000000,691.500000,0.000000,""};
+item90[] = {"",7,210,-229.000000,1546.000000,-221.000000,1554.000000,0.000000,""};
+item91[] = {"",7,210,-229.000000,1346.000000,-221.000000,1354.000000,0.000000,""};
+item92[] = {"",7,210,-229.000000,1146.000000,-221.000000,1154.000000,0.000000,""};
+item93[] = {"",7,210,-229.000000,946.000000,-221.000000,954.000000,0.000000,""};
+item94[] = {"",7,210,-229.000000,346.000000,-221.000000,354.000000,0.000000,""};
+item95[] = {"",7,210,-229.000000,546.000000,-221.000000,554.000000,0.000000,""};
+item96[] = {"",7,210,-229.000000,683.500000,-221.000000,691.500000,0.000000,""};
+item97[] = {"",7,210,-29.000008,683.500000,-20.999992,691.500000,0.000000,""};
+item98[] = {"Continue",8,218,-500.000000,1950.000000,-400.000000,2000.000000,0.000000,"Continue"};
+item99[] = {"Cheats",4,218,-625.000000,-275.000000,-525.000000,-225.000000,0.000000,"Cheats"};
+item100[] = {"Stop_intro",2,250,-750.000000,-275.000000,-650.000000,-225.000000,0.000000,"Stop" \n "intro"};
+item101[] = {"",7,210,-1304.000000,2196.000000,-1296.000000,2204.000000,0.000000,""};
+item102[] = {"__st_UAV_destroy",4,218,-200.000000,2050.000000,-100.000000,2100.000000,0.000000,"1st UAV" \n "destroyed"};
+item103[] = {"Assign_2nd_UAV_as_1",2,250,-200.000000,2150.000000,-100.000000,2200.000000,0.000000,"Assign 2nd UAV" \n "as target"};
+item104[] = {"",7,210,121.000000,1846.000122,129.000000,1854.000000,0.000000,""};
+item105[] = {"____FAKE____",9,2000324486,0.000000,0.000000,0.000000,0.000000,0.000000,"____FAKE____"};
+version=1;
+class LayoutItems
+{
+	class Item18
+	{
+		class ItemInfo
+		{
+			FontFace="Arial";
+			FontHeight=20;
+			FontWeight=700;
+			lStyle=1;
+		};
+	};
+	class Item62
+	{
+		class ItemInfo
+		{
+			FontFace="Arial";
+			FontHeight=20;
+			FontWeight=700;
+			lStyle=1;
+		};
+	};
+	class Item68
+	{
+		class ItemInfo
+		{
+			FontFace="Arial";
+			FontHeight=20;
+			FontWeight=700;
+			lStyle=1;
+		};
+	};
+	class Item83
+	{
+		class ItemInfo
+		{
+			FontFace="Arial";
+			FontHeight=20;
+			FontWeight=700;
+			lStyle=1;
+		};
+	};
+};
+link0[] = {0,3};
+link1[] = {1,46};
+link2[] = {2,7};
+link3[] = {2,51};
+link4[] = {2,79};
+link5[] = {3,1};
+link6[] = {3,6};
+link7[] = {3,99};
+link8[] = {4,34};
+link9[] = {4,45};
+link10[] = {5,11};
+link11[] = {6,10};
+link12[] = {7,50};
+link13[] = {8,9};
+link14[] = {10,8};
+link15[] = {10,14};
+link16[] = {11,87};
+link17[] = {12,13};
+link18[] = {14,16};
+link19[] = {15,17};
+link20[] = {16,15};
+link21[] = {19,20};
+link22[] = {20,28};
+link23[] = {21,22};
+link24[] = {22,86};
+link25[] = {23,24};
+link26[] = {24,101};
+link27[] = {25,21};
+link28[] = {25,33};
+link29[] = {26,5};
+link30[] = {26,27};
+link31[] = {27,23};
+link32[] = {27,32};
+link33[] = {28,29};
+link34[] = {29,1};
+link35[] = {31,30};
+link36[] = {32,31};
+link37[] = {33,26};
+link38[] = {33,35};
+link39[] = {34,37};
+link40[] = {35,36};
+link41[] = {36,85};
+link42[] = {37,38};
+link43[] = {37,44};
+link44[] = {38,39};
+link45[] = {39,0};
+link46[] = {39,43};
+link47[] = {40,41};
+link48[] = {41,98};
+link49[] = {43,99};
+link50[] = {44,43};
+link51[] = {45,44};
+link52[] = {46,47};
+link53[] = {46,50};
+link54[] = {47,2};
+link55[] = {49,90};
+link56[] = {49,104};
+link57[] = {50,6};
+link58[] = {51,52};
+link59[] = {52,53};
+link60[] = {52,94};
+link61[] = {53,54};
+link62[] = {54,55};
+link63[] = {54,95};
+link64[] = {55,56};
+link65[] = {56,57};
+link66[] = {56,58};
+link67[] = {56,96};
+link68[] = {57,63};
+link69[] = {58,59};
+link70[] = {59,60};
+link71[] = {59,97};
+link72[] = {60,61};
+link73[] = {61,57};
+link74[] = {61,58};
+link75[] = {61,93};
+link76[] = {63,64};
+link77[] = {63,93};
+link78[] = {64,65};
+link79[] = {65,66};
+link80[] = {65,92};
+link81[] = {66,67};
+link82[] = {67,69};
+link83[] = {67,91};
+link84[] = {69,70};
+link85[] = {70,71};
+link86[] = {70,90};
+link87[] = {71,72};
+link88[] = {72,40};
+link89[] = {72,49};
+link90[] = {72,73};
+link91[] = {72,74};
+link92[] = {73,75};
+link93[] = {74,76};
+link94[] = {75,78};
+link95[] = {76,73};
+link96[] = {76,77};
+link97[] = {76,102};
+link98[] = {76,104};
+link99[] = {77,80};
+link100[] = {78,42};
+link101[] = {79,81};
+link102[] = {81,82};
+link103[] = {82,52};
+link104[] = {84,48};
+link105[] = {85,69};
+link106[] = {86,55};
+link107[] = {87,85};
+link108[] = {88,89};
+link109[] = {89,97};
+link110[] = {90,91};
+link111[] = {91,92};
+link112[] = {92,93};
+link113[] = {93,88};
+link114[] = {94,7};
+link115[] = {95,94};
+link116[] = {96,95};
+link117[] = {97,96};
+link118[] = {98,72};
+link119[] = {99,100};
+link120[] = {100,19};
+link121[] = {100,25};
+link122[] = {101,78};
+link123[] = {102,103};
+link124[] = {103,73};
+link125[] = {103,84};
+link126[] = {104,84};
+link127[] = {105,12};
+globals[] = {0.000000,0,0,0,0,640,480,1,631,6316128,1,-2089.195801,804.142944,1753.399414,-254.846313,2844,1974,1};
+window[] = {2,-1,-1,-1,-1,903,-2714,-1195,5,3,2862};
+*//*%FSM</HEAD>*/
+class FSM
+{
+        fsmName = "missionFlow";
+        class States
+        {
+                /*%FSM<STATE "Move_ZU">*/
+                class Move_ZU
+                {
+                        name = "Move_ZU";
+                        itemno = 2;
+                        init = /*%FSM<STATEINIT""">*/"RHS_helperAction = ""Sign_Sphere25cm_Geometry_F"" createVehicle [0,0,0];" \n
+                         "RHS_helperAction attachTo [RHS_Zu23_Player,[0,0,0],""tow_point""];" \n
+                         "RHS_helperAction setObjectTexture [0,""""];" \n
+                         "" \n
+                         "_createTasks = [] spawn {" \n
+                         "" \n
+                         "	[""RHS_tskPrepareWeapon"", ""SUCCEEDED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "" \n
+                         "	[""RHS_tskMoveWeapon"", ""ASSIGNED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "	[[""RHS_Towing"",""RHS_AFRF_Towing_Dragging""], 15,"""",35,"""",true,true] call BIS_fnc_advHint;" \n
+                         "};" \n
+                         "" \n
+                         "rhs_kraz_01D call BIS_fnc_ambientAnim__terminate;" \n
+                         "rhs_kraz_01D addWeapon ""rhs_weap_aks74u"";" \n
+                         "rhs_kraz_01D setBehaviour ""SAFE"";" \n
+                         "rhs_kraz_01D selectWeapon ""rhs_weap_aks74u"";"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Player_in_truck">*/
+                                class Player_in_truck
+                                {
+                                        itemno = 79;
+                                        priority = 0.000000;
+                                        to="Player_moving__t";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"(rhs_player_01 in rhs_kraz255_player) ||" \n
+                                         "(rhs_player_02 in rhs_kraz255_player)"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Court_Martial">*/
+                                class Court_Martial
+                                {
+                                        itemno = 8;
+                                        priority = 0.000000;
+                                        to="Fail1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"// ZU-23 or truck destroyed" \n
+                                         "!alive rhs_kraz255_player || !alive rhs_zu23_player" \n
+                                         ""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Left_AO">*/
+                                class Left_AO
+                                {
+                                        itemno = 15;
+                                        priority = 0.000000;
+                                        to="Fail3";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"missionNameSpace getVariable [""RHS_leftAO"",false];"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "ZU_Moved">*/
+                                class ZU_Moved
+                                {
+                                        itemno = 51;
+                                        priority = 0.000000;
+                                        to="Attach_ZU";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"((rhs_player_01 getVariable [""rhs_towing_dragAction"",-1]) > 0) &&" \n
+                                         "((rhs_kraz255_player distance rhs_zu23_player) < 7)"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Go_">*/
+                class Go_
+                {
+                        name = "Go_";
+                        itemno = 3;
+                        init = /*%FSM<STATEINIT""">*/"_createTasks = [] spawn {" \n
+                         "	[""rhs_intro"", true, 2] call BIS_fnc_blackIn;" \n
+                         "	rhs_officer switchmove ""AmovPercMstpSnonWnonDnon_SaluteIn"";" \n
+                         "	rhs_player_01 playMove ""AmovPercMstpSnonWnonDnon_SaluteIn"";" \n
+                         "" \n
+                         "	sleep 3;" \n
+                         "	[""RHS_tskPreparation"", ""CREATED""] call BIS_fnc_missionTasks;" \n
+                         "	rhs_player_01 playMove ""AmovPercMstpSnonWnonDnon_SaluteIn"";" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "	rhs_officer playMove ""AmovPercMstpSnonWnonDnon_SaluteOut"";" \n
+                         "" \n
+                         "	[""RHS_tskMoveToZU"", ""ASSIGNED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "	rhs_player_01 reveal rhs_zu23_player;" \n
+                         "};" \n
+                         ""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Cheats">*/
+                                class Cheats
+                                {
+                                        itemno = 99;
+                                        priority = 0.000000;
+                                        to="Stop_intro";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"cheat1 || cheat2 || cheat3 || cheat4 || cheat5 || cheat6"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Court_Martial">*/
+                                class Court_Martial
+                                {
+                                        itemno = 8;
+                                        priority = 0.000000;
+                                        to="Fail1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"// ZU-23 or truck destroyed" \n
+                                         "!alive rhs_kraz255_player || !alive rhs_zu23_player" \n
+                                         ""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Left_AO">*/
+                                class Left_AO
+                                {
+                                        itemno = 15;
+                                        priority = 0.000000;
+                                        to="Fail3";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"missionNameSpace getVariable [""RHS_leftAO"",false];"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Move_Up">*/
+                                class Move_Up
+                                {
+                                        itemno = 1;
+                                        priority = 0.000000;
+                                        to="Near_ZU";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"missionNameSpace getVariable [""rhs_player_near_ZU"",false]"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "START">*/
+                class START
+                {
+                        name = "START";
+                        itemno = 4;
+                        init = /*%FSM<STATEINIT""">*/"rhs_actor_1 switchMove ""Acts_CivilTalking_1"";" \n
+                         "rhs_actor_2 switchMove ""Acts_CivilTalking_2"";" \n
+                         "" \n
+                         "{" \n
+                         "	_x disableAI ""ALL""" \n
+                         "}foreach [rhs_actor_1,rhs_actor_2];" \n
+                         "" \n
+                         "[rhs_player_02, ""STAND"", ""FULL""] call BIS_fnc_ambientAnimCombat;" \n
+                         "" \n
+                         "rhs_officer switchMove ""Acts_PointingLeftUnarmed"";" \n
+                         "rhs_player_01 playMoveNow ""Acts_A_M02_briefing"";" \n
+                         "" \n
+                         "//[rhs_officer, ""BRIEFING"", ""ASIS""] call BIS_fnc_ambientAnim;" \n
+                         "_camera = ""camera"" camCreate [0,0,0];" \n
+                         "_cameraScript = [_camera] spawn " \n
+                         "{" \n
+                         "	params[""_camera""];" \n
+                         "	2 fadeMusic 4;" \n
+                         "	playMusic ""LeadTrack02_F_Tank"";" \n
+                         "" \n
+                         "	_camera cameraEffect [""internal"", ""BACK""];" \n
+                         "" \n
+                         "	[""rhs_intro"", false, 0] call BIS_fnc_blackOut;" \n
+                         "" \n
+                         "	[""rhs_intro"", true, 5] call BIS_fnc_blackIn;" \n
+                         "	_camera camPrepareTarget [75428.37,-63370.20,7.57];" \n
+                         "	_camera camPreparePos [3228.87,5817.97,2.46];" \n
+                         "	_camera camPrepareFOV 0.700;" \n
+                         "	_camera camCommitPrepared 0;" \n
+                         "" \n
+                         "	_camera camPrepareTarget [4638.40,-94173.11,7.89];" \n
+                         "	_camera camPreparePos [3227.91,5816.95,2.46];" \n
+                         "	_camera camPrepareFOV 0.700;" \n
+                         "	_camera camCommitPrepared 3;" \n
+                         "	sleep 3;" \n
+                         "	_camera camPrepareTarget [-96001.43,18232.82,7.92];" \n
+                         "	_camera camPreparePos [3224.97,5814.53,2.46];" \n
+                         "	_camera camPrepareFOV 0.879;" \n
+                         "	_camera camCommitPrepared 10;" \n
+                         "	sleep 7;" \n
+                         "	[""rhs_intro"", true, 3] call BIS_fnc_blackOut;" \n
+                         "	sleep 3;    " \n
+                         "	[""rhs_intro"", true, 2] call BIS_fnc_blackIn;" \n
+                         "	_camera camPrepareTarget [-31550.15,98336.78,14979.57];" \n
+                         "	_camera camPreparePos [3251.00,5788.30,3.27];" \n
+                         "	_camera camPrepareFOV 0.700;" \n
+                         "	_camera camCommitPrepared 0;" \n
+                         "" \n
+                         "	_camera camPrepareTarget [94379.10,-35008.32,5623.31];" \n
+                         "	_camera camPreparePos [3251.36,5786.26,1.22];" \n
+                         "	_camera camPrepareFOV 0.937;" \n
+                         "	_camera camCommitPrepared 12;" \n
+                         "" \n
+                         "	sleep 10;" \n
+                         "	[""rhs_intro"", true, 3] call BIS_fnc_blackOut;	" \n
+                         "	9 fadeMusic 0;" \n
+                         "	rhs_player_01 switchmove ""amovpercmstpslowwrfldnon"";" \n
+                         "	sleep 6;" \n
+                         "	_camera cameraEffect [""terminate"",""back""];	" \n
+                         "	camDestroy _camera;" \n
+                         "};"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Cheats">*/
+                                class Cheats
+                                {
+                                        itemno = 99;
+                                        priority = 0.000000;
+                                        to="Stop_intro";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"cheat1 || cheat2 || cheat3 || cheat4 || cheat5 || cheat6"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Intro">*/
+                                class Intro
+                                {
+                                        itemno = 34;
+                                        priority = 0.000000;
+                                        to="Setup";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"time > 1"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Fail1">*/
+                class Fail1
+                {
+                        name = "Fail1";
+                        itemno = 9;
+                        init = /*%FSM<STATEINIT""">*/"[""destroyedEquipment"", false, true] call BIS_fnc_endMission;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "_">*/
+                class _
+                {
+                        name = "_";
+                        itemno = 11;
+                        init = /*%FSM<STATEINIT""">*/"RHS_cheat4Used = true;" \n
+                         "rhs_zu23_player setPos (getpos rhs_trainingZone);" \n
+                         "rhs_player_01 moveInGunner rhs_zu23_player;" \n
+                         "rhs_player_02 moveInCommander rhs_zu23_player;" \n
+                         "" \n
+                         "rhs_zu23_01 setpos (getpos rhs_zu_ai_point);" \n
+                         "_trainingPos = getpos rhs_trainingZone_ai;" \n
+                         "{" \n
+                         "	_x setpos _trainingPos;" \n
+                         "	_x call BIS_fnc_ambientAnim__terminate;" \n
+                         "}foreach [rhs_leader1,rhs_soldier1];" \n
+                         "" \n
+                         "rhs_leader1 Move (_trainingPos getPos [3,0]);" \n
+                         "" \n
+                         "_grp = group rhs_leader1;" \n
+                         "deleteWaypoint [_grp, 0];" \n
+                         "deleteWaypoint [_grp, 1];" \n
+                         "deleteWaypoint [_grp, 2];" \n
+                         "" \n
+                         "[] execFSM ""FSMs\moveZU_ai.fsm"";"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "ZU_ready">*/
+                                class ZU_ready
+                                {
+                                        itemno = 69;
+                                        priority = 0.000000;
+                                        to="Prepare_targets";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"((rhs_zu23_player animationPhase 'Unfold') isEqualTo 0) &&" \n
+                                         "rhs_zu23_player distance rhs_trainingZone < 7"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Fail2">*/
+                class Fail2
+                {
+                        name = "Fail2";
+                        itemno = 13;
+                        init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Fail3">*/
+                class Fail3
+                {
+                        name = "Fail3";
+                        itemno = 17;
+                        init = /*%FSM<STATEINIT""">*/"// Fail Mission" \n
+                         "" \n
+                         "[""leftAO"", false, true] call BIS_fnc_endMission;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "__1">*/
+                class __1
+                {
+                        name = "__1";
+                        itemno = 20;
+                        init = /*%FSM<STATEINIT""">*/"RHS_cheat1Used = true;" \n
+                         "rhs_player_01 setpos (getpos rhs_zu23_player);"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Move_Up">*/
+                                class Move_Up
+                                {
+                                        itemno = 1;
+                                        priority = 0.000000;
+                                        to="Near_ZU";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"missionNameSpace getVariable [""rhs_player_near_ZU"",false]"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "__2">*/
+                class __2
+                {
+                        name = "__2";
+                        itemno = 22;
+                        init = /*%FSM<STATEINIT""">*/"rhs_player_01 moveInDriver rhs_kraz255_player;" \n
+                         "rhs_player_02 moveInCargo rhs_kraz255_player;" \n
+                         "" \n
+                         "[rhs_zu23_player,1] call rhs_fnc_zu23_pack;" \n
+                         "[rhs_zu23_player,rhs_kraz255_player] call rhs_fnc_towing_attach;" \n
+                         "" \n
+                         "" \n
+                         "rhs_kraz_01D call BIS_fnc_ambientAnim__terminate;" \n
+                         "rhs_leader1 call BIS_fnc_ambientAnim__terminate;" \n
+                         "rhs_soldier1 call BIS_fnc_ambientAnim__terminate;" \n
+                         "rhs_kraz_01D addWeapon ""rhs_weap_aks74u"";" \n
+                         "rhs_kraz_01D setBehaviour ""SAFE"";" \n
+                         "rhs_kraz_01D selectWeapon ""rhs_weap_aks74u"";" \n
+                         "rhs_kraz_01D moveInDriver rhs_kraz_01;" \n
+                         "rhs_leader1 moveInCargo rhs_kraz_01;" \n
+                         "rhs_soldier1 moveInCargo rhs_kraz_01;" \n
+                         "" \n
+                         "RHS_helperAction = ""Sign_Sphere25cm_Geometry_F"" createVehicle [0,0,0];" \n
+                         "RHS_helperAction attachTo [RHS_Zu23_Player,[0,0,0],""tow_point""];" \n
+                         "RHS_helperAction setObjectTexture [0,""""];" \n
+                         "rhs_player_near_ZU = true;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "In_truck">*/
+                                class In_truck
+                                {
+                                        itemno = 55;
+                                        priority = 0.000000;
+                                        to="Move_to_training";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"(rhs_player_01 in rhs_kraz255_player) && " \n
+                                         "(rhs_player_02 in rhs_kraz255_player)"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "__3">*/
+                class __3
+                {
+                        name = "__3";
+                        itemno = 24;
+                        init = /*%FSM<STATEINIT""">*/"RHS_cheat5Used = true;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Victory">*/
+                                class Victory
+                                {
+                                        itemno = 78;
+                                        priority = 0.000000;
+                                        to="END";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "__4">*/
+                class __4
+                {
+                        name = "__4";
+                        itemno = 30;
+                        init = /*%FSM<STATEINIT""">*/"RHS_cheat6Used = true;" \n
+                         "[] call RHS_cheat6;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "__5">*/
+                class __5
+                {
+                        name = "__5";
+                        itemno = 36;
+                        init = /*%FSM<STATEINIT""">*/"RHS_cheat3Used = true;" \n
+                         "rhs_zu23_player setPos (getpos rhs_trainingZone);" \n
+                         "rhs_player_01 moveInGunner rhs_zu23_player;" \n
+                         "rhs_player_02 moveInCommander rhs_zu23_player;" \n
+                         ""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "ZU_ready">*/
+                                class ZU_ready
+                                {
+                                        itemno = 69;
+                                        priority = 0.000000;
+                                        to="Prepare_targets";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"((rhs_zu23_player animationPhase 'Unfold') isEqualTo 0) &&" \n
+                                         "rhs_zu23_player distance rhs_trainingZone < 7"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Setup">*/
+                class Setup
+                {
+                        name = "Setup";
+                        itemno = 37;
+                        init = /*%FSM<STATEINIT""">*/"// Start Intro" \n
+                         "" \n
+                         "missionNamespace setVariable [""Ambience"", true];" \n
+                         "" \n
+                         "_title = [] spawn {" \n
+                         "	sleep 3;" \n
+                         "" \n
+                         "	_textIn = ""intro"" cuttext [" \n
+                         " " \n
+                         "		format [" \n
+                         "" \n
+                         "			""<t shadow='2' font='RobotoCondensedBold'><t size='1.8'>%1</t><br /><t size='1.2'>%2</t></t></t>""," \n
+                         "			toupper localize ""STR_RHS_AUTHOR_FULL""," \n
+                         "			toupper localize ""str_maintitles_02""" \n
+                         "	" \n
+                         "		], " \n
+                         "		""plain"", " \n
+                         "		3, " \n
+                         "		false, " \n
+                         "		true" \n
+                         " " \n
+                         "	];" \n
+                         "" \n
+                         "	// Short Pause" \n
+                         "" \n
+                         "	sleep 1; " \n
+                         "" \n
+                         "};" \n
+                         "_time = time+15;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Cheats">*/
+                                class Cheats
+                                {
+                                        itemno = 99;
+                                        priority = 0.000000;
+                                        to="Stop_intro";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"cheat1 || cheat2 || cheat3 || cheat4 || cheat5 || cheat6"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Ready">*/
+                                class Ready
+                                {
+                                        itemno = 38;
+                                        priority = 0.000000;
+                                        to="Intro";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"time > _time"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Intro">*/
+                class Intro
+                {
+                        name = "Intro";
+                        itemno = 39;
+                        init = /*%FSM<STATEINIT""">*/"_textIn = ""intro"" cuttext [" \n
+                         "" \n
+                         "	format [" \n
+                         "" \n
+                         "		""<t shadow='2' font='RobotoCondensedBold'><t size='3.8'>%1</t><br /><t size='3.2'>%2</t></t></t>""," \n
+                         "		""SHOWCASE TOWING""" \n
+                         "" \n
+                         "	], " \n
+                         "	""plain"", " \n
+                         "	3, " \n
+                         "	false, " \n
+                         "	true" \n
+                         "" \n
+                         "];"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Cheats">*/
+                                class Cheats
+                                {
+                                        itemno = 99;
+                                        priority = 0.000000;
+                                        to="Stop_intro";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"cheat1 || cheat2 || cheat3 || cheat4 || cheat5 || cheat6"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Intro_Done">*/
+                                class Intro_Done
+                                {
+                                        itemno = 0;
+                                        priority = 0.000000;
+                                        to="Go_";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"scriptDone _cameraScript"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Assign_2nd_UAV_as">*/
+                class Assign_2nd_UAV_as
+                {
+                        name = "Assign_2nd_UAV_as";
+                        itemno = 41;
+                        init = /*%FSM<STATEINIT""">*/"[""RHS_tskEngageTargets2nd"", ""ASSIGNED""] call BIS_fnc_missionTasks;" \n
+                         "rhs_2ndtask = true;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Continue">*/
+                                class Continue
+                                {
+                                        itemno = 98;
+                                        priority = 0.000000;
+                                        to="Fire_at_targets";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "END">*/
+                class END
+                {
+                        name = "END";
+                        itemno = 42;
+                        init = /*%FSM<STATEINIT""">*/"_ending = [] spawn {" \n
+                         "	sleep 8;" \n
+                         "" \n
+                         "	[""end1"", true, true] call BIS_fnc_endMission;" \n
+                         "" \n
+                         "};"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Near_ZU">*/
+                class Near_ZU
+                {
+                        name = "Near_ZU";
+                        itemno = 46;
+                        init = /*%FSM<STATEINIT""">*/"_createTasks = [] spawn {" \n
+                         "" \n
+                         "	[""RHS_tskMoveToZU"", ""SUCCEEDED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "" \n
+                         "	[""RHS_tskPrepareWeapon"", ""ASSIGNED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 3;" \n
+                         "	[[""RHS_Towing"",""RHS_AFRF_Towing_Prepare""], 15,"""",35,"""",true,true] call BIS_fnc_advHint;" \n
+                         "};" \n
+                         "playMusic """";" \n
+                         "9 fadeMusic 1;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Court_Martial">*/
+                                class Court_Martial
+                                {
+                                        itemno = 8;
+                                        priority = 0.000000;
+                                        to="Fail1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"// ZU-23 or truck destroyed" \n
+                                         "!alive rhs_kraz255_player || !alive rhs_zu23_player" \n
+                                         ""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Left_AO">*/
+                                class Left_AO
+                                {
+                                        itemno = 15;
+                                        priority = 0.000000;
+                                        to="Fail3";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"missionNameSpace getVariable [""RHS_leftAO"",false];"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "ZU_Prepared">*/
+                                class ZU_Prepared
+                                {
+                                        itemno = 47;
+                                        priority = 0.000000;
+                                        to="Move_ZU";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"(rhs_zu23_player animationPhase 'Unfold') isEqualTo 1"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "FAIL">*/
+                class FAIL
+                {
+                        name = "FAIL";
+                        itemno = 48;
+                        init = /*%FSM<STATEINIT""">*/"_ending = [] spawn {" \n
+                         "	player groupChat ""Damn, I'm out of ammo..."";" \n
+                         "	sleep 3;" \n
+                         "" \n
+                         "	[""noAmmo"", true, 0] call BIS_fnc_endMission;" \n
+                         "" \n
+                         "};"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Attach_ZU">*/
+                class Attach_ZU
+                {
+                        name = "Attach_ZU";
+                        itemno = 52;
+                        init = /*%FSM<STATEINIT""">*/"_createTasks = [] spawn {" \n
+                         "" \n
+                         "	[""RHS_tskMoveWeapon"", ""SUCCEEDED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "" \n
+                         "	[""RHS_tskAttachWeapon"", ""ASSIGNED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "	[[""RHS_Towing"",""RHS_AFRF_Towing_Attach""], 15,"""",35,"""",true,true] call BIS_fnc_advHint;" \n
+                         "};" \n
+                         "" \n
+                         ""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Court_Martial">*/
+                                class Court_Martial
+                                {
+                                        itemno = 8;
+                                        priority = 0.000000;
+                                        to="Fail1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"// ZU-23 or truck destroyed" \n
+                                         "!alive rhs_kraz255_player || !alive rhs_zu23_player" \n
+                                         ""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Left_AO">*/
+                                class Left_AO
+                                {
+                                        itemno = 15;
+                                        priority = 0.000000;
+                                        to="Fail3";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"missionNameSpace getVariable [""RHS_leftAO"",false];"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "ZU_Attached">*/
+                                class ZU_Attached
+                                {
+                                        itemno = 53;
+                                        priority = 0.000000;
+                                        to="Board_truck";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"(rhs_zu23_player getVariable [""rhs_towing_towingVehicle"",objNull]) isEqualTo rhs_kraz255_player"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Board_truck">*/
+                class Board_truck
+                {
+                        name = "Board_truck";
+                        itemno = 54;
+                        init = /*%FSM<STATEINIT""">*/"_createTasks = [] spawn {" \n
+                         "" \n
+                         "	[""RHS_tskAttachWeapon"", ""SUCCEEDED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "" \n
+                         "	[""RHS_tskBoardTruck"", ""ASSIGNED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "};"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Court_Martial">*/
+                                class Court_Martial
+                                {
+                                        itemno = 8;
+                                        priority = 0.000000;
+                                        to="Fail1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"// ZU-23 or truck destroyed" \n
+                                         "!alive rhs_kraz255_player || !alive rhs_zu23_player" \n
+                                         ""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Left_AO">*/
+                                class Left_AO
+                                {
+                                        itemno = 15;
+                                        priority = 0.000000;
+                                        to="Fail3";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"missionNameSpace getVariable [""RHS_leftAO"",false];"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "In_truck">*/
+                                class In_truck
+                                {
+                                        itemno = 55;
+                                        priority = 0.000000;
+                                        to="Move_to_training";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"(rhs_player_01 in rhs_kraz255_player) && " \n
+                                         "(rhs_player_02 in rhs_kraz255_player)"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Move_to_training">*/
+                class Move_to_training
+                {
+                        name = "Move_to_training";
+                        itemno = 56;
+                        init = /*%FSM<STATEINIT""">*/"savegame;" \n
+                         "_createTasks = [] spawn {" \n
+                         "" \n
+                         "	[""RHS_tskBoardTruck"", ""SUCCEEDED""] call BIS_fnc_missionTasks;" \n
+                         "	sleep 1;" \n
+                         "	[""RHS_tskPreparation"", ""SUCCEEDED""] call BIS_fnc_missionTasks;" \n
+                         "	sleep 1;" \n
+                         "	[""RHS_tskMoveToTrainingArea"", ""CREATED""] call BIS_fnc_missionTasks;	" \n
+                         "	sleep 1;" \n
+                         "	[""RHS_tskMoveToTarget"", ""ASSIGNED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "};"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "ZU_detached">*/
+                                class ZU_detached
+                                {
+                                        itemno = 58;
+                                        priority = 0.000000;
+                                        to="Attach_ZU_again";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"(rhs_zu23_player getVariable [""rhs_towing_towingVehicle"",objNull]) isEqualTo objNull"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Court_Martial">*/
+                                class Court_Martial
+                                {
+                                        itemno = 8;
+                                        priority = 0.000000;
+                                        to="Fail1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"// ZU-23 or truck destroyed" \n
+                                         "!alive rhs_kraz255_player || !alive rhs_zu23_player" \n
+                                         ""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Left_AO">*/
+                                class Left_AO
+                                {
+                                        itemno = 15;
+                                        priority = 0.000000;
+                                        to="Fail3";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"missionNameSpace getVariable [""RHS_leftAO"",false];"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Target_reached">*/
+                                class Target_reached
+                                {
+                                        itemno = 57;
+                                        priority = 0.000000;
+                                        to="Detach_ZU";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"rhs_zu23_player distance rhs_trainingZone < 50"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Attach_ZU_again">*/
+                class Attach_ZU_again
+                {
+                        name = "Attach_ZU_again";
+                        itemno = 59;
+                        init = /*%FSM<STATEINIT""">*/"[""RHS_tskReattachWeapon"", ""ASSIGNED""] call BIS_fnc_missionTasks;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Court_Martial">*/
+                                class Court_Martial
+                                {
+                                        itemno = 8;
+                                        priority = 0.000000;
+                                        to="Fail1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"// ZU-23 or truck destroyed" \n
+                                         "!alive rhs_kraz255_player || !alive rhs_zu23_player" \n
+                                         ""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Left_AO">*/
+                                class Left_AO
+                                {
+                                        itemno = 15;
+                                        priority = 0.000000;
+                                        to="Fail3";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"missionNameSpace getVariable [""RHS_leftAO"",false];"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "ZU_reatached">*/
+                                class ZU_reatached
+                                {
+                                        itemno = 60;
+                                        priority = 0.000000;
+                                        to="Continue__moving";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"(rhs_zu23_player getVariable [""rhs_towing_towingVehicle"",objNull]) isEqualTo rhs_kraz255_player"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Continue__moving">*/
+                class Continue__moving
+                {
+                        name = "Continue__moving";
+                        itemno = 61;
+                        init = /*%FSM<STATEINIT""">*/"_createTasks = [] spawn {" \n
+                         "" \n
+                         "	[""RHS_tskReattachWeapon"", ""SUCCEEDED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "" \n
+                         "	[""RHS_tskMoveToTarget"", ""ASSIGNED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "};" \n
+                         ""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "ZU_detached">*/
+                                class ZU_detached
+                                {
+                                        itemno = 58;
+                                        priority = 0.000000;
+                                        to="Attach_ZU_again";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"(rhs_zu23_player getVariable [""rhs_towing_towingVehicle"",objNull]) isEqualTo objNull"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Court_Martial">*/
+                                class Court_Martial
+                                {
+                                        itemno = 8;
+                                        priority = 0.000000;
+                                        to="Fail1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"// ZU-23 or truck destroyed" \n
+                                         "!alive rhs_kraz255_player || !alive rhs_zu23_player" \n
+                                         ""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Left_AO">*/
+                                class Left_AO
+                                {
+                                        itemno = 15;
+                                        priority = 0.000000;
+                                        to="Fail3";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"missionNameSpace getVariable [""RHS_leftAO"",false];"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Target_reached">*/
+                                class Target_reached
+                                {
+                                        itemno = 57;
+                                        priority = 0.000000;
+                                        to="Detach_ZU";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"rhs_zu23_player distance rhs_trainingZone < 50"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Detach_ZU">*/
+                class Detach_ZU
+                {
+                        name = "Detach_ZU";
+                        itemno = 63;
+                        init = /*%FSM<STATEINIT""">*/"savegame;" \n
+                         "_createTasks = [] spawn {" \n
+                         "" \n
+                         "	rhs_soldier_outpost_01 switchMove ""Acts_Pointing_Left"";" \n
+                         "	[""RHS_tskMoveToTarget"", ""SUCCEEDED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "" \n
+                         "	[""RHS_tskDetachWeapon"", ""ASSIGNED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "	[[""RHS_Towing"",""RHS_AFRF_Towing_Detach""], 15,"""",35,"""",true,true] call BIS_fnc_advHint;" \n
+                         "};"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Court_Martial">*/
+                                class Court_Martial
+                                {
+                                        itemno = 8;
+                                        priority = 0.000000;
+                                        to="Fail1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"// ZU-23 or truck destroyed" \n
+                                         "!alive rhs_kraz255_player || !alive rhs_zu23_player" \n
+                                         ""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Left_AO">*/
+                                class Left_AO
+                                {
+                                        itemno = 15;
+                                        priority = 0.000000;
+                                        to="Fail3";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"missionNameSpace getVariable [""RHS_leftAO"",false];"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "ZU_Detached">*/
+                                class ZU_Detached
+                                {
+                                        itemno = 64;
+                                        priority = 0.000000;
+                                        to="Move_ZU_1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"(rhs_zu23_player getVariable [""rhs_towing_towingVehicle"",objNull]) isEqualTo objNull"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Move_ZU_1">*/
+                class Move_ZU_1
+                {
+                        name = "Move_ZU_1";
+                        itemno = 65;
+                        init = /*%FSM<STATEINIT""">*/"_createTasks = [] spawn {" \n
+                         "" \n
+                         "	[""RHS_tskDetachWeapon"", ""SUCCEEDED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;	" \n
+                         "	[""RHS_tskPrepareForFiring"", ""CREATED""] call BIS_fnc_missionTasks;	" \n
+                         "	sleep 1;	" \n
+                         "" \n
+                         "	[""RHS_tskMoveWeaponToFiringZone"", ""ASSIGNED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "	[[""RHS_Towing"",""RHS_AFRF_Towing_Dragging""], 15,"""",35,"""",true,false] call BIS_fnc_advHint;" \n
+                         "};"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Court_Martial">*/
+                                class Court_Martial
+                                {
+                                        itemno = 8;
+                                        priority = 0.000000;
+                                        to="Fail1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"// ZU-23 or truck destroyed" \n
+                                         "!alive rhs_kraz255_player || !alive rhs_zu23_player" \n
+                                         ""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Left_AO">*/
+                                class Left_AO
+                                {
+                                        itemno = 15;
+                                        priority = 0.000000;
+                                        to="Fail3";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"missionNameSpace getVariable [""RHS_leftAO"",false];"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "ZU_on_position">*/
+                                class ZU_on_position
+                                {
+                                        itemno = 66;
+                                        priority = 0.000000;
+                                        to="Prepare_ZU";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"rhs_zu23_player distance rhs_trainingZone < 3"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Prepare_ZU">*/
+                class Prepare_ZU
+                {
+                        name = "Prepare_ZU";
+                        itemno = 67;
+                        init = /*%FSM<STATEINIT""">*/"_createTasks = [] spawn {" \n
+                         "" \n
+                         "	[""RHS_tskMoveWeaponToFiringZone"", ""SUCCEEDED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "" \n
+                         "	[""RHS_tskUnfoldWeapon"", ""ASSIGNED""] call BIS_fnc_missionTasks;" \n
+                         "" \n
+                         "	sleep 1;" \n
+                         "};" \n
+                         ""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Court_Martial">*/
+                                class Court_Martial
+                                {
+                                        itemno = 8;
+                                        priority = 0.000000;
+                                        to="Fail1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"// ZU-23 or truck destroyed" \n
+                                         "!alive rhs_kraz255_player || !alive rhs_zu23_player" \n
+                                         ""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Left_AO">*/
+                                class Left_AO
+                                {
+                                        itemno = 15;
+                                        priority = 0.000000;
+                                        to="Fail3";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"missionNameSpace getVariable [""RHS_leftAO"",false];"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "ZU_ready">*/
+                                class ZU_ready
+                                {
+                                        itemno = 69;
+                                        priority = 0.000000;
+                                        to="Prepare_targets";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"((rhs_zu23_player animationPhase 'Unfold') isEqualTo 0) &&" \n
+                                         "rhs_zu23_player distance rhs_trainingZone < 7"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Prepare_targets">*/
+                class Prepare_targets
+                {
+                        name = "Prepare_targets";
+                        itemno = 70;
+                        init = /*%FSM<STATEINIT""">*/"{" \n
+                         "	_x hideObject false;" \n
+                         "	_x enableSimulation true;" \n
+                         "	_x setSpeedMode ""LIMITED"";" \n
+                         "	_x allowFleeing 0;" \n
+                         "	_grp = createGroup WEST;" \n
+                         "	" \n
+                         "	_grp copyWaypoints (group _x);" \n
+                         "	{deleteVehicle _x}foreach (crew _x);" \n
+                         "	_x allowFleeing 0;" \n
+                         "	_unit = _grp createUnit [""B_UAV_AI"", getpos _x, [], 0, ""CARGO""];	" \n
+                         "	_unit moveInAny _x;" \n
+                         "	_x setFeatureType 2;" \n
+                         "	_x disableAI ""SUPPRESSION"";	" \n
+                         "	_x disableAI ""AUTOCOMBAT"";" \n
+                         "	_x addeventhandler [""EpeContact"",{(_this # 0) setdamage 1}];" \n
+                         "	//_x addEventHandler [""hit"",{(_this select 0) setdamage 1}];" \n
+                         "}forEach [rhs_drone_01,rhs_drone_02];" \n
+                         "" \n
+                         "[""RHS_tskUnfoldWeapon"", ""SUCCEEDED""] call BIS_fnc_missionTasks;" \n
+                         "rhs_soldier_outpost_01 spawn " \n
+                         "{" \n
+                         "	waituntil{behaviour _this == ""COMBAT""};" \n
+                         "	removeAllWeapons _this;" \n
+                         "	_this addweapon ""binocular"";" \n
+                         "	_this selectWeapon ""binocular"";" \n
+                         "	_this reveal rhs_drone_01;	" \n
+                         "	_this reveal rhs_drone_02;" \n
+                         "};" \n
+                         "_time = time+5;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Court_Martial">*/
+                                class Court_Martial
+                                {
+                                        itemno = 8;
+                                        priority = 0.000000;
+                                        to="Fail1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"// ZU-23 or truck destroyed" \n
+                                         "!alive rhs_kraz255_player || !alive rhs_zu23_player" \n
+                                         ""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Left_AO">*/
+                                class Left_AO
+                                {
+                                        itemno = 15;
+                                        priority = 0.000000;
+                                        to="Fail3";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"missionNameSpace getVariable [""RHS_leftAO"",false];"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Targets__incomin">*/
+                                class Targets__incomin
+                                {
+                                        itemno = 71;
+                                        priority = 0.000000;
+                                        to="Fire_at_targets";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"time > _time"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/"[""RHS_tskEngageTargets"", ""ASSIGNED""] call BIS_fnc_missionTasks;"/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Fire_at_targets">*/
+                class Fire_at_targets
+                {
+                        name = "Fire_at_targets";
+                        itemno = 72;
+                        init = /*%FSM<STATEINIT""">*/"_time = time+60;" \n
+                         "_ammo = magazinesAmmoFull rhs_zu23_player;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Targets__destroy">*/
+                                class Targets__destroy
+                                {
+                                        itemno = 73;
+                                        priority = 0.000000;
+                                        to="Targets_destroye";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!alive rhs_drone_01 &&" \n
+                                         "!alive rhs_drone_02"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Player_not_firin">*/
+                                class Player_not_firin
+                                {
+                                        itemno = 74;
+                                        priority = 0.000000;
+                                        to="Remind_about_tar";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"(time > _time) &&" \n
+                                         "(_ammo isEqualTo magazinesAmmoFull rhs_zu23_player)"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Court_Martial">*/
+                                class Court_Martial
+                                {
+                                        itemno = 8;
+                                        priority = 0.000000;
+                                        to="Fail1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"// ZU-23 or truck destroyed" \n
+                                         "!alive rhs_kraz255_player || !alive rhs_zu23_player" \n
+                                         ""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Left_AO">*/
+                                class Left_AO
+                                {
+                                        itemno = 15;
+                                        priority = 0.000000;
+                                        to="Fail3";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"missionNameSpace getVariable [""RHS_leftAO"",false];"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Player_out__of_a">*/
+                                class Player_out__of_a
+                                {
+                                        itemno = 84;
+                                        priority = 0.000000;
+                                        to="FAIL";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!(someAmmo rhs_zu23_player)"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "__st_UAV_destroy">*/
+                                class __st_UAV_destroy
+                                {
+                                        itemno = 40;
+                                        priority = 0.000000;
+                                        to="Assign_2nd_UAV_as";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!alive rhs_drone_01 &&" \n
+                                         "alive rhs_drone_02"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Targets_destroye">*/
+                class Targets_destroye
+                {
+                        name = "Targets_destroye";
+                        itemno = 75;
+                        init = /*%FSM<STATEINIT""">*/"if(missionNameSpace getVariable [""rhs_2ndtask"",false])then{" \n
+                         "	[""RHS_tskEngageTargets2nd"", ""SUCCEEDED""] call BIS_fnc_missionTasks" \n
+                         "}else{" \n
+                         "	[""RHS_tskEngageTargets"", ""SUCCEEDED""] call BIS_fnc_missionTasks;" \n
+                         "};"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Victory">*/
+                                class Victory
+                                {
+                                        itemno = 78;
+                                        priority = 0.000000;
+                                        to="END";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Remind_about_tar">*/
+                class Remind_about_tar
+                {
+                        name = "Remind_about_tar";
+                        itemno = 76;
+                        init = /*%FSM<STATEINIT""">*/"_time = time + 240;" \n
+                         "player groupchat ""I should really start shoting at those UAVs..."";" \n
+                         "player reveal rhs_drone_01;" \n
+                         "_ammo = rhs_zu23_player ammo ""rhs_weap_2a14"";"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Player_still_not">*/
+                                class Player_still_not
+                                {
+                                        itemno = 77;
+                                        priority = 0.000000;
+                                        to="FAIL_1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"(time > _time) &&" \n
+                                         "(_ammo isEqualTo magazinesAmmoFull rhs_zu23_player)"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "__st_UAV_destroy">*/
+                                class __st_UAV_destroy
+                                {
+                                        itemno = 102;
+                                        priority = 0.000000;
+                                        to="Assign_2nd_UAV_as_1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!alive rhs_drone_01 &&" \n
+                                         "alive rhs_drone_02"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Player_out__of_a">*/
+                                class Player_out__of_a
+                                {
+                                        itemno = 84;
+                                        priority = 0.000000;
+                                        to="FAIL";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!(someAmmo rhs_zu23_player)"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Targets__destroy">*/
+                                class Targets__destroy
+                                {
+                                        itemno = 73;
+                                        priority = 0.000000;
+                                        to="Targets_destroye";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!alive rhs_drone_01 &&" \n
+                                         "!alive rhs_drone_02"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "FAIL_1">*/
+                class FAIL_1
+                {
+                        name = "FAIL_1";
+                        itemno = 80;
+                        init = /*%FSM<STATEINIT""">*/"_ending = [] spawn {" \n
+                         "	sleep 3;" \n
+                         "	[""disobey"", true, 0] call BIS_fnc_endMission;" \n
+                         "};"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Player_moving__t">*/
+                class Player_moving__t
+                {
+                        name = "Player_moving__t";
+                        itemno = 81;
+                        init = /*%FSM<STATEINIT""">*/"[""RHS_tskMoveWeapon"", ""FAILED""] call BIS_fnc_missionTasks;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Move_truck">*/
+                                class Move_truck
+                                {
+                                        itemno = 82;
+                                        priority = 0.000000;
+                                        to="Attach_ZU";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"rhs_kraz255_player distance rhs_zu23_player < 7"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Stop_intro">*/
+                class Stop_intro
+                {
+                        name = "Stop_intro";
+                        itemno = 100;
+                        init = /*%FSM<STATEINIT""">*/"_camera cameraEffect [""terminate"",""back""];	" \n
+                         "camDestroy _camera;" \n
+                         "terminate _cameraScript;" \n
+                         "[""rhs_intro"", true, 2] call BIS_fnc_blackIn;" \n
+                         "rhs_player_02 setBehaviour ""SAFE"";" \n
+                         "[rhs_player_02] join (group player);" \n
+                         "rhs_player_01 setBehaviour ""SAFE"";" \n
+                         "rhs_player_02 call BIS_fnc_ambientAnim__terminate;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Cheat2">*/
+                                class Cheat2
+                                {
+                                        itemno = 21;
+                                        priority = 0.000000;
+                                        to="__2";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"cheat2"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Cheat3">*/
+                                class Cheat3
+                                {
+                                        itemno = 35;
+                                        priority = 0.000000;
+                                        to="__5";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"cheat3"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Cheat4">*/
+                                class Cheat4
+                                {
+                                        itemno = 5;
+                                        priority = 0.000000;
+                                        to="_";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"cheat4"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Cheat5">*/
+                                class Cheat5
+                                {
+                                        itemno = 23;
+                                        priority = 0.000000;
+                                        to="__3";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"cheat5"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Cheat6">*/
+                                class Cheat6
+                                {
+                                        itemno = 31;
+                                        priority = 0.000000;
+                                        to="__4";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"cheat6"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Cheat1">*/
+                                class Cheat1
+                                {
+                                        itemno = 19;
+                                        priority = 0.000000;
+                                        to="__1";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"cheat1"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Assign_2nd_UAV_as_1">*/
+                class Assign_2nd_UAV_as_1
+                {
+                        name = "Assign_2nd_UAV_as_1";
+                        itemno = 103;
+                        init = /*%FSM<STATEINIT""">*/"[""RHS_tskEngageTargets2nd"", ""ASSIGNED""] call BIS_fnc_missionTasks;" \n
+                         "rhs_2ndtask = true;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Player_out__of_a">*/
+                                class Player_out__of_a
+                                {
+                                        itemno = 84;
+                                        priority = 0.000000;
+                                        to="FAIL";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!(someAmmo rhs_zu23_player)"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Targets__destroy">*/
+                                class Targets__destroy
+                                {
+                                        itemno = 73;
+                                        priority = 0.000000;
+                                        to="Targets_destroye";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"!alive rhs_drone_01 &&" \n
+                                         "!alive rhs_drone_02"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "____FAKE____">*/
+                class ____FAKE____
+                {
+                        name = "____FAKE____";
+                        itemno = 105;
+                        init = /*%FSM<STATEINIT""">*/""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Renegade">*/
+                                class Renegade
+                                {
+                                        itemno = 12;
+                                        priority = 0.000000;
+                                        to="Fail2";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"cheat0 // placeholder" \n
+                                         "" \n
+                                         "// Firing Without Adapter Close to Friendlies After Catastrophe"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+        };
+        initState="START";
+        finalStates[] =
+        {
+                "Fail1",
+                "Fail2",
+                "Fail3",
+                "END",
+                "FAIL",
+                "FAIL_1",
+        };
+};
+/*%FSM</COMPILE>*/

@@ -1,0 +1,2 @@
+version = QUOTE(VERSION);
+text = QUOTE(RHS_TAG VERSION);

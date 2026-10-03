@@ -1,0 +1,1 @@
+#define COMPONENT rhssaf_t_vehicle_ret

@@ -1,0 +1,1 @@
+#define ADDON_NAME rhsafrf\addons\rhs_vehiclesounds\configs

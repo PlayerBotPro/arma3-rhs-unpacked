@@ -1,0 +1,1 @@
+veh attachTo [cameraon,[0.15,-1.3,1.9]];veh setVectorDirAndUp [[0,sin 270,-cos 81],[0,-1,0]];

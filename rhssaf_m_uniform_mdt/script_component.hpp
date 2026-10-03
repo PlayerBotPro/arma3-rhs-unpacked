@@ -1,0 +1,1 @@
+#define COMPONENT rhssaf_m_uniform_mdt

@@ -1,0 +1,11 @@
+_mi24 = _this select 0
+
+_mi24 say "doors"
+_mi24 animate ["dvere_p_vrch",1]
+_mi24 animate ["dvere_p_spod",1]
+
+exit
+
+
+
+

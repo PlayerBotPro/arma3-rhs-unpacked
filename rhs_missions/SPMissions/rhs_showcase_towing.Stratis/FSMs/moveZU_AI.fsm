@@ -1,0 +1,230 @@
+/*%FSM<COMPILE "C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Tools\FSMEditor\scriptedFSM.cfg, moveZU_AI">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"START",0,250,-800.000000,475.000000,-700.000000,525.000000,0.000000,"START"};
+item1[] = {"Wait_for_truck",4,218,-800.000000,575.000000,-700.000000,625.000000,0.000000,"Wait for" \n "truck"};
+item2[] = {"Move_to_ZU",2,250,-800.000000,675.000000,-700.000000,725.000000,0.000000,"Move to ZU"};
+item3[] = {"Not_moving",4,218,-600.000000,675.000000,-500.000000,725.000000,0.000000,"Not moving"};
+item4[] = {"Near_ZU",4,218,-800.000000,800.000000,-700.000000,850.000000,0.000000,"Near ZU"};
+item5[] = {"Drag_ZU",2,250,-800.000000,900.000000,-700.000000,950.000000,0.000000,"Drag ZU"};
+item6[] = {"ZU_on_position",4,218,-800.000000,1025.000000,-700.000000,1075.000000,0.000000,"ZU on" \n "position"};
+item7[] = {"Unpack_ZU",2,250,-800.000000,1125.000000,-700.000000,1175.000000,0.000000,"Unpack ZU"};
+item8[] = {"Wait",4,218,-800.000000,1225.000000,-700.000000,1275.000000,0.000000,"Wait"};
+item9[] = {"Get_in_ZU",2,4346,-800.000000,1325.000000,-700.000000,1375.000000,0.000000,"Get in ZU"};
+item10[] = {"Stuck",4,218,-600.000000,1325.000000,-500.000000,1375.000000,0.000000,"Stuck"};
+item11[] = {"In_ZU",4,218,-800.000000,1425.000000,-700.000000,1475.000000,0.000000,"In ZU"};
+item12[] = {"END",1,250,-800.000000,1550.000000,-700.000000,1600.000000,0.000000,"END"};
+link0[] = {0,1};
+link1[] = {1,2};
+link2[] = {2,3};
+link3[] = {2,4};
+link4[] = {3,2};
+link5[] = {4,5};
+link6[] = {5,6};
+link7[] = {6,7};
+link8[] = {7,8};
+link9[] = {8,9};
+link10[] = {9,10};
+link11[] = {9,11};
+link12[] = {10,9};
+link13[] = {11,12};
+globals[] = {0.000000,0,0,0,0,640,480,1,16,6316128,1,-2588.729980,610.514160,2341.799805,121.227417,2844,1974,1};
+window[] = {2,-1,-1,-1,-1,1088,-2956,-1437,190,3,2862};
+*//*%FSM</HEAD>*/
+class FSM
+{
+        fsmName = "moveZU_AI";
+        class States
+        {
+                /*%FSM<STATE "START">*/
+                class START
+                {
+                        name = "START";
+                        itemno = 0;
+                        init = /*%FSM<STATEINIT""">*/"{" \n
+                         "	_x disableAI ""AUTOCOMBAT"";" \n
+                         "	_x setCombatMode ""BLUE"";" \n
+                         "	_x setBehaviour ""AWARE"";" \n
+                         "}foreach units group rhs_soldier1;" \n
+                         "{deleteWaypoint [group rhs_leader1,_foreachindex]}foreach waypoints group rhs_leader1;" \n
+                         "rhs_leader1 move (getpos rhs_trainingZone_ai);"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Wait_for_truck">*/
+                                class Wait_for_truck
+                                {
+                                        itemno = 1;
+                                        priority = 0.000000;
+                                        to="Move_to_ZU";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"rhs_kraz_01 distance rhs_trainingZone_ai > 30"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Move_to_ZU">*/
+                class Move_to_ZU
+                {
+                        name = "Move_to_ZU";
+                        itemno = 2;
+                        init = /*%FSM<STATEINIT""">*/"_wait = time + 5;" \n
+                         "rhs_soldier1 doMove (rhs_zu23_01 getpos [0.5,getdir rhs_zu23_01 -180]);" \n
+                         "rhs_leader1 doMove (getpos rhs_trainingZone_ai);"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Near_ZU">*/
+                                class Near_ZU
+                                {
+                                        itemno = 4;
+                                        priority = 0.000000;
+                                        to="Drag_ZU";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"rhs_soldier1 distance rhs_zu23_01 < 5"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Not_moving">*/
+                                class Not_moving
+                                {
+                                        itemno = 3;
+                                        priority = 0.000000;
+                                        to="Move_to_ZU";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"time > _wait"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Drag_ZU">*/
+                class Drag_ZU
+                {
+                        name = "Drag_ZU";
+                        itemno = 5;
+                        init = /*%FSM<STATEINIT""">*/"_fakeAI = [rhs_soldier1,rhs_zu23_01] call rhs_fnc_towing_dragAI;" \n
+                         "_fakeAI doMove (getpos rhs_trainingZone_ai);"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "ZU_on_position">*/
+                                class ZU_on_position
+                                {
+                                        itemno = 6;
+                                        priority = 0.000000;
+                                        to="Unpack_ZU";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"rhs_soldier1 distance rhs_trainingZone_ai < 4"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Unpack_ZU">*/
+                class Unpack_ZU
+                {
+                        name = "Unpack_ZU";
+                        itemno = 7;
+                        init = /*%FSM<STATEINIT""">*/"deleteVehicle _fakeAI;" \n
+                         "[] spawn {" \n
+                         "	sleep 1;" \n
+                         "	[rhs_zu23_01,0] call rhs_fnc_zu23_pack;" \n
+                         "};" \n
+                         "rhs_soldier1 doMove (getpos rhs_trainingZone_ai);" \n
+                         "_wait = time + 2;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Wait">*/
+                                class Wait
+                                {
+                                        itemno = 8;
+                                        priority = 0.000000;
+                                        to="Get_in_ZU";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"time > _wait"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Get_in_ZU">*/
+                class Get_in_ZU
+                {
+                        name = "Get_in_ZU";
+                        itemno = 9;
+                        init = /*%FSM<STATEINIT""">*/"{" \n
+                         "	_x disableAI ""AUTOCOMBAT"";" \n
+                         "	_x setCombatMode ""BLUE"";" \n
+                         "	_x setBehaviour ""CARELESS"";" \n
+                         "	unassignVehicle _x;" \n
+                         "}foreach units group rhs_soldier1;" \n
+                         "" \n
+                         "rhs_soldier1 assignAsGunner rhs_zu23_01;" \n
+                         "rhs_leader1 assignAsCommander rhs_zu23_01;" \n
+                         "[rhs_leader1,rhs_soldier1] orderGetIn true;" \n
+                         "[rhs_leader1,rhs_soldier1] allowGetIn true;" \n
+                         "rhs_leader1 reveal rhs_zu23_01;" \n
+                         "" \n
+                         "_wait = time + 10;"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "In_ZU">*/
+                                class In_ZU
+                                {
+                                        itemno = 11;
+                                        priority = 0.000000;
+                                        to="END";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"count (crew rhs_zu23_01) == 2"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Stuck">*/
+                                class Stuck
+                                {
+                                        itemno = 10;
+                                        priority = 0.000000;
+                                        to="Get_in_ZU";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"time > _wait"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "END">*/
+                class END
+                {
+                        name = "END";
+                        itemno = 12;
+                        init = /*%FSM<STATEINIT""">*/"{" \n
+                         "	_x doTarget rhs_drone_02;" \n
+                         "	_x doWatch rhs_drone_02;" \n
+                         "	_x doFire rhs_drone_02;" \n
+                         "	_x setCombatMode ""RED"";" \n
+                         "	_x setBehaviour ""COMBAT"";" \n
+                         "}foreach [rhs_leader1,rhs_soldier1];" \n
+                         "rhs_leader1 selectWeapon ""binocular"";"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                        };
+                };
+                /*%FSM</STATE>*/
+        };
+        initState="START";
+        finalStates[] =
+        {
+                "END",
+        };
+};
+/*%FSM</COMPILE>*/

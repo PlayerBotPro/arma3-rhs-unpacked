@@ -1,0 +1,110 @@
+﻿onLoadIntroTime=0;
+onLoadMissionTime=0;
+disabledAI=1;
+debriefing=1;
+showGPS=1;
+Respawn = 4;
+RespawnDelay = 10;
+RespawnDialog = 0;
+enabledebugconsole = 1;
+loadScreen = "pic.jpg";
+overviewPicture = "pic.jpg";
+overviewText = $STR_Overview;
+overviewTextLocked = "Test.";
+
+author = "reyhard";
+onLoadName = "Czeczenia";
+onLoadMission = "Takie tam zagranicą";
+
+class Header
+{
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 10;
+};
+
+class CfgDebriefing
+{
+	class End1
+	{
+		title = $STR_Debriefing_01_Title;
+		subtitle = "";
+		description = $STR_Debriefing_01;
+		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End2
+	{
+		title = $STR_Debriefing_02_Title;
+		subtitle = "";
+		description = $STR_Debriefing_02;
+		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End3
+	{
+		title = $STR_Debriefing_03_Title;
+		subtitle = "";
+		description = $STR_Debriefing_03;
+		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End4
+	{
+		title = $STR_Debriefing_04_Title;
+		subtitle = "";
+		description = $STR_Debriefing_04;
+		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = {0.0,0.3,0.6,1};
+	};
+};
+class Params
+{
+	class Revive
+	{
+            title = $STR_Revive;
+            values[] = {0, 1, 2, 3, 4};
+            texts[] = {
+            $STR_Revive_Opt_01,
+            $STR_Revive_Opt_02,
+            $STR_Revive_Opt_03,
+            $STR_Revive_Opt_04,
+            $STR_Revive_Opt_05
+		};
+            default = 3;
+	};
+	class Hardkor
+	{
+            title = $STR_AI_Amount;
+            values[] = {3, 5, 7, 9, 11};
+            texts[] = {
+            $STR_AI_Amount_Opt_01,
+            $STR_AI_Amount_Opt_02,
+            $STR_AI_Amount_Opt_03,
+            $STR_AI_Amount_Opt_04,
+            $STR_AI_Amount_Opt_05
+		};
+            default = 7;
+	};
+};
+
+
+class CfgSounds
+{
+	sounds[] = {rus};
+
+	class rus
+	{
+
+		name = "rus";
+		sound[] = {\music\rus.ogg, db - 20, 1.0};
+		titles[] = {0, ""};
+	};
+};

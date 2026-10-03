@@ -1,0 +1,1 @@
+#define COMPONENT rhssaf_editorpreviews

@@ -1,0 +1,254 @@
+#undef OPEN_VEHICLE
+#undef SAMPLE_REUSE
+
+// ENGINE
+#undef SOUND_LAYER_ENGINE
+#undef SAMPLE0_RPM
+#undef SAMPLE1_RPM
+#undef SAMPLE2_RPM
+#undef SAMPLE3_RPM
+#undef SAMPLE4_RPM
+#undef SAMPLE5_RPM
+#undef SAMPLE6_RPM
+#undef SAMPLE7_RPM
+#undef SAMPLE8_RPM
+#define SAMPLE0_RANGE 210
+#define SAMPLE1_RANGE 215
+#define SAMPLE2_RANGE 220
+#define SAMPLE3_RANGE 225
+#define SAMPLE4_RANGE 230
+#define SAMPLE5_RANGE 235
+#define SAMPLE6_RANGE 240
+#define SAMPLE7_RANGE 245
+#define SAMPLE8_RANGE 250
+#define SAMPLE0_VOL 1
+#define SAMPLE1_VOL 1
+#define SAMPLE2_VOL 1
+#define SAMPLE3_VOL 1
+#define SAMPLE4_VOL 1
+#define SAMPLE5_VOL 1
+#define SAMPLE6_VOL 1
+#define SAMPLE7_VOL 1
+#define SAMPLE8_VOL 1
+#define VOL_CROSSFADE0_REL_OFFSET 0 // REL offset of lowest sample start fading in (within 0-IDLE_RPM)
+#define VOL_CROSSFADE0_REL_RANGE 0.5 // REL fadein range (within 0-IDLE_RPM)
+#define VOL_CROSSFADE1_REL_RANGE 1
+#define VOL_CROSSFADE2_REL_RANGE 1
+#define VOL_CROSSFADE3_REL_RANGE 1
+#define VOL_CROSSFADE4_REL_RANGE 1
+#define VOL_CROSSFADE5_REL_RANGE 1
+#define VOL_CROSSFADE6_REL_RANGE 1
+#define VOL_CROSSFADE7_REL_RANGE 1
+#define VOL_CROSSFADE8_REL_RANGE 1
+#define RANGE_FACTOR 1
+#define ENGINE_RANGE_FACTOR 1
+#define ENGINE_BURST_TRIGGER (thrust * (angVelocity factor[0.1,0]) * (speed factor[5,4.9]) - 0.1)
+#define ENGINE_PITCH 1
+#define ENGINE_PITCH_SLOPE 1
+#define EXT_ENGINE_VOLUME 1
+#define INT_ENGINE_VOLUME 1
+#define EXT_ENGINE_PROCESSING_TYPE VehicleExt_3DProcessingType
+#define INT_ENGINE_PROCESSING_TYPE VehicleInt_Front_3DProcessingType
+#define ENGINE_VOLUME_CURVE InverseSquare2Curve
+#define EXT_ENGINE_POSITION_OFFSET 0,0,0
+#define THRUST_FACTOR 1 // how much thrust affects the engine sounds
+
+// ENGINE BURST
+#undef SOUND_LAYER_ENGINE_BURST
+#undef ENGINE_BURST_SAMPLES_NUMBER_1
+#undef ENGINE_BURST_SAMPLES_NUMBER_2
+#undef ENGINE_BURST_SAMPLES_NUMBER_3
+#undef ENGINE_BURST_SAMPLES_NUMBER_4
+#undef ENGINE_BURST_SAMPLES_NUMBER_5
+#undef ENGINE_BURST_SAMPLES_NUMBER_6
+#define EXT_ENGINE_BURST_VOLUME 1
+#define INT_ENGINE_BURST_VOLUME 1
+
+// BRAKES
+#undef SOUND_LAYER_BRAKES
+#undef BRAKES_SAMPLES_NUMBER_1
+#undef BRAKES_SAMPLES_NUMBER_2
+#undef BRAKES_SAMPLES_NUMBER_3
+#undef BRAKES_SAMPLES_NUMBER_4
+#undef BRAKES_SAMPLES_NUMBER_5
+#undef BRAKES_SAMPLES_NUMBER_6
+#define EXT_BRAKES_VOLUME 1
+#define INT_BRAKES_VOLUME 1
+
+// TRACKS
+#undef SOUND_LAYER_TRACKS
+#undef TRACKS_SAMPLES_NUMBER_1
+#undef TRACKS_SAMPLES_NUMBER_2
+#undef TRACKS_SAMPLES_NUMBER_3
+#undef TRACKS_SAMPLES_NUMBER_4
+#undef TRACKS_SAMPLES_NUMBER_5
+#undef TRACKS_SAMPLES_NUMBER_6
+#define TRACKS_TYPE tracks1
+#define TRACKS_SURF_SOFT (0.3 + 1.2*(rock + asphalt + 0.7*gravel))
+#define TRACKS_SURF_PRESSURE (1 + ((2*damper0) factor [0, 2]) + (3*abs(latSlip)))
+#define TRACKS_TOP_SPEED 8
+#define EXT_TRACKS_VOLUME 1
+#define INT_TRACKS_VOLUME 1
+#define TRACKS_PITCH 1
+#define EXT_TRACKS_POSITION_OFFSET 0,0,-3
+#define EXT_TRACKS_BRAKE_HARD_VARIANT 01
+#define INT_TRACKS_BRAKE_HARD_VARIANT 01
+#define EXT_TRACKS_BRAKE_SOFT_VARIANT 01
+#define INT_TRACKS_BRAKE_SOFT_VARIANT 01
+#define EXT_TRACKS_TURN_HARD_VARIANT 01
+#define INT_TRACKS_TURN_HARD_VARIANT 01
+#define EXT_TRACKS_TURN_SOFT_VARIANT 01
+#define INT_TRACKS_TURN_SOFT_VARIANT 01
+#define TRACKS_BRAKE_SURF_HARD (asphalt max rock) * ((abs(longSlip)) factor [0.1,0.3]) * (angVelocity factor[0.1,0])
+#define TRACKS_TURN_SURF_HARD (asphalt max rock) * (angVelocity factor[0.3,0.4])
+#define TRACKS_BRAKE_SURF_SOFT (1-TRACKS_BRAKE_SURF_HARD) * ((abs(longSlip)) factor [0.1,0.3]) * (angVelocity factor[0.1,0])
+#define TRACKS_TURN_SURF_SOFT (1-TRACKS_TURN_SURF_HARD) * (angVelocity factor[0.3,0.4])
+#define TRACKS_BRAKE_HARD_PITCH 1
+#define TRACKS_BRAKE_SOFT_PITCH 1
+#define EXT_TRACKS_BRAKE_HARD_VOLUME 0.4
+#define EXT_TRACKS_BRAKE_SOFT_VOLUME 0.4
+#define INT_TRACKS_BRAKE_HARD_VOLUME 1
+#define INT_TRACKS_BRAKE_SOFT_VOLUME 1
+#define TRACKS_TURN_HARD_PITCH 1
+#define TRACKS_TURN_SOFT_PITCH 1
+#define EXT_TRACKS_TURN_HARD_VOLUME 0.5
+#define EXT_TRACKS_TURN_SOFT_VOLUME 0.5
+#define INT_TRACKS_TURN_HARD_VOLUME 1.5
+#define INT_TRACKS_TURN_SOFT_VOLUME 1.5
+#define DRIVE_WATER_CONDITION water * (speed factor[0,4])
+#define DRIVE_WATER_VARIANT 01
+#define INT_DRIVE_WATER_VOLUME 1.5
+#define EXT_DRIVE_WATER_VOLUME 1
+#define INT_DRIVE_DIRT_VOLUME 1
+#define EXT_DRIVE_DIRT_VOLUME 1
+#define DRIVE_DIRT_VOLUME 1
+#define DRIVE_DIRT_CONDITION ((gravel + rock + sand + grass) * (abs(speed) factor [0.1, 1.2]))
+#define DRIVE_DIRT_VARIANT 01
+#define TRACKS_VOLUME_RANGE 100
+
+
+// TIRES
+
+#undef SOUND_LAYER_TIRES
+
+#define EXT_TIRES_VOLUME 1
+#define INT_TIRES_VOLUME 1
+
+#define TIRES_TURN_HARD_VARIANT 01
+#define TIRES_TURN_SOFT_VARIANT 01
+#define TIRES_TURN_HARD_CONDITION (asphalt max rock) * (abs(latSlip) factor [0.1,0.2])
+#define TIRES_TURN_SOFT_CONDITION (1-asphalt)*(1-rock)*(1-water)*(1-sand) * (abs(latSlip) factor [0.1,0.2])
+#define TIRES_TURN_SOFT_PITCH 1
+#define TIRES_TURN_HARD_PITCH 1
+#define EXT_TIRES_TURN_SOFT_VOLUME 1
+#define EXT_TIRES_TURN_HARD_VOLUME 1
+#define INT_TIRES_TURN_SOFT_VOLUME 1
+#define INT_TIRES_TURN_HARD_VOLUME 1
+
+#define TIRES_BREAK_SOFT_VARIANT 01
+#define TIRES_BREAK_HARD_VARIANT 01
+#define TIRES_BREAK_HARD_CONDITION (asphalt max rock) * (0.5*(abs(longSlip) factor [0.1,0.2]))
+#define TIRES_BREAK_SOFT_CONDITION (1-asphalt)*(1-rock)*(1-water)*(1-sand) * ((abs(longSlip) factor [0.05,0.3]))
+#define EXT_TIRES_BREAK_SOFT_VOLUME 1
+#define EXT_TIRES_BREAK_HARD_VOLUME 1
+#define INT_TIRES_BREAK_SOFT_VOLUME 1
+#define INT_TIRES_BREAK_HARD_VOLUME 1
+
+#define TIRES_TURN_HARD_RANGE 200
+#define TIRES_TURN_SOFT_RANGE 80
+
+#define TIRES_BRAKE_HARD_RANGE 200
+#define TIRES_BRAKE_SOFT_RANGE 80
+
+#define SURF_PRESSURE (1 + ((2*damper0) factor [0, 2]) + (3*abs(latSlip)))
+
+#define SURF_SLOW_SPEED 1.8*(abs(speed) factor [0, 4])*(abs(speed) factor [0, 4])*(abs(speed) factor [10, 5])
+#define SURF_FAST_SPEED (abs(speed) factor [4, 10])
+
+#define SURF_ROCK rock
+#define SURF_GRASS grass
+#define SURF_SAND 0.5*sand
+#define SURF_GRAVEL gravel
+#define SURF_MUD mud
+#define SURF_ASPHALT asphalt
+#define SURF_WATER water
+
+#define SURF_ROCK_RANGE 60
+#define SURF_GRASS_RANGE 60
+#define SURF_SAND_RANGE 60
+#define SURF_GRAVEL_RANGE 60
+#define SURF_MUD_RANGE 60
+#define SURF_ASPHALT_RANGE 60
+#define SURF_WATER_RANGE 60
+
+
+// ADDITIONAL SOUND LAYERS
+
+#define INT_TONE_ENGINE_OFF_CONDITION (rpm factor[IDLE_RPM,0])
+#define INT_TONE_ENGINE_ON_CONDITION (rpm factor[0,IDLE_RPM])
+//#define RATTLING_CONDITION (1 + (damper0 factor [0, 0.8])) * (speed factor[5, 15]) * (1 - 0.8*(rock max asphalt)) * (1 - 0.4*(gravel))
+#define RATTLING_CONDITION ((1 - 0.8*(rock max asphalt)) * (1 - 0.4*(gravel)) * (gmeterZ factor [0.2,1.5])*2 + (speed factor[0, 7]) * (1 - 0.8*(rock max asphalt)))
+//#define STRESS_CONDITION ((gmeterZ factor [1.1,1.3]) max (damper0 factor [0.3, 1])) * (speed factor[2, 15])
+#define STRESS_CONDITION engineOn * (gmeterZ factor [0.5,1])
+#define RAIN_CONDITION rain
+
+// INTERIOR TONE
+
+#undef INT_SOUND_LAYER_TONE_ENGINE_ON
+#undef INT_SOUND_LAYER_TONE_ENGINE_OFF
+
+#define INT_TONE_ENGINE_OFF_VARIANT 01
+#define INT_TONE_ENGINE_ON_VARIANT 01
+#define INT_TONE_ENGINE_OFF_PITCH 1
+#define INT_TONE_ENGINE_ON_PITCH (1 + 0.4*(speed factor[0,5])
+#define INT_TONE_ENGINE_OFF_VOLUME 0.3
+#define INT_TONE_ENGINE_ON_VOLUME 0.5
+
+// INTERIOR RATTLING
+
+#undef INT_SOUND_LAYER_RATTLING
+#define INT_RATTLING_VARIANT 03
+#define INT_RATTLING_PITCH 1
+#define INT_RATTLING_VOLUME 1
+
+// EXTERIOR RATTLING
+
+#undef EXT_SOUND_LAYER_RATTLING
+#define EXT_RATTLING_VARIANT 04
+#define EXT_RATTLING_PITCH 1
+#define EXT_RATTLING_VOLUME 1
+#define EXT_RATTLING_RANGE 60
+#define EXT_RATTLING_POSITION_OFFSET 0,0,-4
+
+// INTERIOR STRESS
+
+#undef INT_SOUND_LAYER_STRESS
+#define INT_STRESS_VARIANT 01
+#define INT_STRESS_VOLUME 1
+#define INT_STRESS_PITCH 1
+
+// EXTERIOR STRESS
+
+#undef EXT_SOUND_LAYER_STRESS
+#define EXT_STRESS_VARIANT 01
+#define EXT_STRESS_VOLUME 1
+#define EXT_STRESS_PITCH 1
+#define EXT_STRESS_RANGE 60
+#define EXT_STRESS_POSITION_OFFSET 0,0,-4
+
+// INTERIOR RAIN
+
+#undef INT_SOUND_LAYER_RAIN
+#define INT_RAIN_VARIANT 01
+#define INT_RAIN_VOLUME 1.5
+#define INT_RAIN_PITCH 1
+#define INT_RAIN_PROCESSING_TYPE VehicleInt_Front_3DProcessingType
+
+// EXTERIOR RAIN
+
+#undef EXT_SOUND_LAYER_RAIN
+#define EXT_RAIN_VARIANT 01
+#define EXT_RAIN_VOLUME 1.8
+#define EXT_RAIN_PITCH 1
+#define EXT_RAIN_RANGE 60
+#define EXT_RAIN_POSITION_OFFSET 0,0,-4

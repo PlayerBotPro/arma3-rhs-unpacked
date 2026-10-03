@@ -1,0 +1,370 @@
+﻿<Project name="Misja">
+	<Package name="Main">
+
+		<Key ID="STR_Revive">
+			<Original>Revive available for:</Original>
+			<English>Revive available for:</English>
+			<Polish>Opcja Revive dostępna dla:</Polish>
+		</Key>
+
+		<Key ID="STR_Revive_Opt_01">
+			<Original>Sanitariusza</Original>
+			<English>Sanitariusza</English>
+			<Polish>Sanitariusza</Polish>
+		</Key>
+		<Key ID="STR_Revive_Opt_02">
+			<Original>Everyone</Original>
+			<English>Everyone</English>
+			<Polish>Wszystkich</Polish>
+		</Key>
+		<Key ID="STR_Revive_Opt_03">
+			<Original>Everyone (Medkit required)</Original>
+			<English>Everyone (Medkit required)</English>
+			<Polish>Wszystkich (wymagany Medkit)</Polish>
+		</Key>
+		<Key ID="STR_Revive_Opt_04">
+			<Original>Everyone (FAK required)</Original>
+			<English>Everyone (FAK required)</English>
+			<Polish>Wszystkich (wymagany FAK)</Polish>
+		</Key>
+		<Key ID="STR_Revive_Opt_05">
+			<Original>Revive off</Original>
+			<English>Revive off</English>
+			<Polish>Revive wyłączony</Polish>
+		</Key>
+		<Key ID="STR_AI_Amount">
+			<Original>AI Amount:</Original>
+			<English>AI Amount:</English>
+			<Polish>Ilość AI:</Polish>
+		</Key>
+		<Key ID="STR_AI_Amount_Opt_01">
+			<Original>Very few</Original>
+			<English>Very few</English>
+			<Polish>Bardzo mała</Polish>
+		</Key>
+		<Key ID="STR_AI_Amount_Opt_02">
+			<Original>Few</Original>
+			<English>Few</English>
+			<Polish>Mała</Polish>
+		</Key>
+		<Key ID="STR_AI_Amount_Opt_03">
+			<Original>Normal</Original>
+			<English>Normal</English>
+			<Polish>Normalna</Polish>
+		</Key>
+		<Key ID="STR_AI_Amount_Opt_04">
+			<Original>Plenty</Original>
+			<English>Plenty</English>
+			<Polish>Duża</Polish>
+		</Key>
+		<Key ID="STR_AI_Amount_Opt_05">
+			<Original>A lot of</Original>
+			<English>A lot of</English>
+			<Polish>Bardzo duża</Polish>
+		</Key>
+
+		<Key ID="STR_Overview">
+			<Original>Convoy which passed away your minutes few minutes ago was attacked by enemy troops. As a closest group to ambush zone, you are assigned with rescue mission.&lt;br/&gt;&lt;br/&gt;Revive: FAR, params&lt;br/&gt;Respawn: Group&lt;br/&gt;Virtual Arsenal: Yes</Original>
+			<English>Convoy which passed away your minutes few minutes ago was attacked by enemy troops. As a closest group to ambush zone, you are assigned with rescue mission.&lt;br/&gt;&lt;br/&gt;Revive: FAR, params&lt;br/&gt;Respawn: Group&lt;br/&gt;Virtual Arsenal: Yes</English>
+			<Polish>Konwój, który jeszcze chwilę temu przejeżdżał obok Ciebie, został zaatakowany przez partyzantów. Jako najbliżej położony posterunek przybądź im na odsiecz.&lt;br/&gt;&lt;br/&gt;Revive: FAR, parametry&lt;br/&gt;Respawn: Grupowy&lt;br/&gt;Virtual Arsenal: Tak</Polish>
+		</Key>
+
+		<Key ID="STR_Debriefing_01_Title">
+			<Original>Mission accomplished</Original>
+			<English>Mission accomplished</English>
+			<Polish>Misja wykonana</Polish>
+		</Key>
+		<Key ID="STR_Debriefing_01">
+			<Original>You managed to rescue our officer from enemy hands, good job!</Original>
+			<English>You managed to rescue our officer from enemy hands, good job!</English>
+			<Polish>Udało Ci się odbić naszego oficera z rąk wroga, dobra robota!</Polish>
+		</Key>
+
+		<Key ID="STR_Debriefing_02_Title">
+			<Original>Mission accomplished</Original>
+			<English>Mission accomplished</English>
+			<Polish>Misja wykonana</Polish>
+		</Key>
+		<Key ID="STR_Debriefing_02">
+			<Original>You managed to secure officer documents and get out of that hell, good job!</Original>
+			<English>You managed to secure officer documents and get out of that hell, good job!</English>
+			<Polish>Udało Ci się zabezpieczyć dokumenty oficera i wyjść cało z tego piekielnego wąwozu, dobra robota!</Polish>
+		</Key>
+
+		<Key ID="STR_Debriefing_03_Title">
+			<Original>Mission Failed!</Original>
+			<English>Mission Failed!</English>
+			<Polish>Porażka!</Polish>
+		</Key>
+		<Key ID="STR_Debriefing_03">
+			<Original>Everyone died</Original>
+			<English>Everyone died</English>
+			<Polish>Wszyscy nie żyją.</Polish>
+		</Key>
+
+		<Key ID="STR_Debriefing_04_Title">
+			<Original>Mission accomplished</Original>
+			<English>Mission accomplished</English>
+			<Polish>Sromota!</Polish>
+		</Key>
+		<Key ID="STR_Debriefing_04">
+			<Original>Be ashamed - officer died!</Original>
+			<English>Be ashamed - officer died!</English>
+			<Polish>Nie dopilnowaliście bezpieczeństwa oficera, wstyd!</Polish>
+		</Key>
+
+
+		<Key ID="STR_Marker_Fob">
+			<Original>Outpost No. 7</Original>
+			<English>Outpost No. 7</English>
+			<Polish>Posterunek Nr 7</Polish>
+		</Key>
+		<Key ID="STR_Marker_HQ">
+			<Original>Western HQ</Original>
+			<English>Western HQ</English>
+			<Polish>Sztab Zachodni</Polish>
+		</Key>
+		<Key ID="STR_Marker_Air">
+			<Original>Airbase</Original>
+			<English>Airbase</English>
+			<Polish>Baza lotnicza</Polish>
+		</Key>
+
+		<Key ID="STR_Marker_Storehouse">
+			<Original>Storehouse</Original>
+			<English>Storehouse</English>
+			<Polish>Magazyn</Polish>
+		</Key>
+		<Key ID="STR_Marker_Convoy">
+			<Original>Convoy</Original>
+			<English>Convoy</English>
+			<Polish>Konwój</Polish>
+		</Key>
+		<Key ID="STR_Marker_AOA">
+			<Original>Search area</Original>
+			<English>Search area</English>
+			<Polish>Strefa poszukiwań</Polish>
+		</Key>
+
+
+		<Key ID="STR_Sytuacja">
+			<Original>Situation</Original>
+			<English>Situation</English>
+			<Polish>Sytuacja</Polish>
+		</Key>
+		<Key ID="STR_Wykonanie">
+			<Original>Execution</Original>
+			<English>Execution</English>
+			<Polish>Wykonanie</Polish>
+		</Key>
+		<Key ID="STR_Wyposazenie">
+			<Original>Equipment</Original>
+			<English>Equipment</English>
+			<Polish>Wyposażenie</Polish>
+		</Key>
+		<Key ID="STR_Kody">
+			<Original>Call signs</Original>
+			<English>Call signs</English>
+			<Polish>Kody wywoławcze</Polish>
+		</Key>
+
+		<Key ID="STR_Sytuacja_O">
+			<Original>Chechenya, 2010. .&lt;br/&gt; In the last few day we noticed increased rebeliants activity in our sector. We  are suspecting it’s caused by financial support from west. That would confirm recent reports from our air branch, about appearance of NATO new highly effective AA missiles. Acquiring that AA launcher and taking it back to base could give us opportunity to play dirty diplomacy game with those foreigner supporters.</Original>
+			<English>Chechenya, 2010. .&lt;br/&gt; In the last few day we noticed increased rebeliants activity in our sector. We  are suspecting it’s caused by financial support from west. That would confirm recent reports from our air branch, about appearance of NATO new highly effective AA missiles. Acquiring that AA launcher and taking it back to base could give us opportunity to play dirty diplomacy game with those foreigner supporters.</English>
+			<Polish>Czeczenia, 2010.&lt;br/&gt;W ostatnich miesiącach zanotowaliśmy znaczący wzrost aktywności terrorystów w naszym sektorze. Przypuszczamy, że jest to spowodowane zwiększonym wsparciem finansowym z krajów zachodnich. Potwierdzałby to też fakt, że nasze lotnictwo doniosło o pojawieniu się nowego typu NATOwskiego zestawu rakiet plot, który cechuje się niesłychaną skutecznością. Zdobycie takiego zestawu i dostarczenie go do naszej bazy dałoby nam możliwość udowodnienia ingerencji zachodu na naszym terytorium i odegrania się na ich dyplomacji.</Polish>
+		</Key>
+
+		<Key ID="STR_Wykonanie_O">
+			<Original>Nikolay Group should move immidetly to last known position of our convoy. Yakov group will stay alert in base and will prepare for enemy attack, so don’t expect too much support from them. Grisha group will provide support form the air (Mi-24 and Mi-8).</Original>
+			<English>Nikolay Group should move immidetly to last known position of our convoy. Yakov group will stay alert in base and will prepare for enemy attack, so don’t expect too much support from them. Grisha group will provide support form the air (Mi-24 and Mi-8).</English>
+			<Polish>Grupa Nikolaj niezwłocznie uda się do ostatniej znanej pozycji konwoju. Grupa Jakow pozostanie w bazie i przygotuje się na ewentualny atak wroga, także nie będzie w stanie wspierać w boju pozostałych grup. Grisza zapewni wsparcie powietrzne (Mi-24 i Mi-8).</Polish>
+		</Key>
+		<Key ID="STR_Wyposazenie_O">
+			<Original>Outpost no. 7 is equipped on whole perimeter with high caliber machineguns and automatic grenade launcher. Beside that, you may find there field hospital, cistern, UAZ, URAL and Btr-70 at your command. There is also mortar group under command of group Nikolay.</Original>
+			<English>Outpost no. 7 is equipped on whole perimeter with high caliber machineguns and automatic grenade launcher. Beside that, you may find there field hospital, cistern, UAZ, URAL and Btr-70 at your command. There is also mortar group under command of group Nikolay.</English>
+			<Polish>Posterunek nr 7 wyposażony jest na całym perymetrze w wielokalibrową broń automatyczną w tym granatniki. Dostępny jest szpital polowy, zbrojownia, cysterna i dwa pojazdy Ifryt. Ponadto na terenie posterunku dostępne są dwa moździerze pod komendą grupy Nikolaj.</Polish>
+		</Key>
+
+		<Key ID="STR_Kody_O">
+			<Original>Buran - HQ&lt;br/&gt;Yakow - storehouse garnison&lt;br/&gt;Nikolay - outpost no.7 garnison&lt;br/&gt;Grisha - air support group</Original>
+			<English>Buran - HQ&lt;br/&gt;Yakow - storehouse garnison&lt;br/&gt;Nikolay - outpost no.7 garnison&lt;br/&gt;Grisha - air support group</English>
+			<Polish>Buran - sztab&lt;br/&gt;Jakow - garnizon magazynu&lt;br/&gt;Nikolaj - grupa z garnizonu posterunku nr 7&lt;br/&gt;Grisza - grupa wsparcia lotniczego</Polish>
+		</Key>
+
+		<Key ID="STR_Dial1">
+			<Original>Buran, this is Nikolay, we found convoy. It seems nobody survived, over.</Original>
+			<English>Buran, this is Nikolay, we found convoy. It seems nobody survived, over.</English>
+			<Polish>Nikolaj do Burana, odnaleźliśmy konwój, wygląda na to, że nikt nie przeżył, odbiór.</Polish>
+		</Key>
+		<Key ID="STR_Dial2">
+			<Original>Copy that Nikolay, there was important officer in that convoy. Search area nearby and take documents from him, over.</Original>
+			<English>Copy that Nikolay, there was important officer in that convoy. Search area nearby and take documents from him, over.</English>
+			<Polish>Zrozumiałem Nikolaj, w konwoju jechał ważny oficer, przeszukajcie strefę i podejmijcie od niego dokumenty, odbiór.</Polish>
+		</Key>
+		<Key ID="STR_Dial3">
+			<Original>Affirmitive, we are proceeding with search, out.</Original>
+			<English>Affirmitive, we are proceeding with search, out.</English>
+			<Polish>Zrozumiałem, przystępujemy do przeszukiwania terenu, bez odbioru.</Polish>
+		</Key>
+		<Key ID="STR_Dial4">
+			<Original>Buran, this is Nikolay, we didn't found officer, I reapet, we didn't found officer, over.</Original>
+			<English>Buran, this is Nikolay, we didn't found officer, I reapet, we didn't found officer, over.</English>
+			<Polish>Nikolaj do Burana, nie znaleźliśmy oficera, powtarzam, nie znaleźliśmy oficera, odbiór.</Polish>
+		</Key>
+		<Key ID="STR_Dial5">
+			<Original>Affirmitive Nikolay, wait for orders, over..</Original>
+			<English>Affirmitive Nikolay, wait for orders, over..</English>
+			<Polish>Zrozumiałem Nikolaj, czekajcie na rozkazy, odbiór.</Polish>
+		</Key>
+		<Key ID="STR_Dial6">
+			<Original>Nikolay, this is Buran, our inteligenc suspect that our officer may be held captive by partisants in one of the nearby temporary camp.</Original>
+			<English>Nikolay, this is Buran, our inteligenc suspect that our officer may be held captive by partisants in one of the nearby temporary camp.</English>
+			<Polish>Buran do Nikolaja, nasz wywiad przypuszcza, że oficer mógł zostać porwany przez partyzantów i przeniesiony do jednego z pobliskich obozów tymczasowych.</Polish>
+		</Key>
+		<Key ID="STR_Dial7">
+			<Original>It's only matter of time, when he will be moved deeper into their territory without chance to track him back. You can't allow that. We will send you coordinates shortly, where we spotted recently enemy movement. Look for abandoned buildings - we suppose they are keeping him inside in one of these, understand? Over.</Original>
+			<English>It's only matter of time, when he will be moved deeper into their territory without chance to track him back. You can't allow that. We will send you coordinates shortly, where we spotted recently enemy movement. Look for abandoned buildings - we suppose they are keeping him inside in one of these, understand? Over.</English>
+			<Polish>Jest to tylko kwestia czasu, zanim zostanie przeniesiony w głąb kraju i słuch po nim zaginie. Nie możecie do tego dopuści. Zostaną wam za chwilę przesłane koordynaty rejonu, w którym zanotowaliśmy ostatnio działanie nieprzyjaciela. Zwróćcie uwagę na okoliczne opuszczone budynki – prawdopodobnie tam kryją się partyzanci a wraz z nimi oficer, zrozumiano?  Odbiór.</Polish>
+		</Key>
+		<Key ID="STR_Dial8">
+			<Original>Roger that, we are proceeding with task, out.</Original>
+			<English>Roger that, we are proceeding with task, out.</English>
+			<Polish>Zrozumiałem, przystępujemy do działań, bez odbioru.</Polish>
+		</Key>
+		<Key ID="STR_Dial9">
+			<Original>Buran, this is Nikolay, we found officer alive, over.</Original>
+			<English>Buran, this is Nikolay, we found officer alive, over.</English>
+			<Polish>Nikolaj do Buranu, odnaleźliśmy oficera, jest cały i zdrowy, odbiór.</Polish>
+		</Key>
+		<Key ID="STR_Dial10">
+			<Original>Roger that, get to you outpost quickly. We will send there chopper soon, over.</Original>
+			<English>Roger that, get to you outpost quickly. We will send there chopper soon, over.</English>
+			<Polish>Zrozumiałem Nikolaj, odstawcie go na wasz posterunek. Niebawem wyślemy po niego śmigłowiec.</Polish>
+		</Key>
+
+		<Key ID="STR_Dial11">
+			<Original>Copy that, out.</Original>
+			<English>Copy that, out.</English>
+			<Polish>Przyjąłem Buran, bez odbioru.</Polish>
+		</Key>
+
+		<Key ID="STR_Dial12">
+			<Original>Buran, this is Nikolay, we found officer body, over.</Original>
+			<English>Buran, this is Nikolay, we found officer body, over.</English>
+			<Polish>Nikolaj do Buran, odnaleźliśmy oficera. Jest martwy. Odbiór.</Polish>
+		</Key>
+
+		<Key ID="STR_Dial13">
+			<Original>Affirmative, secure his documents and get back to your outpost. There is nothing more you can do now, out.</Original>
+			<English>Affirmative, secure his documents and get back to your outpost. There is nothing more you can do now, out.</English>
+			<Polish>Buran do Nikolaja, zabezpieczcie jego dokumenty i wracajcie do bazy, nic tu po was. Bez odbioru.</Polish>
+		</Key>
+
+		<Key ID="STR_T1">
+			<Original>Get to the &lt;marker name = "obj1"&gt;convoy&lt;/marker&gt;, which was probably caught in ambush</Original>
+			<English>Get to the &lt;marker name = "obj1"&gt;convoy&lt;/marker&gt;, which was probably caught in ambush</English>
+			<Polish>Przybądź z odsieczą &lt;marker name = "obj1"&gt;konwojowi&lt;/marker&gt;, który dostał się we wrogą zasadzkę</Polish>
+		</Key>
+		<Key ID="STR_T1s">
+			<Original>Check convoy</Original>
+			<English>Check convoy</English>
+			<Polish>Sprawdź konwój</Polish>
+		</Key>
+		<Key ID="STR_T1a">
+			<Original>Search convoy area, check bodies and cars.</Original>
+			<English>Search convoy area, check bodies and cars.</English>
+			<Polish>Przeszukaj konwój, sprawdź ciała a w szczególności pojazdy</Polish>
+		</Key>
+		<Key ID="STR_T1as">
+			<Original>Search convoy</Original>
+			<English>Search convoy</English>
+			<Polish>Przeszukaj konwój</Polish>
+		</Key>
+		<Key ID="STR_T2">
+			<Original>&lt;marker name = "ao"&gt;Search area&lt;/marker&gt; and find officer.</Original>
+			<English>&lt;marker name = "ao"&gt;Search area&lt;/marker&gt; and find officer.</English>
+			<Polish>&lt;marker name = "ao"&gt;Przeszukaj okolice&lt;/marker&gt; i odnajdź oficera.</Polish>
+		</Key>
+		<Key ID="STR_T2s">
+			<Original>Find officer</Original>
+			<English>Find officer</English>
+			<Polish>Odszukaj oficera</Polish>
+		</Key>
+		<Key ID="STR_T3">
+			<Original>Return to your outpost. (use laptop in house to finish mission)</Original>
+			<English>Return to your outpost. (use laptop in house to finish mission)</English>
+			<Polish>Powróć na swój posterunek. (aby zakończyć misję użyj akcji przypisanej do laptopa w budynku obok miejsca startowego)</Polish>
+		</Key>
+		<Key ID="STR_T3s">
+			<Original>Return to outpost</Original>
+			<English>Return to outpost</English>
+			<Polish>Wróć na posterunek</Polish>
+		</Key>
+		<Key ID="STR_Hint1">
+			<Original>Check at least two cars and few bodies</Original>
+			<English>Check at least two cars and few bodies</English>
+			<Polish>Sprawdź przynajmniej 2 samochody i parę ciał żołnierzy</Polish>
+		</Key>
+		<Key ID="STR_Hint2">
+			<Original>You didn't found officer inside car</Original>
+			<English>You didn't found officer inside car</English>
+			<Polish>W pojeździe nie ma oficera</Polish>
+		</Key>
+		<Key ID="STR_Hint3">
+			<Original>You are too far away!</Original>
+			<English>You are too far away!</English>
+			<Polish>Jesteś za daleko!</Polish>
+		</Key>
+		<Key ID="STR_Hint4">
+			<Original>Checking dog tags</Original>
+			<English>Checking dog tags</English>
+			<Polish>Sprawdzanie nieśmiertelnika</Polish>
+		</Key>
+		<Key ID="STR_Hint4a">
+			<Original>Checking vehicle</Original>
+			<English>Checking vehicle</English>
+			<Polish>Sprawdzanie pojazdu</Polish>
+		</Key>
+		<Key ID="STR_Hint4b">
+			<Original>Checking abroted!</Original>
+			<English>Checking abroted!</English>
+			<Polish>Sprawdzanie przerwane!</Polish>
+		</Key>
+		<Key ID="STR_Hint5">
+			<Original>It's not a officer we are looking for</Original>
+			<English>It's not a officer we are looking for</English>
+			<Polish>To nie jest poszukiwany oficer</Polish>
+		</Key>
+		<Key ID="STR_Hint6">
+			<Original>You found missing officer body</Original>
+			<English>You found missing officer body</English>
+			<Polish>Znalazłeś poszukiwanego oficera</Polish>
+		</Key>
+		<Key ID="STR_Hint7">
+			<Original>Officer and all group members are required to be in outpost in order to finish mission</Original>
+			<English>Officer and all group members are required to be in outpost in order to finish mission</English>
+			<Polish>Aby zakończyć misję w bazie muszą się znajdować wszystkie osoby z grupy Nikolaj oraz oficer</Polish>
+		</Key>
+		<Key ID="STR_Hint8">
+			<Original>All group members are required to be in outpost in order to finish mission</Original>
+			<English>All group members are required to be in outpost in order to finish mission</English>
+			<Polish>Aby zakończyć misję w bazie muszą się znajdować wszystkie osoby z grupy Nikolaj</Polish>
+		</Key>
+		<Key ID="STR_Hint9">
+			<Original>You don't fulfil ending requirements!</Original>
+			<English>You don't fulfil ending requirements!</English>
+			<Polish>Nie spełniasz warunków zakończenia misji!</Polish>
+		</Key>
+		<Key ID="STR_Check1">
+			<Original>Check body</Original>
+			<English>Check body</English>
+			<Polish>Sprawdź ciało</Polish>
+		</Key>
+		<Key ID="STR_Check2">
+			<Original>Check car</Original>
+			<English>Check car</English>
+			<Polish>Sprawdź samochód</Polish>
+		</Key>
+
+	</Package>
+</Project>

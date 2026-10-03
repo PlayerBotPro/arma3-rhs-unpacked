@@ -1,0 +1,254 @@
+class CfgWorlds
+{
+  class GenericNames
+  {
+    class SerbianMen
+    {
+      class FirstNames
+    	{
+        aleksandar = "Aleksandar";
+    		aleksa = "Aleksa";
+    		aleksije = "Aleksije";
+    		andrija = "Andrija";
+    		branislav = "Branislav";
+    		boban = "Boban";
+    		bogdan = "Bogdan";
+    		bogoje = "Bogoje";
+    		bojan = "Bojan";
+    		boris = "Boris";
+    		branimir = "Branimir";
+    		goran = "Goran";
+    		mladen = "Mladen";
+    		milan = "Milan";
+    		ivan = "Ivan";
+    		nemanja = "Nemanja";
+    		vladan = "Vladan";
+    		dragan = "Dragan";
+    		zoran = "Zoran";
+    		dragisa = "Dragisa";
+    		stefan = "Stefan";
+    		nikola = "Nikola";
+    		marko = "Marko";
+    		darko = "Darko";
+    		jovica = "Jovica";
+    		miroslav = "Miroslav";
+    		mika = "Mika";
+    		rodoljub = "Rodoljub";
+    		lazar = "Lazar";
+    		zivorad = "Zivorad";
+    		zivomir = "Zivormir";
+    		nenad = "Nenad";
+    		nebojsa = "Nebojsa";
+    		petar = "Petar";
+    		filip = "Filip";
+    		momir = "Momir";
+    		radisa = "Radisa";
+    		vladimir = "Vladimir";
+    		ivica = "Dragutin";
+    		rade = "Rade";
+    		radenko = "Radenko";
+    		igor = "Igor";
+    		ilija = "Ilija";
+    		milos = "Milos";
+    		sasa = "Sasa";
+    		uros = "Uros";
+    		ljubisa = "Ljubisa";
+    		bosko = "Bosko";
+    		vuk = "Vuk";
+    		slobodan = "Slobodan";
+    		danilo = "Danilo";
+    		sinisa = "Sinisa";
+    		dusan = "Dusan";
+      };
+    	class LastNames
+    	{
+        aksentijevic = "Aksentijevic";
+    		marinkovic = "Marinkovic";
+    		isakovic = "Isakovic";
+    		gajic = "Gajic";
+    		ristic = "Ristic";
+    		milic = "Milic";
+    		nikolic = "Nikolic";
+    		despotovic = "Despotovic";
+    		markovic = "Markovic";
+    		ilic = "Ilic";
+    		dobrivojevic = "Dobrivojevic";
+    		karic = "Karic";
+    		milenkovic = "Milenkovic";
+    		miljkovic = "Miljkovic";
+    		ostojic = "Ostojic";
+    		radenkovic = "Radenkovic";
+    		miletic = "Miletic";
+    		milivojevic = "Milivojevic";
+    		milosavljevic = "Milosavljevic";
+    		bercek = "Bercek";
+    		arizanov = "Arizanov";
+    		pasic = "Pasic";
+    		jandric = "Jandric";
+    		bogojevic = "Bogojevic";
+    		blagojevic = "Blagojevic";
+    		kostic = "Kostic";
+    		ackov = "Ackov";
+    		trifunovic = "Trifunovic";
+    		ilijev = "Ilijev";
+    		jovanovic = "Jovanovic";
+    		maksimovic = "Maksimovic";
+    		drljaca = "Drljaca";
+    		karadzic = "Karadzic";
+    		milosevic = "Milosevic";
+    		mladic = "Mladic";
+    		eric = "Eric";
+    		stanisic = "Stanisic";
+    		reljic = "Reljic";
+    		stojakovic = "Stojakovic";
+    		zec = "Zec";
+    		prvulovic = "Prvulovic";
+    		avramov = "Avramov";
+    		budisic = "Budisic";
+    		glisic = "Glisic";
+    		grubisic = "Grubisic";
+    		hristic = "Hristic";
+    		hrebeljanovic = "Hrebeljanovic";
+    		vidak = "Vidak";
+    		djordjevic = "Djordjevic";
+    		vlaisavljevic = "Vlaisavljevic";
+    		ivanovic = "Ivanovic";
+    		stepanovic = "Stepanovic";
+    		kostadinovic = "Kostadinovic";
+    		lupsan = "Lupsan";
+    		ljubenovic = "Ljubenovic";
+    		matijevic = "Matijevic";
+    		matovic = "Matovic";
+    		nesic = "Nesic";
+    		simic = "Simic";
+    		trifkovic = "Trifkovic";
+      };
+    };
+    class SerbianWomen
+    {
+      class FirstNames
+      {
+
+      };
+      class LastNames
+      {
+
+      };
+    };
+    class AlbanianMen
+    {
+      class FirstNames
+      {
+        adnan = "Adnan";
+        afrim = "Afrim";
+        agimi = "Agimi";
+        arben = "Arben";
+        azem = "Azem";
+        bajram = "Bajram";
+        bashkim = "Bashkim";
+        bekim = "Bekim";
+        beqir = "Beqir";
+        besim = "Besim";
+        brahim = "Brahim";
+        burim = "Burim";
+        dardan = "Dardan";
+        defrim = "Defrim";
+        edon = "Edon";
+        endrit = "Endrit";
+        engjell = "Engjell";
+        enver = "Enver";
+        ermir = "Ermir";
+        fatbardh = "Fatbardh";
+        fatmir = "Fatmir";
+        faton = "Faton";
+        florim = "Florim";
+        gazmend = "Gazmend";
+        gezim = "Gezim";
+        ibish = "Ibish";
+        idriz = "Idriz";
+        ilir = "Ilir";
+        indrit = "Indrit";
+        isuf = "Isuf";
+        jeton = "Jeton";
+        kushtrim = "Kushtrim";
+        lulezim = "Lulezim";
+        murat = "Murat";
+        nderim = "Nderim";
+        qerim = "Qerim";
+        ramiz = "Ramiz";
+        redzep = "Redzep";
+        shaban = "Shaban";
+        shkelzen = "Shkelzen";
+        veton = "Veton";
+        xhemail = "Xhemail";
+        hashim = "Hashim";
+        agim = "Agim";
+        xhevdet = "Xhevdet";
+        skender = "Skender";
+      };
+      class LastNames
+      {
+        zogjani = "Zogjani";
+        zhulati = "Zhulati";
+        ymeri = "Ymeri";
+        useni = "Useni";
+        troshani = "Troshani";
+        tatari = "Tatari";
+        tafaj = "Tafaj";
+        siliqi = "Siliqi";
+        shkelyim = "Shkelyim";
+        selimi = "Selimi";
+        sadiraj = "Sadiraj";
+        rrustemi = "Rrustemi";
+        reufi = "Reufi";
+        nuhiji = "Nuhiji";
+        muslimi = "Muslimi";
+        mujushi = "Mujushi";
+        lushi = "Lushi";
+        lamaj = "Lamaj";
+        kupi = "Kupi";
+        krasniqi = "Krasniqi";
+        kochiu = "Kochiu";
+        jasari = "Jasari";
+        idrizi = "Idrizi";
+        hasangjekaj = "Hasangjekaj";
+        hamiti = "Hamiti";
+        hajdari = "Hajdari";
+        fakaj = "Fakaj";
+        dzaferi = "Dzaferi";
+        demachi = "Demachi";
+        bushaj = "Bushaj";
+        berisha = "Berisha";
+        bajrami = "Bajrami";
+        ahmeti = "Ahmeti";
+        ahmetaj = "Ahmetaj";
+        bajraktari = "Bajraktari";
+        bejta = "Bejta";
+        bislimi = "Bislimi";
+        ceku = "Ceku";
+        demaqi = "Demaqi";
+        emini = "Emini";
+        gjokaj = "Gjokaj";
+        haliti = "Haliti";
+        hasani = "Hasani";
+        ismaili = "Ismaili";
+        kutishi = "Kutishi";
+        meidani = "Meidani";
+        qosja = "Qosja";
+        ramadani = "Ramadani";
+        sadiku = "Sadiku";
+        saliu = "Saliu";
+        shundi = "Shundi";
+        sulejmani = "Sulejmani";
+        thaqi = "Thaqi";
+        xhaferi = "Xhaferi";
+        thaci = "Thaci";
+        limaj = "Limaj";
+        cheku = "Cheku";
+        rexhepi = "Rexhepi";
+        nesimi = "Nesimi";
+        lumaj = "Lumaj";
+      };
+    };
+  };
+};

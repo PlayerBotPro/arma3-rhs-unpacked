@@ -1,0 +1,2236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="rhsgref">
+  <Package name="rhsgref_main">
+    <Container name="Misc">
+      <Key ID="STR_RHSGREF_FAC_CDF">
+        <Original>CDF</Original>
+        <English>CDF</English>
+        <Czech>CDF</Czech>
+        <French>CDF</French>
+        <Spanish>CDF</Spanish>
+        <Italian>CDF</Italian>
+        <Polish>CDF</Polish>
+        <Portuguese>CDF</Portuguese>
+        <Russian>ЧСО</Russian>
+        <German>CDF</German>
+      </Key>
+      <Key ID="STR_RHSGREF_FAC_CDF_GROUND_FORCES">
+        <Original>CDF (Ground Forces)</Original>
+        <English>CDF (Ground Forces)</English>
+        <Czech>CDF (Ground Forces)</Czech>
+        <French>CDF (Ground Forces)</French>
+        <Spanish>CDF (Ground Forces)</Spanish>
+        <Italian>CDF (Ground Forces)</Italian>
+        <Polish>CDF (Ground Forces)</Polish>
+        <Portuguese>CDF (Ground Forces)</Portuguese>
+        <Russian>ЧСО (СВ)</Russian>
+        <German>CDF (Ground Forces)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_FAC_CDF_AIR_FORCES">
+        <Original>CDF (Air Forces)</Original>
+        <English>CDF (Air Forces)</English>
+        <Czech>CDF (Air Forces)</Czech>
+        <French>CDF (Air Forces)</French>
+        <Spanish>CDF (Air Forces)</Spanish>
+        <Italian>CDF (Air Forces)</Italian>
+        <Polish>CDF (Air Forces)</Polish>
+        <Portuguese>CDF (Air Forces)</Portuguese>
+        <Russian>ЧСО (ВВС)</Russian>
+        <German>CDF (Air Forces)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_FAC_CDF_NATIONAL_GUARD">
+        <Original>CDF (National Guard)</Original>
+        <English>CDF (National Guard)</English>
+        <Czech>CDF (National Guard)</Czech>
+        <French>CDF (National Guard)</French>
+        <Spanish>CDF (National Guard)</Spanish>
+        <Italian>CDF (National Guard)</Italian>
+        <Polish>CDF (National Guard)</Polish>
+        <Portuguese>CDF (National Guard)</Portuguese>
+        <Russian>ЧСО (ВВ)</Russian>
+        <German>CDF (National Guard)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_FAC_CDF_UNITED_NATIONS">
+        <Original>CDF (UN)</Original>
+        <English>CDF (UN)</English>
+        <Czech>CDF (UN)</Czech>
+        <French>CDF (UN)</French>
+        <Spanish>CDF (UN)</Spanish>
+        <Italian>CDF (UN)</Italian>
+        <Polish>CDF (UN)</Polish>
+        <Portuguese>CDF (UN)</Portuguese>
+        <Russian>ЧСО (ООН)</Russian>
+        <German>CDF (UN)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_FAC_CHDKZ">
+        <Original>ChDKZ</Original>
+        <English>ChDKZ</English>
+        <Czech>ChDKZ</Czech>
+        <French>ChDKZ</French>
+        <Spanish>ChDKZ</Spanish>
+        <Italian>ChDKZ</Italian>
+        <Polish>ChDKZ</Polish>
+        <Portuguese>ChDKZ</Portuguese>
+        <Russian>ЧДКЗ</Russian>
+        <German>ChDKZ</German>
+      </Key>
+      <Key ID="STR_RHSGREF_FAC_NAPA">
+        <Original>NAPA</Original>
+        <English>NAPA</English>
+        <Czech>NAPA</Czech>
+        <French>NAPA</French>
+        <Spanish>NAPA</Spanish>
+        <Italian>NAPA</Italian>
+        <Polish>NAPA</Polish>
+        <Portuguese>NAPA</Portuguese>
+        <Russian>НАПА</Russian>
+        <German>NAPA</German>
+      </Key>
+      <Key ID="STR_RHSGREF_FAC_Militia_East">
+        <Original>Eastern Militia</Original>
+        <English>Eastern Militia</English>
+        <Czech>Východní milice</Czech>
+        <French>Eastern Militia</French>
+        <Spanish>Milicia del Este</Spanish>
+        <Italian>Milizia Orientale</Italian>
+        <Polish>Eastern Militia</Polish>
+        <Portuguese>Eastern Militia</Portuguese>
+        <Russian>Eastern Militia</Russian>
+        <German>Eastern Militia</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_APC">
+        <Original>APC</Original>
+        <English>APC</English>
+        <Czech>BVP</Czech>
+        <French>APC</French>
+        <Spanish>APC</Spanish>
+        <Italian>APC</Italian>
+        <Polish>APC</Polish>
+        <Portuguese>APC</Portuguese>
+        <Russian>БТР</Russian>
+        <German>SPW</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_IFV">
+        <Original>IFV</Original>
+        <English>IFV</English>
+        <Czech>IFV</Czech>
+        <French>IFV</French>
+        <Spanish>VCI</Spanish>
+        <Italian>IFV</Italian>
+        <Polish>BWP</Polish>
+        <Portuguese>IFV</Portuguese>
+        <Russian>БМП</Russian>
+        <German>SPz</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_TRUCK">
+        <Original>Truck</Original>
+        <English>Truck</English>
+        <Czech>Náklaďáky</Czech>
+        <French>Truck</French>
+        <Spanish>Camión</Spanish>
+        <Italian>Camion</Italian>
+        <Polish>Ciężarówka</Polish>
+        <Portuguese>Truck</Portuguese>
+        <Russian>Грузовик</Russian>
+        <German>LKW</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_CAR">
+        <Original>Car</Original>
+        <English>Car</English>
+        <Czech>Auta</Czech>
+        <French>Car</French>
+        <Spanish>Coche</Spanish>
+        <Italian>Macchina</Italian>
+        <Polish>Samochód</Polish>
+        <Portuguese>Car</Portuguese>
+        <Russian>Машина</Russian>
+        <German>Auto</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_MRAP">
+        <Original>MRAP</Original>
+        <English>MRAP</English>
+        <Czech>MRAP</Czech>
+        <French>MRAP</French>
+        <Spanish>MRAP</Spanish>
+        <Italian>MRAP</Italian>
+        <Polish>MRAP</Polish>
+        <Portuguese>MRAPs</Portuguese>
+        <Russian>Бронемашина</Russian>
+        <German>MRAP</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_TANK">
+        <Original>Tank</Original>
+        <English>Tank</English>
+        <Czech>Tanky</Czech>
+        <French>Tank</French>
+        <Spanish>Tanque</Spanish>
+        <Italian>Carro Armato</Italian>
+        <Polish>Czołg</Polish>
+        <Portuguese>Tank</Portuguese>
+        <Russian>Танк</Russian>
+        <German>Panzer</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_INFANTRY">
+        <Original>Infantry</Original>
+        <English>Infantry</English>
+        <Czech>Muži</Czech>
+        <French>Infantry</French>
+        <Spanish>Infantería</Spanish>
+        <Italian>Fanteria</Italian>
+        <Polish>Piechota</Polish>
+        <Portuguese>Infantry</Portuguese>
+        <Russian>Пехота</Russian>
+        <German>Infanterie</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_INFANTRY_RECON">
+        <Original>Infantry (Recon)</Original>
+        <English>Infantry (Recon)</English>
+        <Czech>Muži (průzkum)</Czech>
+        <French>Infantry (Recon)</French>
+        <Spanish>Infantería (Recon)</Spanish>
+        <Italian>Fanteria (Ricognizione)</Italian>
+        <Polish>Piechota (Zwiad)</Polish>
+        <Portuguese>Infantry (Recon)</Portuguese>
+        <Russian>Пехота (разведка)</Russian>
+        <German>Infanterie (Aufklärer)</German>
+      </Key>
+      <Key ID="STR_RHSgref_VEHCLASS_INFANTRY_PARA">
+        <Original>Infantry (Para)</Original>
+        <English>Infantry (Para)</English>
+        <Czech>Muži (výsadkáři)</Czech>
+        <French>Infantry (Para)</French>
+        <Spanish>Infantería (Para)</Spanish>
+        <Italian>Fanteria (Para)</Italian>
+        <Polish>Piechota (Para)</Polish>
+        <Portuguese>Infantry (Para)</Portuguese>
+        <Russian>Пехота (Para)</Russian>
+        <German>Infanterie (Para)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_INFANTRY_CDF">
+        <Original>Infantry (CDF)</Original>
+        <English>Infantry (CDF)</English>
+        <Czech>Muži (CDF)</Czech>
+        <French>Infantry (CDF)</French>
+        <Spanish>Infantería (CDF)</Spanish>
+        <Italian>Fanteria (CDF)</Italian>
+        <Polish>Piechota (CDF)</Polish>
+        <Portuguese>Infantry (CDF)</Portuguese>
+        <Russian>Пехота (CDF)</Russian>
+        <German>Infanterie (CDF)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_INFANTRY_RU">
+        <Original>Infantry (Russia)</Original>
+        <English>Infantry (Russia)</English>
+        <Czech>Muži (RU)</Czech>
+        <French>Infantry (Russia)</French>
+        <Spanish>Infantería (Russia)</Spanish>
+        <Italian>Fanteria (Russia)</Italian>
+        <Polish>Piechota (Russia)</Polish>
+        <Portuguese>Infantry (Russia)</Portuguese>
+        <Russian>Пехота (Russia)</Russian>
+        <German>Infanterie (Russia)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_INFANTRY_US">
+        <Original>Infantry (US)</Original>
+        <English>Infantry (US)</English>
+        <Czech>Muži (US)</Czech>
+        <French>Infantry (US)</French>
+        <Spanish>Infantería (US)</Spanish>
+        <Italian>Fanteria (US)</Italian>
+        <Polish>Piechota (US)</Polish>
+        <Portuguese>Infantry (US)</Portuguese>
+        <Russian>Пехота (US)</Russian>
+        <German>Infanterie (US)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_ARTILLERY">
+        <Original>Artillery</Original>
+        <English>Artillery</English>
+        <Czech>Dělostřelectvo</Czech>
+        <French>Artillery</French>
+        <Spanish>Artillería</Spanish>
+        <Italian>Artiglieria</Italian>
+        <Polish>Artyleria</Polish>
+        <Portuguese>Artillery</Portuguese>
+        <Russian>Артиллерия</Russian>
+        <German>Artillerie</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_RADAR">
+        <Original>Radar</Original>
+        <English>Radar</English>
+        <Czech>Radar</Czech>
+        <French>Radar</French>
+        <Spanish>Radar</Spanish>
+        <Italian>Radar</Italian>
+        <Polish>Radar</Polish>
+        <Portuguese>Radar</Portuguese>
+        <Russian>Радар</Russian>
+        <German>Radar</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_TARGETING">
+        <Original>Targeting</Original>
+        <English>Targeting</English>
+        <Czech>Zaměřovací</Czech>
+        <French>Targeting</French>
+        <Spanish>Puntería</Spanish>
+        <Italian>Puntamento</Italian>
+        <Polish>System namierzania</Polish>
+        <Portuguese>Targeting</Portuguese>
+        <Russian>Станция Наведения</Russian>
+        <German>Raketenleitstation</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_LAUNCHER">
+        <Original>Launcher</Original>
+        <English>Launcher</English>
+        <Czech>Odpalovač</Czech>
+        <French>Launcher</French>
+        <Spanish>Lanzadora</Spanish>
+        <Italian>Lanciatore</Italian>
+        <Polish>Wyrzutnia</Polish>
+        <Portuguese>Launcher</Portuguese>
+        <Russian>Пусковая установка</Russian>
+        <German>Startramp</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_AIRPLANE">
+        <Original>Aircraft</Original>
+        <English>Aircraft</English>
+        <Czech>Letadla</Czech>
+        <French>Aircraft</French>
+        <Spanish>Avión</Spanish>
+        <Italian>Aereo</Italian>
+        <Polish>Samolot</Polish>
+        <Portuguese>Aircraft</Portuguese>
+        <Russian>Самолёт</Russian>
+        <German>Flugzeug</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_HELICOPTER">
+        <Original>Helicopter</Original>
+        <English>Helicopter</English>
+        <Czech>Vrtulníky</Czech>
+        <French>Helicopter</French>
+        <Spanish>Helicoptero</Spanish>
+        <Italian>Elicottero</Italian>
+        <Polish>Śmigłowiec</Polish>
+        <Portuguese>Helicopter</Portuguese>
+        <Russian>Вертолёт</Russian>
+        <German>Hubschrauber</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_AA">
+        <Original>Anti-Air</Original>
+        <English>Anti-Air</English>
+        <Czech>Protiletecký</Czech>
+        <French>Anti-Air</French>
+        <Spanish>Anti-Aéreo </Spanish>
+        <Italian>Anti-Aerea</Italian>
+        <Polish>P-Lot</Polish>
+        <Portuguese>Anti-Air</Portuguese>
+        <Russian>ПВО</Russian>
+        <German>Flugabwehrkanone</German>
+      </Key>
+      <Key ID="STR_RHSGREF_AUTHOR_FULL">
+        <Original>Red Hammer Studios</Original>
+        <English>Red Hammer Studios</English>
+        <Czech>Red Hammer Studios</Czech>
+        <French>Red Hammer Studios</French>
+        <Spanish>Red Hammer Studios</Spanish>
+        <Italian>Red Hammer Studios</Italian>
+        <Polish>Red Hammer Studios</Polish>
+        <Portuguese>Red Hammer Studios</Portuguese>
+        <Russian>Red Hammer Studios</Russian>
+        <German>Red Hammer Studios</German>
+      </Key>
+      <Key ID="STR_RHSGREF_AUTHOR_SHORT">
+        <Original>RHS</Original>
+        <English>RHS</English>
+        <Czech>RHS</Czech>
+        <French>RHS</French>
+        <Spanish>RHS</Spanish>
+        <Italian>RHS</Italian>
+        <Polish>RHS</Polish>
+        <Portuguese>RHS</Portuguese>
+        <Russian>RHS</Russian>
+        <German>RHS</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_INFANTRY_PARAMIL">
+        <Original>Infantry (Paramilitary)</Original>
+        <English>Infantry (Paramilitary)</English>
+        <Czech>Infantry (Paramilitary)</Czech>
+        <French>Infantry (Paramilitary)</French>
+        <Spanish>Infantería (Paramilitares)</Spanish>
+        <Italian>Fanteria (Paramilitari)</Italian>
+        <Polish>Piechota (Oddziały paramilitarne)</Polish>
+        <Portuguese>Infantry (Paramilitary)</Portuguese>
+        <Russian>Пехота (Военизированная)</Russian>
+        <German>Infanterie (Miliz)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_VEHCLASS_INFANTRY_MILITIA">
+        <Original>Infantry (Militia)</Original>
+        <English>Infantry (Militia)</English>
+        <Czech>Infantry (Militia)</Czech>
+        <French>Infantry (Militia)</French>
+        <Spanish>Infantería (Milicia)</Spanish>
+        <Italian>Fanteria (Milizia)</Italian>
+        <Polish>Piechota (Milicja)</Polish>
+        <Portuguese>Infantry (Militia)</Portuguese>
+        <Russian>Пехота (Повстанцы)</Russian>
+        <German>Infanterie (Bewaffnete Zivilisten)</German>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="rhsgref_c_troops">
+    <Container name="Names">
+      <Key ID="STR_RHSGREF_TTSKO_SUMMER_NAME">
+        <Original>TTsKO (Summer)</Original>
+        <English>TTsKO (Summer)</English>
+        <Czech>TTsKO (letní)</Czech>
+        <French>TTsKO (Summer)</French>
+        <Spanish>TTsKO (Summer)</Spanish>
+        <Italian>TTsKO (Estiva)</Italian>
+        <Polish>TTsKO (Summer)</Polish>
+        <Portuguese>TTsKO (Summer)</Portuguese>
+        <Russian>TTsKO (Summer)</Russian>
+        <German>TTsKO (Summer)</German>
+      </Key>
+      <Key ID="str_RHSGREF_gear_kaska_k93">
+        <Original>Kaska K93</Original>
+        <English>Kaska K93</English>
+        <Czech>Kaska K93</Czech>
+        <French>Kaska K93</French>
+        <Spanish>Kaska K93</Spanish>
+        <Italian>Kaska K93</Italian>
+        <Polish>Kaska K93</Polish>
+        <Portuguese>Kaska K93</Portuguese>
+        <Russian>Kaska K93</Russian>
+        <German>Kaska K93</German>
+      </Key>
+      <Key ID="str_RHSGREF_gear_kaska_k93_forest">
+        <Original>Kaska K93 TTsKO (Forest)</Original>
+        <English>Kaska K93 TTsKO (Forest)</English>
+        <Czech>Kaska K93 TTsKO (Forest)</Czech>
+        <French>Kaska K93 TTsKO (Forest)</French>
+        <Spanish>Kaska K93 TTsKO (Forest)</Spanish>
+        <Italian>Kaska K93 TTsKO (Foresta)</Italian>
+        <Polish>Kaska K93 TTsKO (Forest)</Polish>
+        <Portuguese>Kaska K93 TTsKO (Forest)</Portuguese>
+        <Russian>Kaska K93 TTsKO (Forest)</Russian>
+        <German>Kaska K93 TTsKO (Forest)</German>
+      </Key>
+      <Key ID="str_RHSGREF_gear_kaska_k93_mountain">
+        <Original>Kaska K93 TTsKO (Mountain)</Original>
+        <English>Kaska K93 TTsKO (Mountain)</English>
+        <Czech>Kaska K93 TTsKO (Mountain)</Czech>
+        <French>Kaska K93 TTsKO (Mountain)</French>
+        <Spanish>Kaska K93 TTsKO (Mountain)</Spanish>
+        <Italian>Kaska K93 TTsKO (Motagna)</Italian>
+        <Polish>Kaska K93 TTsKO (Mountain)</Polish>
+        <Portuguese>Kaska K93 TTsKO (Mountain)</Portuguese>
+        <Russian>Kaska K93 TTsKO (Mountain)</Russian>
+        <German>Kaska K93 TTsKO (Mountain)</German>
+      </Key>
+      <Key ID="str_RHSGREF_gear_kaska_k93_urban">
+        <Original>Kaska K93 TTsKO (Urban)</Original>
+        <English>Kaska K93 TTsKO (Urban)</English>
+        <Czech>Kaska K93 TTsKO (Urban)</Czech>
+        <French>Kaska K93 TTsKO (Urban)</French>
+        <Spanish>Kaska K93 TTsKO (Urban)</Spanish>
+        <Italian>Kaska K93 TTsKO (Urbana)</Italian>
+        <Polish>Kaska K93 TTsKO (Urban)</Polish>
+        <Portuguese>Kaska K93 TTsKO (Urban)</Portuguese>
+        <Russian>Kaska K93 TTsKO (Urban)</Russian>
+        <German>Kaska K93 TTsKO (Urban)</German>
+      </Key>
+      <Key ID="str_RHSGREF_gear_kaska_k93_digi">
+        <Original>Kaska K93 TTsKO (Digital)</Original>
+        <English>Kaska K93 TTsKO (Digital)</English>
+        <Czech>Kaska K93 TTsKO (digital)</Czech>
+        <French>Kaska K93 TTsKO (Digital)</French>
+        <Spanish>Kaska K93 TTsKO (Digital)</Spanish>
+        <Italian>Kaska K93 TTsKO (Digitale)</Italian>
+        <Polish>Kaska K93 TTsKO (Digital)</Polish>
+        <Portuguese>Kaska K93 TTsKO (Digital)</Portuguese>
+        <Russian>Kaska K93 TTsKO (Digital)</Russian>
+        <German>Kaska K93 TTsKO (Digital)</German>
+      </Key>
+      <Key ID="str_RHSGREF_inf_rifleman">
+        <Original>Rifleman</Original>
+        <English>Rifleman</English>
+        <Czech>Střelec</Czech>
+        <French>Rifleman</French>
+        <Spanish>Fusilero</Spanish>
+        <Italian>Fuciliere</Italian>
+        <Polish>Strzelec</Polish>
+        <Portuguese>Rifleman</Portuguese>
+        <Russian>Стрелок</Russian>
+        <German>Schütze</German>
+      </Key>
+      <Key ID="STR_RHSGREF_inf_militiaman_kar98k">
+        <Original>Militiaman (Kar98K)</Original>
+        <English>Militiaman (Kar98K)</English>
+        <Czech>Milice (Kar98K)</Czech>
+        <French>Militiaman (Kar98K)</French>
+        <Spanish>Miliciano (Kar98K)</Spanish>
+        <Italian>Miliziano (Kar98K)</Italian>
+        <Polish>Milicjant (Kar98K)</Polish>
+        <Portuguese>Militiaman (Kar98K)</Portuguese>
+        <Russian>Милиционер (Kar98K)</Russian>
+        <German>Milizionär (Kar98K)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_inf_militiaman_m38">
+        <Original>Militiaman (M38)</Original>
+        <English>Militiaman (M38)</English>
+        <Czech>Milice (M38)</Czech>
+        <French>Militiaman (M38)</French>
+        <Spanish>Miliciano (M38)</Spanish>
+        <Italian>Miliziano (M38)</Italian>
+        <Polish>Milicjant (M38)</Polish>
+        <Portuguese>Militiaman (M38)</Portuguese>
+        <Russian>Милиционер (M38)</Russian>
+        <German>Milizionär (M38)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_MACHINEGUNNER_MG42">
+        <Original>Machine Gunner (MG 42)</Original>
+        <English>Machine Gunner (MG 42)</English>
+        <Czech>Machine Gunner (MG 42)</Czech>
+        <French>Mitrailleur (MG 42)</French>
+        <Spanish>Ametrallador (MG 42)</Spanish>
+        <Italian>Mitraliere (MG 42)</Italian>
+        <Polish>Celowniczy KM (MG 42)</Polish>
+        <Portuguese>Machine Gunner (MG 42)</Portuguese>
+        <Russian>Пулемётчик (MG 42)</Russian>
+        <German>Maschinengewehrschütze (MG 42)</German>
+      </Key>
+      <Key ID="str_RHSGREF_inf_rifleman_at">
+        <Original>Rifleman (AT)</Original>
+        <English>Rifleman (AT)</English>
+        <Czech>Střelec (AT)</Czech>
+        <French>Rifleman (AT)</French>
+        <Spanish>Fusilero (AC)</Spanish>
+        <Italian>Fuciliere (AT)</Italian>
+        <Polish>Strzelec (AT)</Polish>
+        <Portuguese>Rifleman (AT)</Portuguese>
+        <Russian>Стрелок (ПТ)</Russian>
+        <German>Schütze (AT)</German>
+      </Key>
+      <Key ID="str_RHSGREF_inf_rifleman_m70">
+        <Original>Rifleman (M70)</Original>
+        <English>Rifleman (M70)</English>
+        <Czech>Střelec (M70)</Czech>
+        <French>Rifleman (M70)</French>
+        <Spanish>Fusilero (M70)</Spanish>
+        <Italian>Fuciliere (M70)</Italian>
+        <Polish>Strzelec (M70)</Polish>
+        <Portuguese>Rifleman (M70)</Portuguese>
+        <Russian>Стрелок (M70)</Russian>
+        <German>Schütze (M70)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_inf_rifleman_m92">
+        <Original>Rifleman (M92)</Original>
+        <English>Rifleman (M92)</English>
+        <Czech>Střelec (M92)</Czech>
+        <French>Rifleman (M92)</French>
+        <Spanish>Fusilero (M92)</Spanish>
+        <Italian>Fuciliere (M92)</Italian>
+        <Polish>Strzelec (M92)</Polish>
+        <Portuguese>Rifleman (M92)</Portuguese>
+        <Russian>Стрелок (M92)</Russian>
+        <German>Schütze (M92)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_inf_rifleman_aa">
+        <Original>Rifleman (AA)</Original>
+        <English>Rifleman (AA)</English>
+        <Czech>Střelec (AA)</Czech>
+        <French>Rifleman (AA)</French>
+        <Spanish>Fusilero (AA)</Spanish>
+        <Italian>Fuciliere (AA)</Italian>
+        <Polish>Strzelec (AA)</Polish>
+        <Portuguese>Rifleman (AA)</Portuguese>
+        <Russian>Стрелок (ПВО)</Russian>
+        <German>Schütze (AA)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_RIFLEMAN_AK74">
+        <Original>Rifleman (AK74)</Original>
+        <English>Rifleman (AK74)</English>
+        <Czech>Střelec (AK74)</Czech>
+        <French>Rifleman (AK74)</French>
+        <Spanish>Fusilero (AK74)</Spanish>
+        <Italian>Fuciliere (AK74)</Italian>
+        <Polish>Strzelec (AK74)</Polish>
+        <Portuguese>Rifleman (AK74)</Portuguese>
+        <Russian>Стрелок (АК74)</Russian>
+        <German>Schütze (AK74)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_RIFLEMAN_AKS74">
+        <Original>Rifleman (AKS74)</Original>
+        <English>Rifleman (AKS74)</English>
+        <Czech>Střelec (AKS74)</Czech>
+        <French>Rifleman (AKS74)</French>
+        <Spanish>Fusilero (AKS74)</Spanish>
+        <Italian>Fuciliere (AKS74)</Italian>
+        <Polish>Strzelec (AKS74)</Polish>
+        <Portuguese>Rifleman (AKS74)</Portuguese>
+        <Russian>Стрелок (АКС74)</Russian>
+        <German>Schütze (AKS74)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_RIFLEMAN_AKSU">
+        <Original>Rifleman (AKS74U)</Original>
+        <English>Rifleman (AKS74U)</English>
+        <Czech>Střelec (AKS74U)</Czech>
+        <French>Rifleman (AKS74U)</French>
+        <Spanish>Fusilero (AKS74U)</Spanish>
+        <Italian>Fuciliere (AKS74U)</Italian>
+        <Polish>Strzelec (AKS74U)</Polish>
+        <Portuguese>Rifleman (AKS74U)</Portuguese>
+        <Russian>Стрелок (АКС74У)</Russian>
+        <German>Schütze (AKS74U)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_RIFLEMAN_MP44">
+        <Original>Rifleman (MP 44)</Original>
+        <English>Rifleman (MP 44)</English>
+        <Czech>Střelec (MP 44)</Czech>
+        <French>Rifleman (MP 44)</French>
+        <Spanish>Fusilero (MP 44)</Spanish>
+        <Italian>Fuciliere (MP 44)</Italian>
+        <Polish>Strzelec (MP 44)</Polish>
+        <Portuguese>Rifleman (MP 44)</Portuguese>
+        <Russian>Стрелок (MP 44)</Russian>
+        <German>Schütze (MP 44)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_RIFLEMAN_PM63">
+        <Original>Rifleman (PM-63)</Original>
+        <English>Rifleman (PM-63)</English>
+        <Czech>Střelec (PM-63)</Czech>
+        <French>Rifleman (PM-63)</French>
+        <Spanish>Fusilero (PM-63)</Spanish>
+        <Italian>Fuciliere (PM-63)</Italian>
+        <Polish>Strzelec (PM-63)</Polish>
+        <Portuguese>Rifleman (PM-63)</Portuguese>
+        <Russian>Стрелок (PM-63)</Russian>
+        <German>Schütze (PM-63)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_RIFLEMAN_SAVZ58">
+        <Original>Rifleman (vz. 58)</Original>
+        <English>Rifleman (vz. 58)</English>
+        <Czech>Střelec (vz. 58)</Czech>
+        <French>Rifleman (vz. 58)</French>
+        <Spanish>Fusilero (vz. 58)</Spanish>
+        <Italian>Fuciliere (vz. 58)</Italian>
+        <Polish>Strzelec (vz. 58)</Polish>
+        <Portuguese>Rifleman (vz. 58)</Portuguese>
+        <Russian>Стрелок (vz. 58)</Russian>
+        <German>Schütze (vz. 58)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_RIFLEMAN_RPG75">
+        <Original>Rifleman (RPG-75)</Original>
+        <English>Rifleman (RPG-75)</English>
+        <Czech>Střelec (RPG-75)</Czech>
+        <French>Rifleman (RPG-75)</French>
+        <Spanish>Fusilero (RPG-75)</Spanish>
+        <Italian>Fuciliere (RPG-75)</Italian>
+        <Polish>Strzelec (RPG-75)</Polish>
+        <Portuguese>Rifleman (RPG-75)</Portuguese>
+        <Russian>Стрелок (РПГ-75)</Russian>
+        <German>Schütze (RPG-75)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_HUNTER">
+        <Original>Hunter</Original>
+        <English>Hunter</English>
+        <Czech>Myslivec</Czech>
+        <French>Hunter</French>
+        <Spanish>Cazador</Spanish>
+        <Italian>Cacciatore</Italian>
+        <Polish>Myśliwy</Polish>
+        <Portuguese>Hunter</Portuguese>
+        <Russian>Охотник</Russian>
+        <German>Jäger</German>
+      </Key>
+      <Key ID="str_RHSGREF_inf_sapper">
+        <Original>Sapper</Original>
+        <English>Sapper</English>
+        <Czech>Sapér</Czech>
+        <French>Sapper</French>
+        <Spanish>Zapador</Spanish>
+        <Italian>Geniere</Italian>
+        <Polish>Saper</Polish>
+        <Portuguese>Sapper</Portuguese>
+        <Russian>Сапёр</Russian>
+        <German>Pionier</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_AT">
+        <Original>AT Specialist</Original>
+        <English>AT Specialist</English>
+        <Czech>AT specialista</Czech>
+        <French>AT Specialist</French>
+        <Spanish>Especialista AT</Spanish>
+        <Italian>Specialista AT</Italian>
+        <Polish>Specjalista AT</Polish>
+        <Portuguese>AT Specialist</Portuguese>
+        <Russian>Гранатомётчик (ПТ)</Russian>
+        <German>Panzerabwehrschütze</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_AA">
+        <Original>AA Specialist</Original>
+        <English>AA Specialist</English>
+        <Czech>AA specialista</Czech>
+        <French>AA Specialist</French>
+        <Spanish>Especialista AA</Spanish>
+        <Italian>Specialista AA</Italian>
+        <Polish>Specjalista AA</Polish>
+        <Portuguese>AA Specialist</Portuguese>
+        <Russian>Стрелок ПЗРК</Russian>
+        <German>Luftabwehrschütze</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_MARKSMAN">
+        <Original>Marksman</Original>
+        <English>Marksman</English>
+        <Czech>Marksman</Czech>
+        <French>Marksman</French>
+        <Spanish>Tirador de precisión</Spanish>
+        <Italian>Tiratore Scelto</Italian>
+        <Polish>Strzelec wyborowy</Polish>
+        <Portuguese>Marksman</Portuguese>
+        <Russian>Меткий стрелок</Russian>
+        <German>Scharfschütze</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_FIELD_COMMANDER">
+        <Original>Field Leader</Original>
+        <English>Field Leader</English>
+        <Czech>Field Leader</Czech>
+        <French>Field Leader</French>
+        <Spanish>Field Leader</Spanish>
+        <Italian>Field Leader</Italian>
+        <Polish>Field Leader</Polish>
+        <Portuguese>Field Leader</Portuguese>
+        <Russian>Полевой командир</Russian>
+        <German>Kriegsherr</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_WARLORD">
+        <Original>Warlord</Original>
+        <English>Warlord</English>
+        <Czech>Warlord</Czech>
+        <French>Warlord</French>
+        <Spanish>Warlord</Spanish>
+        <Italian>Warlord</Italian>
+        <Polish>Warlord</Polish>
+        <Portuguese>Warlord</Portuguese>
+        <Russian>Офицер</Russian>
+        <German>Warlord</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_SABOTEUR">
+        <Original>Saboteur</Original>
+        <English>Saboteur</English>
+        <Czech>Saboteur</Czech>
+        <French>Saboteur</French>
+        <Spanish>Saboteur</Spanish>
+        <Italian>Saboteur</Italian>
+        <Polish>Saboteur</Polish>
+        <Portuguese>Saboteur</Portuguese>
+        <Russian>Диверсант</Russian>
+        <German>Saboteur</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_MEDIC">
+        <Original>Medic</Original>
+        <English>Medic</English>
+        <Czech>Medic</Czech>
+        <French>Infirmier</French>
+        <Spanish>Médico</Spanish>
+        <Italian>Medico</Italian>
+        <Polish>Medyk</Polish>
+        <Portuguese>Medic</Portuguese>
+        <Russian>Костоправ</Russian>
+        <German>Sanitäter</German>
+      </Key>
+      <Key ID="STR_RHSGREF_INF_GRENADIER_M79">
+        <Original>Grenadier (M79)</Original>
+        <English>Grenadier (M79)</English>
+        <Czech>Grenadier (M79)</Czech>
+        <French>Grenadier (M79)</French>
+        <Spanish>Granadero (M79)</Spanish>
+        <Italian>Granatiere (M79)</Italian>
+        <Polish>Grenadier (M79)</Polish>
+        <Portuguese>Grenadier (M79)</Portuguese>
+        <Russian>Гранатомётчик (M79)</Russian>
+        <German>Grenadier (M79)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_NAME">
+        <Original>6B5-19</Original>
+        <English>6B5-19</English>
+        <Czech>6B5-19</Czech>
+        <French>6B5-19</French>
+        <Spanish>6B5-19</Spanish>
+        <Italian>6B5-19</Italian>
+        <Polish>6B5-19</Polish>
+        <Portuguese>6B5-19</Portuguese>
+        <Russian>6Б5-19</Russian>
+        <German>6B5-19</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_RIFLEMAN_NAME">
+        <Original>6B5-19 (6Sh46)</Original>
+        <English>6B5-19 (6Sh46)</English>
+        <Czech>6B5-19 (6Sh46)</Czech>
+        <French>6B5-19 (6Sh46)</French>
+        <Spanish>6B5-19 (6Sh46)</Spanish>
+        <Italian>6B5-19 (6Sh46)</Italian>
+        <Polish>6B5-19 (6Sh46)</Polish>
+        <Portuguese>6B5-19 (6Sh46)</Portuguese>
+        <Russian>6Б5-19 (6Ш46)</Russian>
+        <German>6B5-19 (6Sh46)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_OFFICER_NAME">
+        <Original>6B5-19 (Officer)</Original>
+        <English>6B5-19 (Officer)</English>
+        <Czech>6B5-19 (Officer)</Czech>
+        <French>6B5-19 (Officer)</French>
+        <Spanish>6B5-19 (Oficial)</Spanish>
+        <Italian>6B5-19 (Ufficiale)</Italian>
+        <Polish>6B5-19 (Oficer)</Polish>
+        <Portuguese>6B5-19 (Officer)</Portuguese>
+        <Russian>6Б5-19 (офицер)</Russian>
+        <German>6B5-19 (Unteroffizier)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_MEDIC_NAME">
+        <Original>6B5-19 (Medic)</Original>
+        <English>6B5-19 (Medic)</English>
+        <Czech>6B5-19 (Medic)</Czech>
+        <French>6B5-19 (Medic)</French>
+        <Spanish>6B5-19 (Médico)</Spanish>
+        <Italian>6B5-19 (Medico)</Italian>
+        <Polish>6B5-19 (Medyk)</Polish>
+        <Portuguese>6B5-19 (Medic)</Portuguese>
+        <Russian>6Б5-19 (медик)</Russian>
+        <German>6B5-19 (Sanitäter)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_SNIPER_NAME">
+        <Original>6B5-19 (Sniper)</Original>
+        <English>6B5-19 (Sniper)</English>
+        <Czech>6B5-19 (Sniper)</Czech>
+        <French>6B5-19 (Sniper)</French>
+        <Spanish>6B5-19 (Francotirador)</Spanish>
+        <Italian>6B5-19 (Cecchino)</Italian>
+        <Polish>6B5-19 (Snajper)</Polish>
+        <Portuguese>6B5-19 (Sniper)</Portuguese>
+        <Russian>6Б5-19 (снайпер)</Russian>
+        <German>6B5-19 (Scharfschütze)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_OLIVE_NAME">
+        <Original>6B5-19 Olive</Original>
+        <English>6B5-19 Olive</English>
+        <Czech>6B5-19 Olive</Czech>
+        <French>6B5-19 Olive</French>
+        <Spanish>6B5-19 Olive</Spanish>
+        <Italian>6B5-19 Oliva</Italian>
+        <Polish>6B5-19 Olive</Polish>
+        <Portuguese>6B5-19 Olive</Portuguese>
+        <Russian>6Б5-19 Олив.</Russian>
+        <German>6B5-19 Olive</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_RIFLEMAN_OLIVE_NAME">
+        <Original>6B5-19 Olive (6Sh46)</Original>
+        <English>6B5-19 Olive (6Sh46)</English>
+        <Czech>6B5-19 Olive (6Sh46)</Czech>
+        <French>6B5-19 Olive (6Sh46)</French>
+        <Spanish>6B5-19 Olive (6Sh46)</Spanish>
+        <Italian>6B5-19 Oliva (6Sh46)</Italian>
+        <Polish>6B5-19 Olive (6Sh46)</Polish>
+        <Portuguese>6B5-19 Olive (6Sh46)</Portuguese>
+        <Russian>6Б5-19 Олив. (6Ш46)</Russian>
+        <German>6B5-19 Olive (6Sh46)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_OFFICER_OLIVE_NAME">
+        <Original>6B5-19 Olive (Officer)</Original>
+        <English>6B5-19 Olive (Officer)</English>
+        <Czech>6B5-19 Olive (Officer)</Czech>
+        <French>6B5-19 Olive (Officer)</French>
+        <Spanish>6B5-19 Olive (Oficial)</Spanish>
+        <Italian>6B5-19 Oliva (Ufficiale)</Italian>
+        <Polish>6B5-19 Olive (Oficer)</Polish>
+        <Portuguese>6B5-19 Olive (Officer)</Portuguese>
+        <Russian>6Б5-19 Олив. (офицер)</Russian>
+        <German>6B5-19 Olive (Unteroffizier)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_MEDIC_OLIVE_NAME">
+        <Original>6B5-19 Olive (Medic)</Original>
+        <English>6B5-19 Olive (Medic)</English>
+        <Czech>6B5-19 Olive (Medic)</Czech>
+        <French>6B5-19 Olive (Medic)</French>
+        <Spanish>6B5-19 Olive (Médico)</Spanish>
+        <Italian>6B5-19 Oliva (Medico)</Italian>
+        <Polish>6B5-19 Olive (Medyk)</Polish>
+        <Portuguese>6B5-19 Olive (Medic)</Portuguese>
+        <Russian>6Б5-19 Олив. (медик)</Russian>
+        <German>6B5-19 Olive (Sanitäter)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_SNIPER_OLIVE_NAME">
+        <Original>6B5-19 Olive (Sniper)</Original>
+        <English>6B5-19 Olive (Sniper)</English>
+        <Czech>6B5-19 Olive (Sniper)</Czech>
+        <French>6B5-19 Olive (Sniper)</French>
+        <Spanish>6B5-19 Olive (Francotirador)</Spanish>
+        <Italian>6B5-19 Oliva (Cecchino)</Italian>
+        <Polish>6B5-19 Olive (Snajper)</Polish>
+        <Portuguese>6B5-19 Olive (Sniper)</Portuguese>
+        <Russian>6Б5-19 Олив. (снайпер)</Russian>
+        <German>6B5-19 Olive (Scharfschütze)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_VSR_NAME">
+        <Original>6B5-19 VSR</Original>
+        <English>6B5-19 VSR</English>
+        <Czech>6B5-19 VSR</Czech>
+        <French>6B5-19 VSR</French>
+        <Spanish>6B5-19 VSR</Spanish>
+        <Italian>6B5-19 VSR</Italian>
+        <Polish>6B5-19 VSR</Polish>
+        <Portuguese>6B5-19 VSR</Portuguese>
+        <Russian>6Б5-19 ВСР</Russian>
+        <German>6B5-19 VSR</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_RIFLEMAN_VSR_NAME">
+        <Original>6B5-19 VSR (6Sh46)</Original>
+        <English>6B5-19 VSR (6Sh46)</English>
+        <Czech>6B5-19 VSR (6Sh46)</Czech>
+        <French>6B5-19 VSR (6Sh46)</French>
+        <Spanish>6B5-19 VSR (6Sh46)</Spanish>
+        <Italian>6B5-19 VSR (6Sh46)</Italian>
+        <Polish>6B5-19 VSR (6Sh46)</Polish>
+        <Portuguese>6B5-19 VSR (6Sh46)</Portuguese>
+        <Russian>6Б5-19 ВСР (6Ш46)</Russian>
+        <German>6B5-19 VSR (6Sh46)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_OFFICER_VSR_NAME">
+        <Original>6B5-19 VSR (Officer)</Original>
+        <English>6B5-19 VSR (Officer)</English>
+        <Czech>6B5-19 VSR (Officer)</Czech>
+        <French>6B5-19 VSR (Officer)</French>
+        <Spanish>6B5-19 VSR (Oficial)</Spanish>
+        <Italian>6B5-19 VSR (Ufficiale)</Italian>
+        <Polish>6B5-19 VSR (Oficer)</Polish>
+        <Portuguese>6B5-19 VSR (Officer)</Portuguese>
+        <Russian>6Б5-19 ВСР (офицер)</Russian>
+        <German>6B5-19 VSR (Unteroffizier)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_SNIPER_VSR_NAME">
+        <Original>6B5-19 VSR (Sniper)</Original>
+        <English>6B5-19 VSR (Sniper)</English>
+        <Czech>6B5-19 VSR (Sniper)</Czech>
+        <French>6B5-19 VSR (Sniper)</French>
+        <Spanish>6B5-19 VSR (Francotirador)</Spanish>
+        <Italian>6B5-19 VSR (Cecchino)</Italian>
+        <Polish>6B5-19 VSR (Snajper)</Polish>
+        <Portuguese>6B5-19 VSR (Sniper)</Portuguese>
+        <Russian>6Б5-19 ВСР (снайпер)</Russian>
+        <German>6B5-19 VSR (Scharfschütze)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_TTsKO_NAME">
+        <Original>6B5-19 TTsKO</Original>
+        <English>6B5-19 TTsKO</English>
+        <Czech>6B5-19 TTsKO</Czech>
+        <French>6B5-19 TTsKO</French>
+        <Spanish>6B5-19 TTsKO</Spanish>
+        <Italian>6B5-19 TTsKO</Italian>
+        <Polish>6B5-19 TTsKO</Polish>
+        <Portuguese>6B5-19 TTsKO</Portuguese>
+        <Russian>6Б5-19 ТТсКО</Russian>
+        <German>6B5-19 TTsKO</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_RIFLEMAN_TTsKO_NAME">
+        <Original>6B5-19 TTsKO (6Sh46)</Original>
+        <English>6B5-19 TTsKO (6Sh46)</English>
+        <Czech>6B5-19 TTsKO (6Sh46)</Czech>
+        <French>6B5-19 TTsKO (6Sh46)</French>
+        <Spanish>6B5-19 TTsKO (6Sh46)</Spanish>
+        <Italian>6B5-19 TTsKO (6Sh46)</Italian>
+        <Polish>6B5-19 TTsKO (6Sh46)</Polish>
+        <Portuguese>6B5-19 TTsKO (6Sh46)</Portuguese>
+        <Russian>6Б5-19 ТТсКО (6Ш46)</Russian>
+        <German>6B5-19 TTsKO (6Sh46)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_OFFICER_TTsKO_NAME">
+        <Original>6B5-19 TTsKO (Officer)</Original>
+        <English>6B5-19 TTsKO (Officer)</English>
+        <Czech>6B5-19 TTsKO (Officer)</Czech>
+        <French>6B5-19 TTsKO (Officer)</French>
+        <Spanish>6B5-19 TTsKO (Oficial)</Spanish>
+        <Italian>6B5-19 TTsKO (Ufficiale)</Italian>
+        <Polish>6B5-19 TTsKO (Oficer)</Polish>
+        <Portuguese>6B5-19 TTsKO (Officer)</Portuguese>
+        <Russian>6Б5-19 ТТсКО (офицер)</Russian>
+        <German>6B5-19 TTsKO (Unteroffizier)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_MEDIC_VSR_NAME">
+        <Original>6B5-19 VSR (Medic)</Original>
+        <English>6B5-19 VSR (Medic)</English>
+        <Czech>6B5-19 VSR (Medic)</Czech>
+        <French>6B5-19 VSR (Medic)</French>
+        <Spanish>6B5-19 VSR (Médico)</Spanish>
+        <Italian>6B5-19 VSR (Medico)</Italian>
+        <Polish>6B5-19 VSR (Medyk)</Polish>
+        <Portuguese>6B5-19 VSR (Medic)</Portuguese>
+        <Russian>6Б5-19 ВСР (медик)</Russian>
+        <German>6B5-19 VSR (Sanitäter)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_MEDIC_TTsKO_NAME">
+        <Original>6B5-19 TTsKO (Medic)</Original>
+        <English>6B5-19 TTsKO (Medic)</English>
+        <Czech>6B5-19 TTsKO (Medic)</Czech>
+        <French>6B5-19 TTsKO (Medic)</French>
+        <Spanish>6B5-19 TTsKO (Médico)</Spanish>
+        <Italian>6B5-19 TTsKO (Medico)</Italian>
+        <Polish>6B5-19 TTsKO (Medyk)</Polish>
+        <Portuguese>6B5-19 TTsKO (Medic)</Portuguese>
+        <Russian>6Б5-19 ТТсКО (медик)</Russian>
+        <German>6B5-19 TTsKO (Sanitäter)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_6B5_SNIPER_TTsKO_NAME">
+        <Original>6B5-19 TTsKO (Sniper)</Original>
+        <English>6B5-19 TTsKO (Sniper)</English>
+        <Czech>6B5-19 TTsKO (Sniper)</Czech>
+        <French>6B5-19 TTsKO (Sniper)</French>
+        <Spanish>6B5-19 TTsKO (Francotirador)</Spanish>
+        <Italian>6B5-19 TTsKO (Cecchino)</Italian>
+        <Polish>6B5-19 TTsKO (Snajper)</Polish>
+        <Portuguese>6B5-19 TTsKO (Sniper)</Portuguese>
+        <Russian>6Б5-19 ТТсКО (снайпер)</Russian>
+        <German>6B5-19 TTsKO (Scharfschütze)</German>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="rhsgref_c_weapons">
+    <Container name="Names">
+      <Key ID="STR_RHSGREF_WEAP_M38">
+        <Original>Mosin Nagant M38</Original>
+        <English>Mosin Nagant M38</English>
+        <Czech>Mosin Nagant M38</Czech>
+        <French>Mosin Nagant M38</French>
+        <Spanish>Mosin Nagant M38</Spanish>
+        <Italian>Mosin Nagant M38</Italian>
+        <Polish>Mosin Nagant M38</Polish>
+        <Portuguese>Mosin Nagant M38</Portuguese>
+        <Russian>Винтовка Мосина М38</Russian>
+        <German>Mosin Nagant M38</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M38_2">
+        <Original>Mosin Nagant M38 (Railed)</Original>
+        <English>Mosin Nagant M38 (Railed)</English>
+        <Czech>Mosin Nagant M38 (Railed)</Czech>
+        <French>Mosin Nagant M38 (Railed)</French>
+        <Spanish>Mosin Nagant M38 (Railed)</Spanish>
+        <Italian>Mosin Nagant M38 (Slitta)</Italian>
+        <Polish>Mosin Nagant M38 (Railed)</Polish>
+        <Portuguese>Mosin Nagant M38 (Railed)</Portuguese>
+        <Russian>Винтовка Мосина М38 (рельс)</Russian>
+        <German>Mosin Nagant M38 (Railed)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M38_SBR">
+        <Original>Mosin SBR</Original>
+        <English>Mosin SBR</English>
+        <Czech>Mosin SBR</Czech>
+        <French>Mosin SBR</French>
+        <Spanish>Mosin SBR</Spanish>
+        <Italian>Mosin SBR</Italian>
+        <Polish>Mosin SBR</Polish>
+        <Portuguese>Mosin SBR</Portuguese>
+        <Russian>Mosin SBR</Russian>
+        <German>Mosin SBR</German>
+      </Key>
+      <Key ID="STR_RHS_F1_NAME">
+        <Original>F-1</Original>
+        <English>F-1</English>
+        <Czech>F-1</Czech>
+        <French>F-1</French>
+        <Spanish>F-1</Spanish>
+        <Italian>F-1</Italian>
+        <Polish>F-1</Polish>
+        <Portuguese>F-1</Portuguese>
+        <Russian>ф-1</Russian>
+        <German>F-1</German>
+      </Key>
+      <Key ID="STR_RHS_F1_DES">
+        <Original>Type: Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Original>
+        <English>Type: Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</English>
+        <Czech>Typ: Fragmentační granát&lt;br /&gt;Munice: 1&lt;br /&gt;Použití: Ruka</Czech>
+        <French>Type: Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</French>
+        <Spanish>Type: Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Spanish>
+        <Italian>Tipo: Granata a Frammentazione&lt;br /&gt;Colpi: 1&lt;br /&gt;Usata in: Mano</Italian>
+        <Polish>Type: Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Polish>
+        <Portuguese>Type: Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Portuguese>
+        <Russian>Type: Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Russian>
+        <German>Type: Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</German>
+      </Key>
+      <Key ID="STR_RHS_KHATTABKA_VOG17_NAME">
+        <Original>VOG-17 (Khattabka)</Original>
+        <English>VOG-17 (Khattabka)</English>
+        <Czech>VOG-17 (Khattabka)</Czech>
+        <French>VOG-17 (Khattabka)</French>
+        <Spanish>VOG-17 (Khattabka)</Spanish>
+        <Italian>VOG-17 (Khattabka)</Italian>
+        <Polish>VOG-17 (Khattabka)</Polish>
+        <Portuguese>VOG-17 (Khattabka)</Portuguese>
+        <Russian>ВОГ-17 «Хаттабка»</Russian>
+        <German>VOG-17 (Khattabka)</German>
+      </Key>
+      <Key ID="STR_RHS_KHATTABKA_VOG25_NAME">
+        <Original>VOG-25 (Khattabka)</Original>
+        <English>VOG-25 (Khattabka)</English>
+        <Czech>VOG-25 (Khattabka)</Czech>
+        <French>VOG-25 (Khattabka)</French>
+        <Spanish>VOG-25 (Khattabka)</Spanish>
+        <Italian>VOG-25 (Khattabka)</Italian>
+        <Polish>VOG-25 (Khattabka)</Polish>
+        <Portuguese>VOG-25 (Khattabka)</Portuguese>
+        <Russian>ВОГ-25 «Хаттабка»</Russian>
+        <German>VOG-25 (Khattabka)</German>
+      </Key>
+      <Key ID="STR_RHS_KHATTABKA_DES">
+        <Original>Type: Improvised Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Original>
+        <English>Type: Improvised Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</English>
+        <Czech>Typ: Fragmentační granát&lt;br /&gt;Munice: 1&lt;br /&gt;Použití: Ruka</Czech>
+        <French>Type: Improvised Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</French>
+        <Spanish>Type: Improvised Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Spanish>
+        <Italian>Tipo: Granata Frammentazione Improvvisata&lt;br /&gt;Colpi: 1&lt;br /&gt;Usata in: Mano</Italian>
+        <Polish>Type: Improvised Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Polish>
+        <Portuguese>Type: Improvised Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Portuguese>
+        <Russian>Type: Improvised Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Russian>
+        <German>Type: Improvised Fragmentation Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</German>
+      </Key>
+      <Key ID="STR_RHS_RKG3EM_NAME">
+        <Original>RKG-3EM</Original>
+        <English>RKG-3EM</English>
+        <Czech>RKG-3EM</Czech>
+        <French>RKG-3EM</French>
+        <Spanish>RKG-3EM</Spanish>
+        <Italian>RKG-3EM</Italian>
+        <Polish>RKG-3EM</Polish>
+        <Portuguese>RKG-3EM</Portuguese>
+        <Russian>РКГ-3ЕМ</Russian>
+        <German>RKG-3EM</German>
+      </Key>
+      <Key ID="STR_RHS_RKG3EM_DES">
+        <Original>Type: Anti-Tank Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Original>
+        <English>Type: Anti-Tank Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</English>
+        <Czech>Typ: Anti-Tank Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Czech>
+        <French>Type: Anti-Tank Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</French>
+        <Spanish>Type: Anti-Tank Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Spanish>
+        <Italian>Tipo: Granata anticarro&lt;br /&gt;Colpi: 1&lt;br /&gt;Usata in: Mano</Italian>
+        <Polish>Type: Anti-Tank Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Polish>
+        <Portuguese>Type: Anti-Tank Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Portuguese>
+        <Russian>Type: Anti-Tank Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</Russian>
+        <German>Type: Anti-Tank Grenade&lt;br /&gt;Rounds: 1&lt;br /&gt;Used in: Hand</German>
+      </Key>
+      <Key ID="STR_RHS_WEAP_KAR98K_DISPLAYNAME">
+        <Original>Karabiner 98 Kurz</Original>
+        <English>Karabiner 98 Kurz</English>
+        <Czech>Karabiner 98 Kurz</Czech>
+        <French>Karabiner 98 Kurz</French>
+        <Spanish>Karabiner 98 Kurz</Spanish>
+        <Italian>Karabiner 98 Kurz</Italian>
+        <Polish>Karabiner 98 Kurz</Polish>
+        <Portuguese>Karabiner 98 Kurz</Portuguese>
+        <Russian>Karabiner 98 Kurz</Russian>
+        <German>Karabiner 98 Kurz</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M70AB2">
+        <Original>M-70AB2</Original>
+        <English>M-70AB2</English>
+        <Czech>M-70AB2</Czech>
+        <French>M-70AB2</French>
+        <Spanish>M-70AB2</Spanish>
+        <Italian>M-70AB2</Italian>
+        <Polish>M-70AB2</Polish>
+        <Portuguese>M-70AB2</Portuguese>
+        <Russian>M-70AB2</Russian>
+        <German>M-70AB2</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M70AB2_FOLD">
+        <Original>M-70AB2 (Folded)</Original>
+        <English>M-70AB2 (Folded)</English>
+        <Czech>M-70AB2 (Folded)</Czech>
+        <French>M-70AB2 (Folded)</French>
+        <Spanish>M-70AB2 (Plegado)</Spanish>
+        <Italian>M-70AB2 (Piegato)</Italian>
+        <Polish>M-70AB2 (Złożony)</Polish>
+        <Portuguese>M-70AB2 (Folded)</Portuguese>
+        <Russian>M-70AB2 (Сл.)</Russian>
+        <German>M-70AB2 (Eingeklappt)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M70B1">
+        <Original>M-70B1</Original>
+        <English>M-70B1</English>
+        <Czech>M-70B1</Czech>
+        <French>M-70B1</French>
+        <Spanish>M-70B1</Spanish>
+        <Italian>M-70B1</Italian>
+        <Polish>M-70B1</Polish>
+        <Portuguese>M-70B1</Portuguese>
+        <Russian>M-70B1</Russian>
+        <German>M-70B1</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M76">
+        <Original>M-76</Original>
+        <English>M-76</English>
+        <Czech>M-76</Czech>
+        <French>M-76</French>
+        <Spanish>M-76</Spanish>
+        <Italian>M-76</Italian>
+        <Polish>M-76</Polish>
+        <Portuguese>M-76</Portuguese>
+        <Russian>M-76</Russian>
+        <German>M-76</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M92">
+        <Original>M-92</Original>
+        <English>M-92</English>
+        <Czech>M-92</Czech>
+        <French>M-92</French>
+        <Spanish>M-92</Spanish>
+        <Italian>M-92</Italian>
+        <Polish>M-92</Polish>
+        <Portuguese>M-92</Portuguese>
+        <Russian>M-92</Russian>
+        <German>M-92</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M92_FOLD">
+        <Original>M-92 (Folded)</Original>
+        <English>M-92 (Folded)</English>
+        <Czech>M-92 (Folded)</Czech>
+        <French>M-92 (Folded)</French>
+        <Spanish>M-92 (Plegado)</Spanish>
+        <Italian>M-92 (Piegato)</Italian>
+        <Polish>M-92 (Złożony)</Polish>
+        <Portuguese>M-92 (Folded)</Portuguese>
+        <Russian>M-92 (Сл.)</Russian>
+        <German>M-92 (Eingeklappt)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M21A">
+        <Original>M21A</Original>
+        <English>M21A</English>
+        <Czech>M21A</Czech>
+        <French>M21A</French>
+        <Spanish>M21A</Spanish>
+        <Italian>M21A</Italian>
+        <Polish>M21A</Polish>
+        <Portuguese>M21A</Portuguese>
+        <Russian>M21A</Russian>
+        <German>M21A</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M21A_PIC">
+        <Original>M21A (Picatinny)</Original>
+        <English>M21A (Picatinny)</English>
+        <Czech>M21A (Picatinny)</Czech>
+        <French>M21A (Picatinny)</French>
+        <Spanish>M21A (Picatinny)</Spanish>
+        <Italian>M21A (Picatinny)</Italian>
+        <Polish>M21A (Picatinny)</Polish>
+        <Portuguese>M21A (Picatinny)</Portuguese>
+        <Russian>M21A (Picatinny)</Russian>
+        <German>M21A (Picatinny)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M21A_FOLD">
+        <Original>M21A (Folded)</Original>
+        <English>M21A (Folded)</English>
+        <Czech>M21A (Folded)</Czech>
+        <French>M21A (Folded)</French>
+        <Spanish>M21A (Plegado)</Spanish>
+        <Italian>M21A (Piegato)</Italian>
+        <Polish>M21A (Złożony)</Polish>
+        <Portuguese>M21A (Folded)</Portuguese>
+        <Russian>M21A (Сл.)</Russian>
+        <German>M21A (Eingeklappt)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M21S">
+        <Original>M21S</Original>
+        <English>M21S</English>
+        <Czech>M21S</Czech>
+        <French>M21S</French>
+        <Spanish>M21S</Spanish>
+        <Italian>M21S</Italian>
+        <Polish>M21S</Polish>
+        <Portuguese>M21S</Portuguese>
+        <Russian>M21S</Russian>
+        <German>M21S</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M21S_PIC">
+        <Original>M21S (Picatinny)</Original>
+        <English>M21S (Picatinny)</English>
+        <Czech>M21S (Picatinny)</Czech>
+        <French>M21S (Picatinny)</French>
+        <Spanish>M21S (Picatinny)</Spanish>
+        <Italian>M21S (Picatinny)</Italian>
+        <Polish>M21S (Picatinny)</Polish>
+        <Portuguese>M21S (Picatinny)</Portuguese>
+        <Russian>M21S (Picatinny)</Russian>
+        <German>M21S (Picatinny)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M21S_FOLD">
+        <Original>M21S (Folded)</Original>
+        <English>M21S (Folded)</English>
+        <Czech>M21S (Folded)</Czech>
+        <French>M21S (Folded)</French>
+        <Spanish>M21S (Plegado)</Spanish>
+        <Italian>M21S (Piegato)</Italian>
+        <Polish>M21S (Złożony)</Polish>
+        <Portuguese>M21S (Folded)</Portuguese>
+        <Russian>M21S (Сл.)</Russian>
+        <German>M21S (Eingeklappt)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_5RND_762X54_M38_DISPLAYNAME">
+        <Original>5rnd 7.62x54Rmm clip</Original>
+        <English>5rnd 7.62x54Rmm clip</English>
+        <Czech>5náb 7.62x54Rmm pásek</Czech>
+        <French>5rnd 7.62x54Rmm clip</French>
+        <Spanish>5rnd 7.62x54Rmm clip</Spanish>
+        <Italian>5rnd 7.62x54Rmm clip</Italian>
+        <Polish>5rnd 7.62x54Rmm clip</Polish>
+        <Portuguese>5rnd 7.62x54Rmm clip</Portuguese>
+        <Russian>5rnd 7.62x54Rmm clip</Russian>
+        <German>5rnd 7.62x54Rmm clip</German>
+      </Key>
+      <Key ID="STR_RHSGREF_5RND_792X57_KAR98K_DISPLAYNAME">
+        <Original>5rnd 7.92x57mm clip</Original>
+        <English>5rnd 7.92x57mm clip</English>
+        <Czech>5náb 7.92x57mm pásek</Czech>
+        <French>5rnd 7.92x57mm clip</French>
+        <Spanish>5rnd 7.92x57mm clip</Spanish>
+        <Italian>5rnd 7.92x57mm clip</Italian>
+        <Polish>5rnd 7.92x57mm clip</Polish>
+        <Portuguese>5rnd 7.92x57mm clip</Portuguese>
+        <Russian>5rnd 7.92x57mm clip</Russian>
+        <German>5rnd 7.92x57mm clip</German>
+      </Key>
+      <Key ID="STR_RHSGREF_5RND_762X54_M38_DESCRIPTIONSHORT">
+        <Original>Caliber: 7.62x54Rmm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Mosin Nagant M38</Original>
+        <English>Caliber: 7.62x54Rmm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Mosin Nagant M38</English>
+        <Czech>Kalibr: 7.62x54Rmm&lt;br /&gt;Nábojů: 5&lt;br /&gt;Použito v: Mosin Nagant M38</Czech>
+        <French>Caliber: 7.62x54Rmm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Mosin Nagant M38</French>
+        <Spanish>Caliber: 7.62x54Rmm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Mosin Nagant M38</Spanish>
+        <Italian>Calibro: 7.62x54Rmm&lt;br /&gt;Colpi: 5&lt;br /&gt;Usato in: Mosin Nagant M38</Italian>
+        <Polish>Caliber: 7.62x54Rmm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Mosin Nagant M38</Polish>
+        <Portuguese>Caliber: 7.62x54Rmm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Mosin Nagant M38</Portuguese>
+        <Russian>Caliber: 7.62x54Rmm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Mosin Nagant M38</Russian>
+        <German>Caliber: 7.62x54Rmm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Mosin Nagant M38</German>
+      </Key>
+      <Key ID="STR_RHSGREF_5RND_792X57_KAR98K_DESCRIPTIONSHORT">
+        <Original>Caliber: 7.92x57mm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Karabiner 98 Kurz</Original>
+        <English>Caliber: 7.92x57mm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Karabiner 98 Kurz</English>
+        <Czech>Kalibr: 7.92x57mm&lt;br /&gt;Nábojů: 5&lt;br /&gt;Použito v: Karabiner 98 Kurz</Czech>
+        <French>Caliber: 7.92x57mm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Karabiner 98 Kurz</French>
+        <Spanish>Caliber: 7.92x57mm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Karabiner 98 Kurz</Spanish>
+        <Italian>Calibro: 7.92x57mm&lt;br /&gt;Colpi: 5&lt;br /&gt;Usato in: Karabiner 98 Kurz</Italian>
+        <Polish>Caliber: 7.92x57mm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Karabiner 98 Kurz</Polish>
+        <Portuguese>Caliber: 7.92x57mm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Karabiner 98 Kurz</Portuguese>
+        <Russian>Caliber: 7.92x57mm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Karabiner 98 Kurz</Russian>
+        <German>Caliber: 7.92x57mm&lt;br /&gt;Rounds: 5&lt;br /&gt;Used in: Karabiner 98 Kurz</German>
+      </Key>
+      <Key ID="STR_RHSGREF_CRATE">
+        <Original>RHSGREF Virtual Weapon Crate</Original>
+        <English>RHSGREF Virtual Weapon Crate</English>
+        <Czech>RHSGREF Virtual Weapon Crate</Czech>
+        <French>RHSGREF Virtual Weapon Crate</French>
+        <Spanish>RHSGREF Virtual Weapon Crate</Spanish>
+        <Italian>RHSGREF Cassa Virtuale Armi</Italian>
+        <Polish>RHSGREF Virtual Weapon Crate</Polish>
+        <Portuguese>RHSGREF Virtual Weapon Crate</Portuguese>
+        <Russian>RHSGREF Virtual Weapon Crate</Russian>
+        <German>RHSGREF Virtual Weapon Crate</German>
+      </Key>
+      <Key ID="STR_RHSGREF_ACC_RX01_CAMO">
+        <Original>RX01 Camo Reflex</Original>
+        <English>RX01 Camo Reflex</English>
+        <Czech>RX01 Camo Reflex</Czech>
+        <French>RX01 Camo Reflex</French>
+        <Spanish>RX01 Camo Reflex</Spanish>
+        <Italian>RX01 Camo Reflex</Italian>
+        <Polish>RX01 Camo Reflex</Polish>
+        <Portuguese>RX01 Camo Reflex</Portuguese>
+        <Russian>RX01 Camo Reflex</Russian>
+        <German>RX01 Camo Reflex</German>
+      </Key>
+      <Key ID="STR_RHSGREF_ACC_RX01NOFILTER_CAMO">
+        <Original>RX01 Camo (w/o Filter)</Original>
+        <English>RX01 Camo (w/o Filter)</English>
+        <Czech>RX01 Camo (w/o Filter)</Czech>
+        <French>RX01 Camo (w/o Filter)</French>
+        <Spanish>RX01 Camo (w/o Filter)</Spanish>
+        <Italian>RX01 Camo (w/o Filter)</Italian>
+        <Polish>RX01 Camo (w/o Filter)</Polish>
+        <Portuguese>RX01 Camo (w/o Filter)</Portuguese>
+        <Russian>RX01 Camo (w/o Filter)</Russian>
+        <German> RX01 Camo (w/o Filter)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_SAVZ58P">
+        <Original>Sa vz. 58P</Original>
+        <English>Sa vz. 58P</English>
+        <Czech>Sa vz. 58P</Czech>
+        <French>Sa vz. 58P</French>
+        <Spanish>Sa vz. 58P</Spanish>
+        <Italian>Sa vz. 58P</Italian>
+        <Polish>Sa vz. 58P</Polish>
+        <Portuguese>Sa vz. 58P</Portuguese>
+        <Russian>Sa vz. 58P</Russian>
+        <German>Sa vz. 58P</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_SAVZ58V">
+        <Original>Sa vz. 58V</Original>
+        <English>Sa vz. 58V</English>
+        <Czech>Sa vz. 58V</Czech>
+        <French>Sa vz. 58V</French>
+        <Spanish>Sa vz. 58V</Spanish>
+        <Italian>Sa vz. 58V</Italian>
+        <Polish>Sa vz. 58V</Polish>
+        <Portuguese>Sa vz. 58V</Portuguese>
+        <Russian>Sa vz. 58V</Russian>
+        <German>Sa vz. 58V</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_SAVZ58V_FOLD">
+        <Original>Sa vz. 58V (Folded)</Original>
+        <English>Sa vz. 58V (Folded)</English>
+        <Czech>Sa vz. 58V (slopený)</Czech>
+        <French>Sa vz. 58V (Folded)</French>
+        <Spanish>Sa vz. 58V (Plegado)</Spanish>
+        <Italian>Sa vz. 58V (Piegato)</Italian>
+        <Polish>Sa vz. 58V (Złożony)</Polish>
+        <Portuguese>Sa vz. 58V (Folded)</Portuguese>
+        <Russian>Sa vz. 58V (Сл.)</Russian>
+        <German>Sa vz. 58V (Eingeklappt)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_SAVZ58P_RAIL">
+        <Original>Sa vz. 58P (Rail)</Original>
+        <English>Sa vz. 58P (Rail)</English>
+        <Czech>Sa vz. 58P (RIS)</Czech>
+        <French>Sa vz. 58P (Rail)</French>
+        <Spanish>Sa vz. 58P (Rail)</Spanish>
+        <Italian>Sa vz. 58P (Slitta)</Italian>
+        <Polish>Sa vz. 58P (Rail)</Polish>
+        <Portuguese>Sa vz. 58P (Rail)</Portuguese>
+        <Russian>Sa vz. 58P (Rail)</Russian>
+        <German>Sa vz. 58P (Rail)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_SAVZ58V_RAIL">
+        <Original>Sa vz. 58V (Rail)</Original>
+        <English>Sa vz. 58V (Rail)</English>
+        <Czech>Sa vz. 58V (RIS)</Czech>
+        <French>Sa vz. 58V (Rail)</French>
+        <Spanish>Sa vz. 58V (Rail)</Spanish>
+        <Italian>Sa vz. 58V (Slitta)</Italian>
+        <Polish>Sa vz. 58V (Rail)</Polish>
+        <Portuguese>Sa vz. 58V (Rail)</Portuguese>
+        <Russian>Sa vz. 58V (Rail)</Russian>
+        <German>Sa vz. 58V (Rail)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_SAVZ58V_RAIL_FOLD">
+        <Original>Sa vz. 58V (Rail, Folded)</Original>
+        <English>Sa vz. 58V (Rail, Folded)</English>
+        <Czech>Sa vz. 58V (RIS, slopený)</Czech>
+        <French>Sa vz. 58V (Rail, Folded)</French>
+        <Spanish>Sa vz. 58V (Rail, Plegado)</Spanish>
+        <Italian>Sa vz. 58V (Slitta, Piegato)</Italian>
+        <Polish>Sa vz. 58V (Rail, Złożony)</Polish>
+        <Portuguese>Sa vz. 58V (Rail, Folded)</Portuguese>
+        <Russian>Sa vz. 58V (Rail, Сл.)</Russian>
+        <German>Sa vz. 58V (Rail, Eingeklappt)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_SAVZ58V_RIS">
+        <Original>Sa vz. 58V (RIS)</Original>
+        <English>Sa vz. 58V (RIS)</English>
+        <Czech>Sa vz. 58V (RIS)</Czech>
+        <French>Sa vz. 58V (RIS)</French>
+        <Spanish>Sa vz. 58V (RIS)</Spanish>
+        <Italian>Sa vz. 58V (RIS)</Italian>
+        <Polish>Sa vz. 58V (RIS)</Polish>
+        <Portuguese>Sa vz. 58V (RIS)</Portuguese>
+        <Russian>Sa vz. 58V (RIS)</Russian>
+        <German>Sa vz. 58V (RIS)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_SAVZ58V_RIS_FOLD">
+        <Original>Sa vz. 58V (RIS, Folded)</Original>
+        <English>Sa vz. 58V (RIS, Folded)</English>
+        <Czech>Sa vz. 58V (RIS, slopený)</Czech>
+        <French>Sa vz. 58V (RIS, Folded)</French>
+        <Spanish>Sa vz. 58V (RIS, Plegado)</Spanish>
+        <Italian>Sa vz. 58V (RIS, Piegato)</Italian>
+        <Polish>Sa vz. 58V (RIS, Złożony)</Polish>
+        <Portuguese>Sa vz. 58V (RIS, Folded)</Portuguese>
+        <Russian>Sa vz. 58V (RIS, Сл.)</Russian>
+        <German>Sa vz. 58V (RIS, Eingeklappt)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_SAVZ58P_BLACK">
+        <Original>Sa vz. 58P (Black)</Original>
+        <English>Sa vz. 58P (Black)</English>
+        <Czech>Sa vz. 58P (černá)</Czech>
+        <French>Sa vz. 58P (Black)</French>
+        <Spanish>Sa vz. 58P (Black)</Spanish>
+        <Italian>Sa vz. 58P (Nero)</Italian>
+        <Polish>Sa vz. 58P (Black)</Polish>
+        <Portuguese>Sa vz. 58P (Black)</Portuguese>
+        <Russian>Sa vz. 58P (Black)</Russian>
+        <German>Sa vz. 58P (Black)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_SAVZ58V_BLACK">
+        <Original>Sa vz. 58V (Black)</Original>
+        <English>Sa vz. 58V (Black)</English>
+        <Czech>Sa vz. 58V (černá)</Czech>
+        <French>Sa vz. 58V (Black)</French>
+        <Spanish>Sa vz. 58V (Black)</Spanish>
+        <Italian>Sa vz. 58V (Nero)</Italian>
+        <Polish>Sa vz. 58V (Black)</Polish>
+        <Portuguese>Sa vz. 58V (Black)</Portuguese>
+        <Russian>Sa vz. 58V (Black)</Russian>
+        <German>Sa vz. 58V (Black)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_SAVZ58V_FOLD_BLACK">
+        <Original>Sa vz. 58V (Folded, Black)</Original>
+        <English>Sa vz. 58V (Folded, Black)</English>
+        <Czech>Sa vz. 58V (slopený, černá)</Czech>
+        <French>Sa vz. 58V (Folded, Black)</French>
+        <Spanish>Sa vz. 58V (Plegado, Black)</Spanish>
+        <Italian>Sa vz. 58V (Piegato, Nero)</Italian>
+        <Polish>Sa vz. 58V (Złożony, Black)</Polish>
+        <Portuguese>Sa vz. 58V (Folded, Black)</Portuguese>
+        <Russian>Sa vz. 58V (Сл., Black)</Russian>
+        <German>Sa vz. 58V (Eingeklappt, Black)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_SAVZ58P_RAIL_BLACK">
+        <Original>Sa vz. 58P (Rail, Black)</Original>
+        <English>Sa vz. 58P (Rail, Black)</English>
+        <Czech>Sa vz. 58P (RIS, černá)</Czech>
+        <French>Sa vz. 58P (Rail, Black)</French>
+        <Spanish>Sa vz. 58P (Rail, Black)</Spanish>
+        <Italian>Sa vz. 58P (Slitta, Nero)</Italian>
+        <Polish>Sa vz. 58P (Rail, Black)</Polish>
+        <Portuguese>Sa vz. 58P (Rail, Black)</Portuguese>
+        <Russian>Sa vz. 58P (Rail, Black)</Russian>
+        <German>Sa vz. 58P (Rail, Black)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_SAVZ58V_RAIL_BLACK">
+        <Original>Sa vz. 58V (Rail, Black)</Original>
+        <English>Sa vz. 58V (Rail, Black)</English>
+        <Czech>Sa vz. 58V (RIS, černá)</Czech>
+        <French>Sa vz. 58V (Rail, Black)</French>
+        <Spanish>Sa vz. 58V (Rail, Black)</Spanish>
+        <Italian>Sa vz. 58V (Slitta, Nero)</Italian>
+        <Polish>Sa vz. 58V (Rail, Black)</Polish>
+        <Portuguese>Sa vz. 58V (Rail, Black)</Portuguese>
+        <Russian>Sa vz. 58V (Rail, Black)</Russian>
+        <German>Sa vz. 58V (Rail, Black)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_SAVZ58V_RAIL_FOLD_BLACK">
+        <Original>Sa vz. 58V (Rail, Folded, Black)</Original>
+        <English>Sa vz. 58V (Rail, Folded, Black)</English>
+        <Czech>Sa vz. 58V (RIS, slopený, černá)</Czech>
+        <French>Sa vz. 58V (Rail, Folded, Black)</French>
+        <Spanish>Sa vz. 58V (Rail, Plegado, Black)</Spanish>
+        <Italian>Sa vz. 58V (Slitta, Piegato, Nero)</Italian>
+        <Polish>Sa vz. 58V (Rail, Złożony, Black)</Polish>
+        <Portuguese>Sa vz. 58V (Rail, Folded, Black)</Portuguese>
+        <Russian>Sa vz. 58V (Rail, Сл., Black)</Russian>
+        <German>Sa vz. 58V (Rail, Eingeklappt, Black)</German>
+      </Key>
+      <Key ID="STR_RHS_CFGMAGAZINES_30RND_762X39_MAG_VZ58">
+        <Original>30Rnd Sa vz. 58 7.62x39mm </Original>
+        <English>30Rnd Sa vz. 58 7.62x39mm </English>
+        <Czech>30Rnd Sa vz. 58 7.62x39mm </Czech>
+        <French>30Rnd Sa vz. 58 7.62x39mm </French>
+        <Spanish>30Rnd Sa vz. 58 7.62x39mm </Spanish>
+        <Italian>30Rnd Sa vz. 58 7.62x39mm </Italian>
+        <Polish>30Rnd Sa vz. 58 7.62x39mm </Polish>
+        <Portuguese>30Rnd Sa vz. 58 7.62x39mm </Portuguese>
+        <Russian>30Rnd Sa vz. 58 7.62x39mm </Russian>
+        <German>30Rnd Sa vz. 58 7.62x39mm </German>
+      </Key>
+      <Key ID="STR_RHS_CFGMAGAZINES_6RND_8X22_MAG_NAMBU">
+        <Original>6Rnd Type 94 Nambu 8x22mm </Original>
+        <English>6Rnd Type 94 Nambu 8x22mm </English>
+        <Czech>6Rnd Type 94 Nambu 8x22mm </Czech>
+        <French>6Rnd Type 94 Nambu 8x22mm </French>
+        <Spanish>6Rnd Type 94 Nambu 8x22mm </Spanish>
+        <Italian>6Rnd Type 94 Nambu 8x22mm </Italian>
+        <Polish>6Rnd Type 94 Nambu 8x22mm </Polish>
+        <Portuguese>6Rnd Type 94 Nambu 8x22mm </Portuguese>
+        <Russian>6Rnd Type 94 Nambu 8x22mm </Russian>
+        <German>6Rnd Type 94 Nambu 8x22mm </German>
+      </Key>
+      <Key ID="STR_RHS_CFGMAGAZINES_30RND_762X39_MAG_VZ58_TRACER">
+        <Original>30Rnd Sa vz. 58 7.62x39mm (Tracer)</Original>
+        <English>30Rnd Sa vz. 58 7.62x39mm (Tracer)</English>
+        <Czech>30Rnd Sa vz. 58 7.62x39mm (Tracer)</Czech>
+        <French>30Rnd Sa vz. 58 7.62x39mm (Tracer)</French>
+        <Spanish>30Rnd Sa vz. 58 7.62x39mm (Tracer)</Spanish>
+        <Italian>30Rnd Sa vz. 58 7.62x39mm (Traccianti)</Italian>
+        <Polish>30Rnd Sa vz. 58 7.62x39mm (Tracer)</Polish>
+        <Portuguese>30Rnd Sa vz. 58 7.62x39mm (Tracer)</Portuguese>
+        <Russian>30Rnd Sa vz. 58 7.62x39mm (Tracer)</Russian>
+        <German>30Rnd Sa vz. 58 7.62x39mm (Tracer)</German>
+      </Key>
+      <Key ID="STR_RHS_CFGMAGAZINES_30RND_762X39_VZ58_MAG_Desc_0">
+        <Original>Caliber: 7.62x39mm FMJ&lt;br /&gt;Rounds: 30&lt;br /&gt;Used in: Sa vz. 58</Original>
+        <English>Caliber: 7.62x39mm FMJ&lt;br /&gt;Rounds: 30&lt;br /&gt;Used in: Sa vz. 58</English>
+        <Czech>Caliber: 7.62x39mm FMJ&lt;br /&gt;Munice: 30&lt;br /&gt;Použití in: Sa vz. 58</Czech>
+        <French>Caliber: 7.62x39mm FMJ&lt;br /&gt;Balle: 30&lt;br /&gt;Utilisé dans: Sa vz. 58</French>
+        <Spanish>Calibre: 7.62x39mm FMJ&lt;br /&gt;Cartuchos: 30&lt;br /&gt;Usado en: Sa vz. 58</Spanish>
+        <Italian>Calibro: 7.62x39mm FMJ&lt;br /&gt;Colpi: 30&lt;br /&gt;Usato in: Sa vz. 58</Italian>
+        <Polish>Kaliber: 7,62x39mm FMJ&lt;br /&gt;Naboje: 30&lt;br /&gt;Używany w: Sa vz. 58</Polish>
+        <Portuguese>Caliber: 7.62x39mm FMJ&lt;br /&gt;Cartuchos: 30&lt;br /&gt;Usado em: Sa vz. 58</Portuguese>
+        <German>Kaliber: 7.62x39mm FMJ&lt;br /&gt;Patronen: 30&lt;br /&gt;Benutzt in: Sa vz. 58</German>
+      </Key>
+      <Key ID="STR_RHS_CFGMAGAZINES_30RND_762X39_VZ58_MAG_Desc_2">
+        <Original>Caliber: 7.62x39mm Tracer&lt;br /&gt;Rounds: 30&lt;br /&gt;Used in: Sa vz. 58</Original>
+        <English>Caliber: 7.62x39mm Tracer&lt;br /&gt;Rounds: 30&lt;br /&gt;Used in: Sa vz. 58</English>
+        <Czech>Caliber: 7.62x39mm Stopovky&lt;br /&gt;Munice: 30&lt;br /&gt;Použití in: Sa vz. 58</Czech>
+        <French>Caliber: 7.62x39mm Balles traceuses&lt;br /&gt;Balle: 30&lt;br /&gt;Utilisé dans: Sa vz. 58</French>
+        <Spanish>Calibre: 7.62x39mm Trazadoras&lt;br /&gt;Cartuchos: 30&lt;br /&gt;Usado en: Sa vz. 58</Spanish>
+        <Italian>Calibro: 7.62x39mm Traccianti&lt;br /&gt;Colpi: 30&lt;br /&gt;Usato in: Sa vz. 58</Italian>
+        <Polish>Kaliber: 7,62x39mm Pocisk smugowa&lt;br /&gt;Naboje: 30&lt;br /&gt;Używany w: Sa vz. 58</Polish>
+        <Portuguese>Caliber: 7.62x39mm Tracer&lt;br /&gt;Cartuchos: 30&lt;br /&gt;Usado em: Sa vz. 58</Portuguese>
+        <German>Kaliber: 7.62x39mm Leuchtspur&lt;br /&gt;Patronen: 30&lt;br /&gt;Benutzt in: Sa vz. 58</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_TT33">
+        <Original>TT-33</Original>
+        <English>TT-33</English>
+        <Czech>TT-33</Czech>
+        <French>TT-33</French>
+        <Spanish>TT-33</Spanish>
+        <Italian>TT-33</Italian>
+        <Polish>TT-33</Polish>
+        <Portuguese>TT-33</Portuguese>
+        <Russian>TT-33</Russian>
+        <German>TT-33</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_TYPE94">
+        <Original>Type 94 Nambu</Original>
+        <English>Type 94 Nambu</English>
+        <Czech>Type 94 Nambu</Czech>
+        <French>Type 94 Nambu</French>
+        <Spanish>Type 94 Nambu</Spanish>
+        <Italian>Type 94 Nambu</Italian>
+        <Polish>Type 94 Nambu</Polish>
+        <Portuguese>Type 94 Nambu</Portuguese>
+        <Russian>Type 94 Nambu</Russian>
+        <German>Type 94 Nambu</German>
+      </Key>
+      <Key ID="STR_RHS_CFGMAGAZINES_8RND_762X25_MAG_TT33">
+        <Original>8Rnd TT-33 7.62x25mm</Original>
+        <English>8Rnd TT-33 7.62x25mm</English>
+        <Czech>8Rnd TT-33 7.62x25mm</Czech>
+        <French>8Rnd TT-33 7.62x25mm</French>
+        <Spanish>8Rnd TT-33 7.62x25mm</Spanish>
+        <Italian>8Rnd TT-33 7.62x25mm</Italian>
+        <Polish>8Rnd TT-33 7.62x25mm</Polish>
+        <Portuguese>8Rnd TT-33 7.62x25mm</Portuguese>
+        <Russian>8Rnd TT-33 7.62x25mm</Russian>
+        <German>8Rnd TT-33 7.62x25mm</German>
+      </Key>
+      <Key ID="STR_RHS_CFGMAGAZINES_8RND_762X25_TT33_MAG_Desc_0">
+        <Original>Caliber: 7.62x25mm&lt;br /&gt;Rounds: 8&lt;br /&gt;Used in: TT-33</Original>
+        <English>Caliber: 7.62x25mm&lt;br /&gt;Rounds: 8&lt;br /&gt;Used in: TT-33</English>
+        <Czech>Caliber: 7.62x25mm&lt;br /&gt;Munice: 8&lt;br /&gt;Použití in: TT-33</Czech>
+        <French>Caliber: 7.62x25mm&lt;br /&gt;Balle: 8&lt;br /&gt;Utilisé dans: TT-33</French>
+        <Spanish>Calibre: 7.62x25mm&lt;br /&gt;Cartuchos: 8&lt;br /&gt;Usado en: TT-33</Spanish>
+        <Italian>Calibro: 7.62x25mm&lt;br /&gt;Colpi: 8&lt;br /&gt;Usato in: TT-33</Italian>
+        <Polish>Kaliber: 7,62x25mm&lt;br /&gt;Naboje: 8&lt;br /&gt;Używany w: TT-33</Polish>
+        <Portuguese>Caliber: 7.62x25mm&lt;br /&gt;Cartuchos: 8&lt;br /&gt;Usado em: TT-33</Portuguese>
+        <German>Kaliber: 7.62x25mm&lt;br /&gt;Patronen: 8&lt;br /&gt;Benutzt in: TT-33</German>
+      </Key>
+      <Key ID="STR_RHSGREF_20RND_765X17_VZ61_DISPLAYNAME">
+        <Original>20rnd Vz. 61 7.65x17mm</Original>
+        <English>20rnd Vz. 61 7.65x17mm</English>
+        <Czech>20rnd Vz. 61 7.65x17mm</Czech>
+        <French>20rnd Vz. 61 7.65x17mm</French>
+        <Spanish>20rnd Vz. 61 7.65x17mm</Spanish>
+        <Italian>20rnd Vz. 61 7.65x17mm</Italian>
+        <Polish>20rnd Vz. 61 7.65x17mm</Polish>
+        <Portuguese>20rnd Vz. 61 7.65x17mm</Portuguese>
+        <Russian>20rnd Vz. 61 7.65x17mm</Russian>
+        <German>20rnd Vz. 61 7.65x17mm</German>
+      </Key>
+      <Key ID="STR_RHSGREF_20RND_765X17_VZ61_DESCRIPTIONSHORT">
+        <Original>20rnd 7.65x17mm mag for Sa vz. 61</Original>
+        <English>20rnd 7.65x17mm mag for Sa vz. 61</English>
+        <Czech>20rnd 7.65x17mm mag for Sa vz. 61</Czech>
+        <French>20rnd 7.65x17mm mag for Sa vz. 61</French>
+        <Spanish>20rnd 7.65x17mm mag for Sa vz. 61</Spanish>
+        <Italian>20rnd 7.65x17mm mag for Sa vz. 61</Italian>
+        <Polish>20rnd 7.65x17mm mag for Sa vz. 61</Polish>
+        <Portuguese>20rnd 7.65x17mm mag for Sa vz. 61</Portuguese>
+        <Russian>20rnd 7.65x17mm mag for Sa vz. 61</Russian>
+        <German>20rnd 7.65x17mm mag for Sa vz. 61</German>
+      </Key>
+      <Key ID="STR_RHSGREF_10RND_765X17_VZ61_DISPLAYNAME">
+        <Original>10rnd Vz. 61 7.65x17mm</Original>
+        <English>10rnd Vz. 61 7.65x17mm</English>
+        <Czech>10rnd Vz. 61 7.65x17mm</Czech>
+        <French>10rnd Vz. 61 7.65x17mm</French>
+        <Spanish>10rnd Vz. 61 7.65x17mm</Spanish>
+        <Italian>10rnd Vz. 61 7.65x17mm</Italian>
+        <Polish>10rnd Vz. 61 7.65x17mm</Polish>
+        <Portuguese>10rnd Vz. 61 7.65x17mm</Portuguese>
+        <Russian>10rnd Vz. 61 7.65x17mm</Russian>
+        <German>10rnd Vz. 61 7.65x17mm</German>
+      </Key>
+      <Key ID="STR_RHSGREF_10RND_765X17_VZ61_DESCRIPTIONSHORT">
+        <Original>10rnd 7.65x17mm mag for Sa vz. 61</Original>
+        <English>10rnd 7.65x17mm mag for Sa vz. 61</English>
+        <Czech>10rnd 7.65x17mm mag for Sa vz. 61</Czech>
+        <French>10rnd 7.65x17mm mag for Sa vz. 61</French>
+        <Spanish>10rnd 7.65x17mm mag for Sa vz. 61</Spanish>
+        <Italian>10rnd 7.65x17mm mag for Sa vz. 61</Italian>
+        <Polish>10rnd 7.65x17mm mag for Sa vz. 61</Polish>
+        <Portuguese>10rnd 7.65x17mm mag for Sa vz. 61</Portuguese>
+        <Russian>10rnd 7.65x17mm mag for Sa vz. 61</Russian>
+        <German>10rnd 7.65x17mm mag for Sa vz. 61</German>
+      </Key>
+      <Key ID="STR_RHS_WEAP_SAVZ61_DISPLAYNAME">
+        <Original>Sa vz. 61</Original>
+        <English>Sa vz. 61</English>
+        <Czech>Sa vz. 61</Czech>
+        <French>Sa vz. 61</French>
+        <Spanish>Sa vz. 61</Spanish>
+        <Italian>Sa vz. 61</Italian>
+        <Polish>Sa vz. 61</Polish>
+        <Portuguese>Sa vz. 61</Portuguese>
+        <Russian>Sa vz. 61</Russian>
+        <German>Sa vz. 61</German>
+      </Key>
+      <Key ID="STR_RHS_WEAP_SAVZ61_FOLDED_DISPLAYNAME">
+        <Original>Sa vz. 61 (Folded)</Original>
+        <English>Sa vz. 61 (Folded)</English>
+        <Czech>Sa vz. 61 (Folded)</Czech>
+        <French>Sa vz. 61 (Folded)</French>
+        <Spanish>Sa vz. 61 (Folded)</Spanish>
+        <Italian>Sa vz. 61 (Folded)</Italian>
+        <Polish>Sa vz. 61 (Folded)</Polish>
+        <Portuguese>Sa vz. 61 (Folded)</Portuguese>
+        <Russian>Sa vz. 61 (Folded)</Russian>
+        <German>Sa vz. 61 (Folded)</German>
+      </Key>
+      <Key ID="STR_RHS_WEAP_SAVZ61_FOLDED_DESCRIPTIONSHORT">
+        <Original>Sa vz. 61 (Folded)</Original>
+        <English>Sa vz. 61 (Folded)</English>
+        <Czech>Sa vz. 61 (Folded)</Czech>
+        <French>Sa vz. 61 (Folded)</French>
+        <Spanish>Sa vz. 61 (Folded)</Spanish>
+        <Italian>Sa vz. 61 (Folded)</Italian>
+        <Polish>Sa vz. 61 (Folded)</Polish>
+        <Portuguese>Sa vz. 61 (Folded)</Portuguese>
+        <Russian>Sa vz. 61 (Folded)</Russian>
+        <German>Sa vz. 61 (Folded)</German>
+      </Key>
+      <Key ID="STR_RHS_WEAP_IZH18_DISPLAYNAME">
+        <Original>IZh-18 12 Gauge</Original>
+        <English>IZh-18 12 Gauge</English>
+        <Czech>IZh-18 12 Gauge</Czech>
+        <French>IZh-18 12 Gauge</French>
+        <Spanish>IZh-18 12 Gauge</Spanish>
+        <Italian>IZh-18 12 Gauge</Italian>
+        <Polish>IZh-18 12 Gauge</Polish>
+        <Portuguese>IZh-18 12 Gauge</Portuguese>
+        <Russian>IZh-18 12 Gauge</Russian>
+        <German>IZh-18 12 Gauge</German>
+      </Key>
+      <Key ID="STR_RHSGREF_ACC_ZENDL_DISPLAYNAME">
+        <Original>Zendl compensator</Original>
+        <English>Zendl compensator</English>
+        <Czech>Zendl compensator</Czech>
+        <French>Zendl compensator</French>
+        <Spanish>Zendl compensator</Spanish>
+        <Italian>Zendl compensator</Italian>
+        <Polish>Zendl compensator</Polish>
+        <Portuguese>Zendl compensator</Portuguese>
+        <Russian>Zendl compensator</Russian>
+        <German>Zendl compensator</German>
+      </Key>
+      <Key ID="STR_RHSGREF_SDN6_SUPPRESSOR_DISPLAYNAME">
+        <Original>AAC 762-SDN-6 (cover)</Original>
+        <English>AAC 762-SDN-6 (cover)</English>
+        <Czech>AAC 762-SDN-6 (cover)</Czech>
+        <French>AAC 762-SDN-6 (cover)</French>
+        <Spanish>AAC 762-SDN-6 (cover)</Spanish>
+        <Italian>AAC 762-SDN-6 (cover)</Italian>
+        <Polish>AAC 762-SDN-6 (cover)</Polish>
+        <Portuguese>AAC 762-SDN-6 (cover)</Portuguese>
+        <Russian>AAC 762-SDN-6 (cover)</Russian>
+        <German>AAC 762-SDN-6 (cover)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_MG42_DISPLAY_NAME">
+        <Original>MG42</Original>
+        <English>MG42</English>
+        <Czech>MG42</Czech>
+        <French>MG42</French>
+        <Spanish>MG42</Spanish>
+        <Italian>MG42</Italian>
+        <Polish>MG42</Polish>
+        <Portuguese>MG42</Portuguese>
+        <Russian>MG42</Russian>
+        <German>MG42</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_MG42_BELT_DISPLAY_NAME">
+        <Original>MG42 (Loose Belt)</Original>
+        <English>MG42 (Loose Belt)</English>
+        <Czech>MG42 (Loose Belt)</Czech>
+        <French>MG42 (Loose Belt)</French>
+        <Spanish>MG42 (Loose Belt)</Spanish>
+        <Italian>MG42 (Loose Belt)</Italian>
+        <Polish>MG42 (Loose Belt)</Polish>
+        <Portuguese>MG42 (Loose Belt)</Portuguese>
+        <Russian>MG42 (Loose Belt)</Russian>
+        <German>MG42 (Loose Belt)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_MG42_DRUM_DISPLAY_NAME">
+        <Original>MG42 (Drum)</Original>
+        <English>MG42 (Drum)</English>
+        <Czech>MG42 (Drum)</Czech>
+        <French>MG42 (Drum)</French>
+        <Spanish>MG42 (Drum)</Spanish>
+        <Italian>MG42 (Drum)</Italian>
+        <Polish>MG42 (Drum)</Polish>
+        <Portuguese>MG42 (Drum)</Portuguese>
+        <Russian>MG42 (Drum)</Russian>
+        <German>MG42 (Drum)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M1RIFLE_DISPLAY_NAME">
+        <Original>M1 Garand</Original>
+        <English>M1 Garand</English>
+        <Czech>M1 Garand</Czech>
+        <French>M1 Garand</French>
+        <Spanish>M1 Garand</Spanish>
+        <Italian>M1 Garand</Italian>
+        <Polish>M1 Garand</Polish>
+        <Portuguese>M1 Garand</Portuguese>
+        <Russian>M1 Garand</Russian>
+        <German>M1 Garand</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_K98K1943_DISPLAY_NAME">
+        <Original>K98k ('43)</Original>
+        <English>K98k ('43)</English>
+        <Czech>K98k ('43)</Czech>
+        <French>K98k ('43)</French>
+        <Spanish>K98k ('43)</Spanish>
+        <Italian>K98k ('43)</Italian>
+        <Polish>K98k ('43)</Polish>
+        <Portuguese>K98k ('43)</Portuguese>
+        <Russian>K98k ('43)</Russian>
+        <German>K98k ('43)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_K98K1944_DISPLAY_NAME">
+        <Original>K98k ('44)</Original>
+        <English>K98k ('44)</English>
+        <Czech>K98k ('44)</Czech>
+        <French>K98k ('44)</French>
+        <Spanish>K98k ('44)</Spanish>
+        <Italian>K98k ('44)</Italian>
+        <Polish>K98k ('44)</Polish>
+        <Portuguese>K98k ('44)</Portuguese>
+        <Russian>K98k ('44)</Russian>
+        <German>K98k ('44)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_MP44_DISPLAY_NAME">
+        <Original>MP44</Original>
+        <English>MP44</English>
+        <Czech>MP44</Czech>
+        <French>MP44</French>
+        <Spanish>MP44</Spanish>
+        <Italian>MP44</Italian>
+        <Polish>MP44</Polish>
+        <Portuguese>MP44</Portuguese>
+        <Russian>MP44</Russian>
+        <German>MP44</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M3A1_JUNGLE_DISPLAY_NAME">
+        <Original>M3A1 (Jungle mag)</Original>
+        <English>M3A1 (Jungle mag)</English>
+        <Czech>M3A1 (Jungle mag)</Czech>
+        <French>M3A1 (Jungle mag)</French>
+        <Spanish>M3A1 (Jungle mag)</Spanish>
+        <Italian>M3A1 (Jungle mag)</Italian>
+        <Polish>M3A1 (Jungle mag)</Polish>
+        <Portuguese>M3A1 (Jungle mag)</Portuguese>
+        <Russian>M3A1 (Jungle mag)</Russian>
+        <German>M3A1 (Jungle mag)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M3A1_DISPLAY_NAME">
+        <Original>M3A1</Original>
+        <English>M3A1</English>
+        <Czech>M3A1</Czech>
+        <French>M3A1</French>
+        <Spanish>M3A1</Spanish>
+        <Italian>M3A1</Italian>
+        <Polish>M3A1</Polish>
+        <Portuguese>M3A1</Portuguese>
+        <Russian>M3A1</Russian>
+        <German>M3A1</German>
+      </Key>
+      <Key ID="STR_RHSGREF_WEAP_M3A1_SPECOPS_DISPLAY_NAME">
+        <Original>M3A1 (SD)</Original>
+        <English>M3A1 (SD)</English>
+        <Czech>M3A1 (SD)</Czech>
+        <French>M3A1 (SD)</French>
+        <Spanish>M3A1 (SD)</Spanish>
+        <Italian>M3A1 (SD)</Italian>
+        <Polish>M3A1 (SD)</Polish>
+        <Portuguese>M3A1 (SD)</Portuguese>
+        <Russian>M3A1 (SD)</Russian>
+        <German>M3A1 (SD)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_9x19_P08_8RND_P38">
+        <Original>8Rnd 9x19 P.p. 08</Original>
+        <English>8Rnd 9x19 P.p. 08</English>
+        <Czech>8Rnd 9x19 P.p. 08</Czech>
+        <French>8Rnd 9x19 P.p. 08</French>
+        <Spanish>8Rnd 9x19 P.p. 08</Spanish>
+        <Italian>8Rnd 9x19 P.p. 08</Italian>
+        <Polish>8Rnd 9x19 P.p. 08</Polish>
+        <Portuguese>8Rnd 9x19 P.p. 08</Portuguese>
+        <Russian>8Rnd 9x19 P.p. 08</Russian>
+        <German>8Rnd 9x19 P.p. 08</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_9x19_P08SE_8RND_P38">
+        <Original>8Rnd 9x19 P.p. 08 S.E.</Original>
+        <English>8Rnd 9x19 P.p. 08 S.E.</English>
+        <Czech>8Rnd 9x19 P.p. 08 S.E.</Czech>
+        <French>8Rnd 9x19 P.p. 08 S.E.</French>
+        <Spanish>8Rnd 9x19 P.p. 08 S.E.</Spanish>
+        <Italian>8Rnd 9x19 P.p. 08 S.E.</Italian>
+        <Polish>8Rnd 9x19 P.p. 08 S.E.</Polish>
+        <Portuguese>8Rnd 9x19 P.p. 08 S.E.</Portuguese>
+        <Russian>8Rnd 9x19 P.p. 08 S.E.</Russian>
+        <German>8Rnd 9x19 P.p. 08 S.E.</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_9x19_P08ME_8RND_P38">
+        <Original>8Rnd 9x19 P.p. 08 m.E.</Original>
+        <English>8Rnd 9x19 P.p. 08 m.E.</English>
+        <Czech>8Rnd 9x19 P.p. 08 m.E.</Czech>
+        <French>8Rnd 9x19 P.p. 08 m.E.</French>
+        <Spanish>8Rnd 9x19 P.p. 08 m.E.</Spanish>
+        <Italian>8Rnd 9x19 P.p. 08 m.E.</Italian>
+        <Polish>8Rnd 9x19 P.p. 08 m.E.</Polish>
+        <Portuguese>8Rnd 9x19 P.p. 08 m.E.</Portuguese>
+        <Russian>8Rnd 9x19 P.p. 08 m.E.</Russian>
+        <German>8Rnd 9x19 P.p. 08 m.E.</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_45ACP_M1911_30RND_SMG">
+        <Original>30Rnd .45ACP M1911</Original>
+        <English>30Rnd .45ACP M1911</English>
+        <Czech>30Rnd .45ACP M1911</Czech>
+        <French>30Rnd .45ACP M1911</French>
+        <Spanish>30Rnd .45ACP M1911</Spanish>
+        <Italian>30Rnd .45ACP M1911</Italian>
+        <Polish>30Rnd .45ACP M1911</Polish>
+        <Portuguese>30Rnd .45ACP M1911</Portuguese>
+        <Russian>30Rnd .45ACP M1911</Russian>
+        <German>30Rnd .45ACP M1911</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_45ACP_M1911_30RND_2MAG_SMG">
+        <Original>30Rnd .45ACP M1911 (Jungle mag)</Original>
+        <English>30Rnd .45ACP M1911 (Jungle mag)</English>
+        <Czech>30Rnd .45ACP M1911 (Jungle mag)</Czech>
+        <French>30Rnd .45ACP M1911 (Jungle mag)</French>
+        <Spanish>30Rnd .45ACP M1911 (Jungle mag)</Spanish>
+        <Italian>30Rnd .45ACP M1911 (Jungle mag)</Italian>
+        <Polish>30Rnd .45ACP M1911 (Jungle mag)</Polish>
+        <Portuguese>30Rnd .45ACP M1911 (Jungle mag)</Portuguese>
+        <Russian>30Rnd .45ACP M1911 (Jungle mag)</Russian>
+        <German>30Rnd .45ACP M1911 (Jungle mag)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_45ACP_M1T_30RND_SMG">
+        <Original>30Rnd .45ACP M1 (Tracer)</Original>
+        <English>30Rnd .45ACP M1 (Tracer)</English>
+        <Czech>30Rnd .45ACP M1 (Tracer)</Czech>
+        <French>30Rnd .45ACP M1 (Tracer)</French>
+        <Spanish>30Rnd .45ACP M1 (Tracer)</Spanish>
+        <Italian>30Rnd .45ACP M1 (Tracer)</Italian>
+        <Polish>30Rnd .45ACP M1 (Tracer)</Polish>
+        <Portuguese>30Rnd .45ACP M1 (Tracer)</Portuguese>
+        <Russian>30Rnd .45ACP M1 (Tracer)</Russian>
+        <German>30Rnd .45ACP M1 (Tracer)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_45ACP_M1T_30RND_2MAG_SMG">
+        <Original>30Rnd .45ACP M1 (Tracer/Jungle mag)</Original>
+        <English>30Rnd .45ACP M1 (Tracer/Jungle mag)</English>
+        <Czech>30Rnd .45ACP M1 (Tracer/Jungle mag)</Czech>
+        <French>30Rnd .45ACP M1 (Tracer/Jungle mag)</French>
+        <Spanish>30Rnd .45ACP M1 (Tracer/Jungle mag)</Spanish>
+        <Italian>30Rnd .45ACP M1 (Tracer/Jungle mag)</Italian>
+        <Polish>30Rnd .45ACP M1 (Tracer/Jungle mag)</Polish>
+        <Portuguese>30Rnd .45ACP M1 (Tracer/Jungle mag)</Portuguese>
+        <Russian>30Rnd .45ACP M1 (Tracer/Jungle mag)</Russian>
+        <German>30Rnd .45ACP M1 (Tracer/Jungle mag)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_45ACP_M1911_20RND_SMG">
+        <Original>20Rnd .45ACP M1911</Original>
+        <English>20Rnd .45ACP M1911</English>
+        <Czech>20Rnd .45ACP M1911</Czech>
+        <French>20Rnd .45ACP M1911</French>
+        <Spanish>20Rnd .45ACP M1911</Spanish>
+        <Italian>20Rnd .45ACP M1911</Italian>
+        <Polish>20Rnd .45ACP M1911</Polish>
+        <Portuguese>20Rnd .45ACP M1911</Portuguese>
+        <Russian>20Rnd .45ACP M1911</Russian>
+        <German>20Rnd .45ACP M1911</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_45ACP_M1T_20RND_SMG">
+        <Original>20Rnd .45ACP M1 (Tracer)</Original>
+        <English>20Rnd .45ACP M1 (Tracer)</English>
+        <Czech>20Rnd .45ACP M1 (Tracer)</Czech>
+        <French>20Rnd .45ACP M1 (Tracer)</French>
+        <Spanish>20Rnd .45ACP M1 (Tracer)</Spanish>
+        <Italian>20Rnd .45ACP M1 (Tracer)</Italian>
+        <Polish>20Rnd .45ACP M1 (Tracer)</Polish>
+        <Portuguese>20Rnd .45ACP M1 (Tracer)</Portuguese>
+        <Russian>20Rnd .45ACP M1 (Tracer)</Russian>
+        <German>20Rnd .45ACP M1 (Tracer)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_30CAL_M2_8RND_M1R">
+        <Original>8Rnd .30-06 M2</Original>
+        <English>8Rnd .30-06 M2</English>
+        <Czech>8Rnd .30-06 M2</Czech>
+        <French>8Rnd .30-06 M2</French>
+        <Spanish>8Rnd .30-06 M2</Spanish>
+        <Italian>8Rnd .30-06 M2</Italian>
+        <Polish>8Rnd .30-06 M2</Polish>
+        <Portuguese>8Rnd .30-06 M2</Portuguese>
+        <Russian>8Rnd .30-06 M2</Russian>
+        <German>8Rnd. .30-06 M2</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_30CAL_M1T_8RND_M1R">
+        <Original>8Rnd .30-06 M1 (Tracer)</Original>
+        <English>8Rnd .30-06 M1 (Tracer)</English>
+        <Czech>8Rnd .30-06 M1 (Tracer)</Czech>
+        <French>8Rnd .30-06 M1 (Tracer)</French>
+        <Spanish>8Rnd .30-06 M1 (Tracer)</Spanish>
+        <Italian>8Rnd .30-06 M1 (Tracer)</Italian>
+        <Polish>8Rnd .30-06 M1 (Tracer)</Polish>
+        <Portuguese>8Rnd .30-06 M1 (Tracer)</Portuguese>
+        <Russian>8Rnd .30-06 M1 (Tracer)</Russian>
+        <German>8Rnd .30-06 M1 (Tracer)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_792_SME_5RND_K98">
+        <Original>5Rnd 7.92x57 S.m.E.</Original>
+        <English>5Rnd 7.92x57 S.m.E.</English>
+        <Czech>5Rnd 7.92x57 S.m.E.</Czech>
+        <French>5Rnd 7.92x57 S.m.E.</French>
+        <Spanish>5Rnd 7.92x57 S.m.E.</Spanish>
+        <Italian>5Rnd 7.92x57 S.m.E.</Italian>
+        <Polish>5Rnd 7.92x57 S.m.E.</Polish>
+        <Portuguese>5Rnd 7.92x57 S.m.E.</Portuguese>
+        <Russian>5Rnd 7.92x57 S.m.E.</Russian>
+        <German>5Rnd 7.92x57 S.m.E.</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_792_SMK_5RND_K98">
+        <Original>5Rnd 7.92x57 S.m.K.</Original>
+        <English>5Rnd 7.92x57 S.m.K.</English>
+        <Czech>5Rnd 7.92x57 S.m.K.</Czech>
+        <French>5Rnd 7.92x57 S.m.K.</French>
+        <Spanish>5Rnd 7.92x57 S.m.K.</Spanish>
+        <Italian>5Rnd 7.92x57 S.m.K.</Italian>
+        <Polish>5Rnd 7.92x57 S.m.K.</Polish>
+        <Portuguese>5Rnd 7.92x57 S.m.K.</Portuguese>
+        <Russian>5Rnd 7.92x57 S.m.K.</Russian>
+        <German>5Rnd 7.92x57 S.m.K.</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_792_SME_30RND_StG">
+        <Original>30Rnd 7.92x33 S.m.E.</Original>
+        <English>30Rnd 7.92x33 S.m.E.</English>
+        <Czech>30Rnd 7.92x33 S.m.E.</Czech>
+        <French>30Rnd 7.92x33 S.m.E.</French>
+        <Spanish>30Rnd 7.92x33 S.m.E.</Spanish>
+        <Italian>30Rnd 7.92x33 S.m.E.</Italian>
+        <Polish>30Rnd 7.92x33 S.m.E.</Polish>
+        <Portuguese>30Rnd 7.92x33 S.m.E.</Portuguese>
+        <Russian>30Rnd 7.92x33 S.m.E.</Russian>
+        <German>30Rnd 7.92x33 S.m.E.</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_792_SME_25RND_StG">
+        <Original>25Rnd 7.92x33 S.m.E.</Original>
+        <English>25Rnd 7.92x33 S.m.E.</English>
+        <Czech>25Rnd 7.92x33 S.m.E.</Czech>
+        <French>25Rnd 7.92x33 S.m.E.</French>
+        <Spanish>25Rnd 7.92x33 S.m.E.</Spanish>
+        <Italian>25Rnd 7.92x33 S.m.E.</Italian>
+        <Polish>25Rnd 7.92x33 S.m.E.</Polish>
+        <Portuguese>25Rnd 7.92x33 S.m.E.</Portuguese>
+        <Russian>25Rnd 7.92x33 S.m.E.</Russian>
+        <German>25Rnd 7.92x33 S.m.E.</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_792_SME_50RND_DRUM">
+        <Original>50Rnd 7.92x57 Drum S.m.E.</Original>
+        <English>50Rnd 7.92x57 Drum S.m.E.</English>
+        <Czech>50Rnd 7.92x57 Drum S.m.E.</Czech>
+        <French>50Rnd 7.92x57 Drum S.m.E.</French>
+        <Spanish>50Rnd 7.92x57 Drum S.m.E.</Spanish>
+        <Italian>50Rnd 7.92x57 Drum S.m.E.</Italian>
+        <Polish>50Rnd 7.92x57 Drum S.m.E.</Polish>
+        <Portuguese>50Rnd 7.92x57 Drum S.m.E.</Portuguese>
+        <Russian>50Rnd 7.92x57 Drum S.m.E.</Russian>
+        <German>50Rnd 7.92x57 Drum S.m.E.</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_792_SME_50RND_DRUM_NOTRACERS">
+        <Original>50Rnd 7.92x57 Drum S.m.E. (No Tracers)</Original>
+        <English>50Rnd 7.92x57 Drum S.m.E. (No Tracers)</English>
+        <Czech>50Rnd 7.92x57 Drum S.m.E. (No Tracers)</Czech>
+        <French>50Rnd 7.92x57 Drum S.m.E. (No Tracers)</French>
+        <Spanish>50Rnd 7.92x57 Drum S.m.E. (No Tracers)</Spanish>
+        <Italian>50Rnd 7.92x57 Drum S.m.E. (No Tracers)</Italian>
+        <Polish>50Rnd 7.92x57 Drum S.m.E. (No Tracers)</Polish>
+        <Portuguese>50Rnd 7.92x57 Drum S.m.E. (No Tracers)</Portuguese>
+        <Russian>50Rnd 7.92x57 Drum S.m.E. (No Tracers)</Russian>
+        <German>50Rnd 7.92x57 Drum S.m.E. (No Tracers)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_792_SMK_50RND_DRUM">
+        <Original>50Rnd 7.92x57 Drum S.m.K.</Original>
+        <English>50Rnd 7.92x57 Drum S.m.K.</English>
+        <Czech>50Rnd 7.92x57 Drum S.m.K.</Czech>
+        <French>50Rnd 7.92x57 Drum S.m.K.</French>
+        <Spanish>50Rnd 7.92x57 Drum S.m.K.</Spanish>
+        <Italian>50Rnd 7.92x57 Drum S.m.K.</Italian>
+        <Polish>50Rnd 7.92x57 Drum S.m.K.</Polish>
+        <Portuguese>50Rnd 7.92x57 Drum S.m.K.</Portuguese>
+        <Russian>50Rnd 7.92x57 Drum S.m.K.</Russian>
+        <German>50Rnd 7.92x57 Drum S.m.K.</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_792_SMK_50RND_DRUM_ALLTRACERS">
+        <Original>50Rnd 7.92x57 Drum S.m.K.L'Spur (All Tracers)</Original>
+        <English>50Rnd 7.92x57 Drum S.m.K.L'Spur (All Tracers)</English>
+        <Czech>50Rnd 7.92x57 Drum S.m.K.L'Spur (All Tracers)</Czech>
+        <French>50Rnd 7.92x57 Drum S.m.K.L'Spur (All Tracers)</French>
+        <Spanish>50Rnd 7.92x57 Drum S.m.K.L'Spur (All Tracers)</Spanish>
+        <Italian>50Rnd 7.92x57 Drum S.m.K.L'Spur (All Tracers)</Italian>
+        <Polish>50Rnd 7.92x57 Drum S.m.K.L'Spur (All Tracers)</Polish>
+        <Portuguese>50Rnd 7.92x57 Drum S.m.K.L'Spur (All Tracers)</Portuguese>
+        <Russian>50Rnd 7.92x57 Drum S.m.K.L'Spur (All Tracers)</Russian>
+        <German>50Rnd 7.92x57 Drum S.m.K.L'Spur (All Tracers)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_792_SME_296RND_BELT">
+        <Original>296Rnd 7.92x57 Belt S.m.E.</Original>
+        <English>296Rnd 7.92x57 Belt S.m.E.</English>
+        <Czech>296Rnd 7.92x57 Belt S.m.E.</Czech>
+        <French>296Rnd 7.92x57 Belt S.m.E.</French>
+        <Spanish>296Rnd 7.92x57 Belt S.m.E.</Spanish>
+        <Italian>296Rnd 7.92x57 Belt S.m.E.</Italian>
+        <Polish>296Rnd 7.92x57 Belt S.m.E.</Polish>
+        <Portuguese>296Rnd 7.92x57 Belt S.m.E.</Portuguese>
+        <Russian>296Rnd 7.92x57 Belt S.m.E.</Russian>
+        <German>296Rnd 7.92x57 Belt S.m.E.</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_792_SME_296RND_BELT_NOTRACERS">
+        <Original>296Rnd 7.92x57 Belt S.m.E. (No Tracers)</Original>
+        <English>296Rnd 7.92x57 Belt S.m.E. (No Tracers)</English>
+        <Czech>296Rnd 7.92x57 Belt S.m.E. (No Tracers)</Czech>
+        <French>296Rnd 7.92x57 Belt S.m.E. (No Tracers)</French>
+        <Spanish>296Rnd 7.92x57 Belt S.m.E. (No Tracers)</Spanish>
+        <Italian>296Rnd 7.92x57 Belt S.m.E. (No Tracers)</Italian>
+        <Polish>296Rnd 7.92x57 Belt S.m.E. (No Tracers)</Polish>
+        <Portuguese>296Rnd 7.92x57 Belt S.m.E. (No Tracers)</Portuguese>
+        <Russian>296Rnd 7.92x57 Belt S.m.E. (No Tracers)</Russian>
+        <German>296Rnd 7.92x57 Belt S.m.E. (No Tracers)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_792_SMK_296RND_BELT">
+        <Original>296Rnd 7.92x57 Belt S.m.K.</Original>
+        <English>296Rnd 7.92x57 Belt S.m.K.</English>
+        <Czech>296Rnd 7.92x57 Belt S.m.K.</Czech>
+        <French>296Rnd 7.92x57 Belt S.m.K.</French>
+        <Spanish>296Rnd 7.92x57 Belt S.m.K.</Spanish>
+        <Italian>296Rnd 7.92x57 Belt S.m.K.</Italian>
+        <Polish>296Rnd 7.92x57 Belt S.m.K.</Polish>
+        <Portuguese>296Rnd 7.92x57 Belt S.m.K.</Portuguese>
+        <Russian>296Rnd 7.92x57 Belt S.m.K.</Russian>
+        <German>296Rnd 7.92x57 Belt S.m.K.</German>
+      </Key>
+      <Key ID="STR_RHSGREF_MAG_792_SMK_296RND_BELT_ALLTRACERS">
+        <Original>296Rnd 7.92x57 Belt S.m.K.L'Spur (All Tracers)</Original>
+        <English>296Rnd 7.92x57 Belt S.m.K.L'Spur (All Tracers)</English>
+        <Czech>296Rnd 7.92x57 Belt S.m.K.L'Spur (All Tracers)</Czech>
+        <French>296Rnd 7.92x57 Belt S.m.K.L'Spur (All Tracers)</French>
+        <Spanish>296Rnd 7.92x57 Belt S.m.K.L'Spur (All Tracers)</Spanish>
+        <Italian>296Rnd 7.92x57 Belt S.m.K.L'Spur (All Tracers)</Italian>
+        <Polish>296Rnd 7.92x57 Belt S.m.K.L'Spur (All Tracers)</Polish>
+        <Portuguese>296Rnd 7.92x57 Belt S.m.K.L'Spur (All Tracers)</Portuguese>
+        <Russian>296Rnd 7.92x57 Belt S.m.K.L'Spur (All Tracers)</Russian>
+        <German>296Rnd 7.92x57 Belt S.m.K.L'Spur (All Tracers)</German>
+      </Key>
+    </Container>
+  </Package>
+  <Package name="rhsgref_c_air">
+    <Container name="Names">
+      <Key ID="STR_RHSGREF_AIR_L39C_NAME">
+        <Original>L-39C Albatros</Original>
+        <English>L-39C Albatros</English>
+        <Czech>L-39C Albatros</Czech>
+        <French>L-39C Albatros</French>
+        <Spanish>L-39C Albatros</Spanish>
+        <Italian>L-39C Albatros</Italian>
+        <Polish>L-39C Albatros</Polish>
+        <Portuguese>L-39C Albatros</Portuguese>
+        <Russian>L-39C Albatros</Russian>
+        <German>L-39C Albatros</German>
+      </Key>
+      <Key ID="STR_RHSGREF_AIR_L159_NAME">
+        <Original>L-159 ALCA</Original>
+        <English>L-159 ALCA</English>
+        <Czech>L-159 ALCA</Czech>
+        <French>L-159 ALCA</French>
+        <Spanish>L-159 ALCA</Spanish>
+        <Italian>L-159 ALCA</Italian>
+        <Polish>L-159 ALCA</Polish>
+        <Portuguese>L-159 ALCA</Portuguese>
+        <Russian>L-159 ALCA</Russian>
+        <German>L-159 ALCA</German>
+      </Key>
+      <Key ID="STR_RHSGREF_AIR_L39ZA_NAME">
+        <Original>L-39ZA Albatros</Original>
+        <English>L-39ZA Albatros</English>
+        <Czech>L-39ZA Albatros</Czech>
+        <French>L-39ZA Albatros</French>
+        <Spanish>L-39ZA Albatros</Spanish>
+        <Italian>L-39ZA Albatros</Italian>
+        <Polish>L-39ZA Albatros</Polish>
+        <Portuguese>L-39ZA Albatros</Portuguese>
+        <Russian>L-39ZA Albatros</Russian>
+        <German>L-39ZA Albatros</German>
+      </Key>
+      <Key ID="STR_RHSGREF_AIR_AN2_NAME">
+        <Original>Antonov An-2</Original>
+        <English>Antonov An-2</English>
+        <Czech>Antonov An-2</Czech>
+        <French>Antonov An-2</French>
+        <Spanish>Antonov An-2</Spanish>
+        <Italian>Antonov An-2</Italian>
+        <Polish>Antonov An-2</Polish>
+        <Portuguese>Antonov An-2</Portuguese>
+        <Russian>Antonov An-2</Russian>
+        <German>Antonov An-2</German>
+      </Key>
+      <Key ID="STR_RHSGREF_AIR_SUPERHIND_NAME">
+        <Original>Mi-24G</Original>
+        <English>Mi-24G</English>
+        <Czech>Mi-24G</Czech>
+        <French>Mi-24G</French>
+        <Spanish>Mi-24G</Spanish>
+        <Italian>Mi-24G</Italian>
+        <Polish>Mi-24G</Polish>
+        <Portuguese>Mi-24G</Portuguese>
+        <Russian>Mi-24G</Russian>
+        <German>Mi-24G</German>
+      </Key>
+      <Key ID="STR_RHSGREF_AIR_SUPERHIND_UPK_NAME">
+        <Original>Mi-24G (UPK)</Original>
+        <English>Mi-24G (UPK)</English>
+        <Czech>Mi-24G (UPK)</Czech>
+        <French>Mi-24G (UPK)</French>
+        <Spanish>Mi-24G (UPK)</Spanish>
+        <Italian>Mi-24G (UPK)</Italian>
+        <Polish>Mi-24G (UPK)</Polish>
+        <Portuguese>Mi-24G (UPK)</Portuguese>
+        <Russian>Mi-24G (UPK)</Russian>
+        <German>Mi-24G (UPK)</German>
+      </Key>
+      <Key ID="STR_RHSGREF_AIR_SUPERHIND_FAB_NAME">
+        <Original>Mi-24G (FAB)</Original>
+        <English>Mi-24G (FAB)</English>
+        <Czech>Mi-24G (FAB)</Czech>
+        <French>Mi-24G (FAB)</French>
+        <Spanish>Mi-24G (FAB)</Spanish>
+        <Italian>Mi-24G (FAB)</Italian>
+        <Polish>Mi-24G (FAB)</Polish>
+        <Portuguese>Mi-24G (FAB)</Portuguese>
+        <Russian>Mi-24G (FAB)</Russian>
+        <German>Mi-24G (FAB)</German>
+      </Key>
+    </Container>
+  </Package>
+</Project>

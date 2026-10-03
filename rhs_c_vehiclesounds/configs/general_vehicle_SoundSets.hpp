@@ -1,0 +1,61 @@
+#ifdef SOUND_LAYER_ENGINE
+	#define CAMPOS EXT
+	#define ENGINE_PROCESSING_TYPE EXT_ENGINE_PROCESSING_TYPE
+	#define POSITION_OFFSET EXT_ENGINE_POSITION_OFFSET
+	#include "engine_SoundSets.hpp"
+	#define CAMPOS INT
+	#define ENGINE_PROCESSING_TYPE INT_ENGINE_PROCESSING_TYPE
+	#define POSITION_OFFSET 0,0,0
+	#include "engine_SoundSets.hpp"
+#endif
+
+#ifdef SOUND_LAYER_ENGINE_BURST
+	#define CAMPOS EXT
+	#define ENGINE_PROCESSING_TYPE EXT_ENGINE_PROCESSING_TYPE
+	#define POSITION_OFFSET EXT_ENGINE_POSITION_OFFSET
+	#include "engine_burst_SoundSets.hpp"
+	#define CAMPOS INT
+	#define ENGINE_PROCESSING_TYPE INT_ENGINE_PROCESSING_TYPE
+	#define POSITION_OFFSET 0,0,0
+	#include "engine_burst_SoundSets.hpp"
+#endif
+
+#ifdef SOUND_LAYER_BRAKES
+	#define CAMPOS EXT
+	#define ENGINE_PROCESSING_TYPE EXT_ENGINE_PROCESSING_TYPE
+	#define POSITION_OFFSET EXT_ENGINE_POSITION_OFFSET
+	#include "brakes_SoundSets.hpp"
+	#define CAMPOS INT
+	#define ENGINE_PROCESSING_TYPE INT_ENGINE_PROCESSING_TYPE
+	#define POSITION_OFFSET 0,0,0
+	#include "brakes_SoundSets.hpp"
+#endif
+
+#ifdef SOUND_LAYER_TRACKS
+	#define CAMPOS EXT
+	#define ENGINE_PROCESSING_TYPE EXT_ENGINE_PROCESSING_TYPE
+	#define POSITION_OFFSET EXT_TRACKS_POSITION_OFFSET
+	#include "tracks_SoundSets.hpp"
+	#define CAMPOS INT
+	#define ENGINE_PROCESSING_TYPE INT_ENGINE_PROCESSING_TYPE
+	#define POSITION_OFFSET 0,0,0
+	#include "tracks_SoundSets.hpp"
+#endif
+
+#define CAMPOS INT
+#ifdef OPEN_VEHICLE
+	#define CAMPOS OPEN
+#endif
+
+#ifdef SOUND_LAYER_TIRES
+	#define ENGINE_PROCESSING_TYPE INT_ENGINE_PROCESSING_TYPE
+	#define POSITION_OFFSET 0,0,0
+	#include "tires_SoundSets.hpp"
+	#define CAMPOS EXT
+	#define ENGINE_PROCESSING_TYPE EXT_ENGINE_PROCESSING_TYPE
+	#define POSITION_OFFSET EXT_TIRES_POSITION_OFFSET
+	#include "tires_SoundSets.hpp"
+#endif
+
+#include "add_layers_SoundSets_INT.hpp"
+#include "add_layers_SoundSets_EXT.hpp"

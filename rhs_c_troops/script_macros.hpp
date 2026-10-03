@@ -1,0 +1,1 @@
+#define LODU_SCOPE scope = 2;

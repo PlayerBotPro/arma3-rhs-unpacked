@@ -1,0 +1,297 @@
+/*%FSM<COMPILE "C:\Program Files (x86)\Steam\steamapps\common\Arma 3 Tools\FSMEditor\scriptedFSM.cfg, D30">*/
+/*%FSM<HEAD>*/
+/*
+item0[] = {"Init",0,250,-75.000000,-150.000000,25.000000,-100.000000,0.000000,"Init"};
+item1[] = {"Continue",8,218,-75.000000,-50.000000,25.000000,0.000000,0.000000,"Continue"};
+item2[] = {"Main_Loop",2,250,-75.000000,50.000000,25.000000,100.000000,0.000000,"Main Loop"};
+item3[] = {"View_mode_change",4,218,125.000000,50.000000,225.000000,100.000000,1.000000,"View mode" \n "changed"};
+item4[] = {"Select_view_mode",2,250,275.000000,50.000000,375.000000,100.000000,0.000000,"Select view mode"};
+item5[] = {"Continue",8,218,675.000000,50.000000,775.000000,100.000000,0.000000,"Continue"};
+item6[] = {"UI_missing",4,218,-275.000000,50.000000,-175.000000,100.000000,3.000000,"UI" \n "missing"};
+item7[] = {"End",1,250,-475.000000,50.000000,-375.000000,100.000000,0.000000,"End"};
+item8[] = {"OP4",4,218,375.000000,100.000000,475.000000,150.000000,1.000000,"OP4"};
+item9[] = {"PG1",4,218,375.000000,0.000000,475.000000,50.000000,1.000000,"PG1"};
+item10[] = {"Show_PG1M",2,250,500.000000,0.000000,600.000000,50.000000,0.000000,"Show PG1M"};
+item11[] = {"Show_OP4",2,4346,500.000000,100.000000,600.000000,150.000000,0.000000,"Show OP4"};
+item12[] = {"",7,210,721.000000,171.000000,729.000000,179.000000,0.000000,""};
+item13[] = {"",7,210,146.000000,171.000000,154.000000,179.000000,0.000000,""};
+item14[] = {"Loop",4,218,-200.000000,175.000000,-100.000000,225.000000,0.000000,"Loop"};
+item15[] = {"",7,210,-29.000008,196.000000,-20.999992,204.000000,0.000000,""};
+link0[] = {0,1};
+link1[] = {1,2};
+link2[] = {2,3};
+link3[] = {2,6};
+link4[] = {2,15};
+link5[] = {3,4};
+link6[] = {4,5};
+link7[] = {4,8};
+link8[] = {4,9};
+link9[] = {5,12};
+link10[] = {6,7};
+link11[] = {8,11};
+link12[] = {9,10};
+link13[] = {10,5};
+link14[] = {11,5};
+link15[] = {12,13};
+link16[] = {13,2};
+link17[] = {14,2};
+link18[] = {15,14};
+globals[] = {0.000000,0,0,0,0,640,480,3,38,6316128,1,-438.140717,926.575684,801.986572,-331.360779,1510,1254,1};
+window[] = {2,-1,-1,-1,-1,1167,130,2050,130,3,1528};
+*//*%FSM</HEAD>*/
+class FSM
+{
+        fsmName = "D30";
+        class States
+        {
+                /*%FSM<STATE "Init">*/
+                class Init
+                {
+                        name = "Init";
+                        itemno = 0;
+                        init = /*%FSM<STATEINIT""">*/"disableSerialization;" \n
+                         "" \n
+                         "//systemchat ""start"";" \n
+                         "private _c = _this # 0;" \n
+                         "" \n
+                         "// UI" \n
+                         "//vertical line" \n
+                         "private _vLine = _c displayCtrl 3;" \n
+                         "//horizontal line" \n
+                         "private _hLine = _c displayCtrl 4;" \n
+                         "// OP5 reticle" \n
+                         "private _reticle = _c displayCtrl 5;" \n
+                         "//view mode" \n
+                         "private _mode= _c displayCtrl 154;" \n
+                         "" \n
+                         "private _player = call rhs_fnc_findPlayer;" \n
+                         "private _vehicle = vehicle _player;" \n
+                         "private _modeText = """";" \n
+                         "" \n
+                         "rhs_key_rng_up_GLB		= (profileNamespace getVariable [""rhs_key_rng_up"",""ZeroingUp""]);" \n
+                         "rhs_key_rng_dwn_GLB		= (profileNamespace getVariable [""rhs_key_rng_dwn"",""ZeroingDown""]);" \n
+                         ""/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Continue">*/
+                                class Continue
+                                {
+                                        itemno = 1;
+                                        priority = 0.000000;
+                                        to="Main_Loop";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Main_Loop">*/
+                class Main_Loop
+                {
+                        name = "Main_Loop";
+                        itemno = 2;
+                        init = /*%FSM<STATEINIT""">*/"//hintSilent format[""%1 %2 %3"",ctrlText _mode, time, _modeText != (ctrlText _mode)];"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "UI_missing">*/
+                                class UI_missing
+                                {
+                                        itemno = 6;
+                                        priority = 3.000000;
+                                        to="End";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"isNull _reticle"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "View_mode_change">*/
+                                class View_mode_change
+                                {
+                                        itemno = 3;
+                                        priority = 1.000000;
+                                        to="Select_view_mode";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"_modeText != (ctrlText _mode)"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Loop">*/
+                                class Loop
+                                {
+                                        itemno = 14;
+                                        priority = 0.000000;
+                                        to="Main_Loop";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"true"/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Select_view_mode">*/
+                class Select_view_mode
+                {
+                        name = "Select_view_mode";
+                        itemno = 4;
+                        init = /*%FSM<STATEINIT""">*/"_modeText = ctrlText _mode;" \n
+                         "//systemchat ""mode changed"";"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "OP4">*/
+                                class OP4
+                                {
+                                        itemno = 8;
+                                        priority = 1.000000;
+                                        to="Show_OP4";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"_modeText == ""OP4"""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "PG1">*/
+                                class PG1
+                                {
+                                        itemno = 9;
+                                        priority = 1.000000;
+                                        to="Show_PG1M";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/"_modeText == ""PG1"""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                                /*%FSM<LINK "Continue">*/
+                                class Continue
+                                {
+                                        itemno = 5;
+                                        priority = 0.000000;
+                                        to="Main_Loop";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "End">*/
+                class End
+                {
+                        name = "End";
+                        itemno = 7;
+                        init = /*%FSM<STATEINIT""">*/"uiNameSpace setVariable [""RHS_d30_Ctrl"",displayNull];" \n
+                         "//systemchat ""end"";" \n
+                         "" \n
+                         "(findDisplay 46) displayRemoveEventHandler [""KeyDown"", uiNameSpace getVariable [""rhs_d30_eh"",-1]];"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Show_PG1M">*/
+                class Show_PG1M
+                {
+                        name = "Show_PG1M";
+                        itemno = 10;
+                        init = /*%FSM<STATEINIT""">*/"{_x ctrlSetTextColor [0.7,0.074,0.02,0]; }foreach [_hLine,_vLine,_reticle];" \n
+                         "" \n
+                         "(findDisplay 46) displayRemoveEventHandler [""KeyDown"", uiNameSpace getVariable [""rhs_d30_eh"",-1]];"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Continue">*/
+                                class Continue
+                                {
+                                        itemno = 5;
+                                        priority = 0.000000;
+                                        to="Main_Loop";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+                /*%FSM<STATE "Show_OP4">*/
+                class Show_OP4
+                {
+                        name = "Show_OP4";
+                        itemno = 11;
+                        init = /*%FSM<STATEINIT""">*/"{_x ctrlSetTextColor [0.7,0.074,0.02,1]; }foreach [_hLine,_vLine,_reticle];" \n
+                         "" \n
+                         "" \n
+                         "_id =  (findDisplay 46) displayAddEventHandler [""KeyDown"", {" \n
+                         "	params [""_displayorcontrol"", ""_key"", ""_shift"", ""_ctrl"", ""_alt""];" \n
+                         "	private _handle = false;" \n
+                         "" \n
+                         "	private _elevationType = [(configOf cameraon >> ""Turrets"") select (( cameraon unitTurret (call rhs_fnc_findPlayer) ) # 0),""elevationMode"",0] call BIS_fnc_returnConfigEntry;" \n
+                         "	" \n
+                         "	if((_elevationType >= 1) && !_ctrl)exitWith" \n
+                         "	{" \n
+                         "		false" \n
+                         "	};" \n
+                         "" \n
+                         "	_moveReticle = " \n
+                         "	{" \n
+                         "		// exit if play is not in optic mode" \n
+                         "		if(cameraView != ""GUNNER"")exitWith{};" \n
+                         "" \n
+                         "		params[""_dir"",""_type""];" \n
+                         "		private _handle = false;" \n
+                         "		if(_type == 3)then{_handle=true};" \n
+                         "		disableSerialization;" \n
+                         "" \n
+                         "		private _sight	= (uiNamespace getVariable ""RHS_d30_Ctrl"" displayCtrl 5);" \n
+                         "		private _t		= (ctrLPosition _sight) # 1;" \n
+                         "		private _move	= _t+0.003*_dir;" \n
+                         "		if( (_move <=(4.63 *   (0.025 * SafezoneH))) && (_move >= (-11.13 *   (0.025 * SafezoneH))) )then{" \n
+                         "			_sight ctrlSetPosition [(ctrLPosition _sight) # 0,_move];" \n
+                         "			_sight ctrlCommit 0.005;" \n
+                         "		};" \n
+                         "" \n
+                         "		//systemchat format[""key move %1 %2"",_t,ctrLPosition _sight];" \n
+                         "		_handle" \n
+                         "	};" \n
+                         "" \n
+                         "	// reticle range adjustments" \n
+                         "	switch(true) do {" \n
+                         "		case (inputAction rhs_key_rng_up_GLB > 0): { _handle = [1,_elevationType] call _moveReticle;};" \n
+                         "		case (inputAction rhs_key_rng_dwn_GLB > 0): { _handle = [-1,_elevationType] call _moveReticle };" \n
+                         "	};" \n
+                         "" \n
+                         "	_handle;" \n
+                         "}];" \n
+                         "" \n
+                         "uiNameSpace setVariable [""rhs_d30_eh"",_id];"/*%FSM</STATEINIT""">*/;
+                        precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
+                        class Links
+                        {
+                                /*%FSM<LINK "Continue">*/
+                                class Continue
+                                {
+                                        itemno = 5;
+                                        priority = 0.000000;
+                                        to="Main_Loop";
+                                        precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
+                                        condition=/*%FSM<CONDITION""">*/""/*%FSM</CONDITION""">*/;
+                                        action=/*%FSM<ACTION""">*/""/*%FSM</ACTION""">*/;
+                                };
+                                /*%FSM</LINK>*/
+                        };
+                };
+                /*%FSM</STATE>*/
+        };
+        initState="Init";
+        finalStates[] =
+        {
+                "End",
+        };
+};
+/*%FSM</COMPILE>*/

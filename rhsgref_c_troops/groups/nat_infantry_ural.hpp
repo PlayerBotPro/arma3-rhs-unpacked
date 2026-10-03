@@ -1,0 +1,335 @@
+
+			class rhs_group_indp_nat_ural
+			{
+				name = "Motorized (Ural-4320)";
+				aliveCategory="Mechanized";
+
+				class rhs_group_nat_ural_chq
+				{
+					name = "$STR_RHS_GROUPS_COMPANY_HQ";
+					faction = "rhsgref_faction_nationalist";
+					side = 2;
+					rarityGroup = 0.75;
+
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_commander";
+						rank = "CAPTAIN";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_rifleman";
+						rank = "LIEUTENANT";
+						position[] = {-5,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_rifleman";
+						rank = "LIEUTENANT";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_uaz";
+						rank = "SERGEANT";
+						position[] = {5,0,0};
+					};
+				};
+
+				class rhs_group_nat_ural_squad
+				{
+					name = "$STR_RHS_GROUPS_SQUAD";
+					faction = "rhsgref_faction_nationalist";
+					side = 2;
+					rarityGroup = 0.75;
+
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_commander";
+						rank = "SERGEANT";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_grenadier";
+						rank = "SERGEANT";
+						position[] = {-5,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_rifleman_m92";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_ural";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_machinegunner";
+						rank = "PRIVATE";
+						position[] = {7,0,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_grenadier_rpg";
+						rank = "PRIVATE";
+						position[] = {9,0,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_grenadier_rpg";
+						rank = "PRIVATE";
+						position[] = {11,0,0};
+					};
+					class Unit7
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_rifleman_akms";
+						rank = "PRIVATE";
+						position[] = {13,0,0};
+					};
+				};
+
+				class rhs_group_nat_ural_squad_2mg
+				{
+					name = "$STR_RHS_GROUPS_SQUAD_2MG";
+					faction = "rhsgref_faction_nationalist";
+					side = 2;
+					rarityGroup = 0.75;
+
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_grenadier";
+						rank = "SERGEANT";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_rifleman_m92";
+						rank = "CORPORAL";
+						position[] = {-5,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_machinegunner";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_ural";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_machinegunner";
+						rank = "PRIVATE";
+						position[] = {7,0,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_medic";
+						rank = "PRIVATE";
+						position[] = {9,0,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_militiaman_kar98k";
+						rank = "PRIVATE";
+						position[] = {11,0,0};
+					};
+				};
+				class rhs_group_nat_ural_squad_sniper
+				{
+					name = "$STR_RHS_GROUPS_SQUAD_SNIPER";
+					faction = "rhsgref_faction_nationalist";
+					side = 2;
+					rarityGroup = 0.75;
+
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_grenadier";
+						rank = "SERGEANT";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_rifleman_m92";
+						rank = "CORPORAL";
+						position[] = {-5,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_hunter";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_ural";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_machinegunner";
+						rank = "PRIVATE";
+						position[] = {7,0,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_grenadier_rpg";
+						rank = "PRIVATE";
+						position[] = {9,0,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_medic";
+						rank = "PRIVATE";
+						position[] = {11,0,0};
+					};
+				};
+				class rhs_group_nat_ural_squad_mg_sniper
+				{
+					name = "$STR_RHS_GROUPS_SQUAD_MG_SNIPER";
+					faction = "rhsgref_faction_nationalist";
+					side = 2;
+					rarityGroup = 0.75;
+
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_commander";
+						rank = "SERGEANT";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_grenadier";
+						rank = "SERGEANT";
+						position[] = {-5,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_machinegunner";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_ural";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_hunter";
+						rank = "PRIVATE";
+						position[] = {7,0,0};
+					};
+					class Unit5
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_medic";
+						rank = "PRIVATE";
+						position[] = {9,0,0};
+					};
+					class Unit6
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_saboteur";
+						rank = "PRIVATE";
+						position[] = {11,0,0};
+					};
+				};
+				class rhs_group_nat_ural_squad_aa
+				{
+					name = "$STR_RHS_GROUPS_SQUAD_AA";
+					faction = "rhsgref_faction_nationalist";
+					side = 2;
+					rarityGroup = 0.75;
+
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+
+					class Unit0
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_grenadier";
+						rank = "SERGEANT";
+						position[] = {0,5,0};
+					};
+					class Unit1
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_specialist_aa";
+						rank = "CORPORAL";
+						position[] = {-5,0,0};
+					};
+					class Unit2
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_specialist_aa";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_ural_Zu23";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class Unit4
+					{
+						side = 2;
+						vehicle = "rhsgref_nat_saboteur";
+						rank = "PRIVATE";
+						position[] = {7,0,0};
+					};
+				};
+			};

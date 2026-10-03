@@ -1,0 +1,1 @@
+(_this select 0) say3d "rhs_gear";

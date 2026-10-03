@@ -1,0 +1,52 @@
+dev 					= "reyhard";
+briefingName 			= "Showcase Towing";
+OnLoadName 				= "Showcase Towing";
+onLoadMission 			= "Try towing of ZU-23-2 in this simple scenario";
+onLoadMissionTime 		= 0;
+overviewText 			= "Try and learn how to use towing of heavy weapons in this simple showcase scenario.";
+overviewPicture 		= "\rhsafrf\addons\rhs_missions\SPMissions\rhs_showcase_towing.Stratis\data\rhs_showcase_towing_overview_co.paa";
+
+
+class CfgDebriefing
+{
+    class End1
+    {
+        title = $STR_A3_to_c01m01_MissionCompleted;
+        subtitle = "All targets were destroyed!";
+        description = "You managed to complete this basic training scenario.";
+        pictureBackground = "";
+        pictureColor[] = {0.8,0.3,0.6,1};
+    };
+	class renegade
+	{
+        title = $STR_A3_mission_failed_title;
+        description = "Friendly fire is not tolerated!";
+		picture = "";
+	};
+
+	class destroyedEquipment
+	{
+        title = $STR_A3_mission_failed_title;
+        description = "You have destroyed piece of military equipment that was assigned to you.";
+		picture = "";
+	};
+
+	class leftAO
+	{
+        title = $STR_A3_mission_failed_title;
+        description = "You have left area of operations.";
+		picture = "";
+	};
+	class disobey
+	{
+        title = $STR_A3_mission_failed_title;
+        description = "You didn't manage to destroy targets that you were tasked with.";
+		picture = "";
+	};
+	class noAmmo
+	{
+        title = $STR_A3_mission_failed_title;
+        description = "You run out of ammo & you are unable to complete the mission.";
+		picture = "";
+	};
+};

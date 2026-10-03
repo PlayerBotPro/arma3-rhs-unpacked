@@ -1,0 +1,8 @@
+comment "Fill empty black spaces";
+limitA = 0.0;
+
+c = src pixel [u,v] ;
+if (limitA<=alpha c)  then
+{
+  c=color [0.8,0,0,alpha c];
+}
